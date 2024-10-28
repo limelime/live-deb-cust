@@ -1,7 +1,7 @@
 * >>>>>>>>> Running inst-min-con-xtra-hd-hdparm.sh ...
   * After this operation, 262 kB of additional disk space will be used.
   * Install hdparm.
-  * Disk size = 4059500K. Space Used = 436K. Runtime = 00:00:00:03.
+  * Disk size = 4059632K. Space Used = 444K. Runtime = 00:00:00:02.
   * The following NEW packages will be installed:
   ```bash
 hdparm
