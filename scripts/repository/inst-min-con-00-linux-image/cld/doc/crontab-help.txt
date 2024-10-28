@@ -19,7 +19,7 @@
 # List crontab job.
 	crontab -l
 
-# Cron logs.
+# Cron logs / debug
     grep CRON /var/log/syslog
 
     # For more granular cron log:
@@ -66,3 +66,7 @@
 
 # % (percent sign) is reserved word in crontab, you need to escape it.
     $(date +'\%Y-\%m-\%d_\%0k.\%M.\%S').log
+
+# Remove existing job using cronjob_id and replace with new ones.
+    (crontab -l | grep -vF "${cronjob_id}"; cat job.cron | grep -v ^#) | crontab -
+
