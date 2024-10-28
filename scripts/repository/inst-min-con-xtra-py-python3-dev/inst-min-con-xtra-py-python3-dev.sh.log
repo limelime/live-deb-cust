@@ -39,9 +39,9 @@ Get:14 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpython3-dev amd64 3.11.2-1+b1 [9,572 B]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3.11-dev amd64 3.11.2-6+deb12u2 [615 kB]
 Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-dev amd64 3.11.2-1+b1 [26.2 kB]
-Fetched 13.4 MB in 0s (65.2 MB/s)
+Fetched 13.4 MB in 0s (69.0 MB/s)
 Selecting previously unselected package libc-dev-bin.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90882 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90875 files and directories currently installed.)
 Preparing to unpack .../00-libc-dev-bin_2.36-9+deb12u8_amd64.deb ...
 Unpacking libc-dev-bin (2.36-9+deb12u8) ...
 Selecting previously unselected package linux-libc-dev:amd64.
@@ -112,4 +112,4 @@ Setting up python3-dev (3.11.2-1+b1) ...
 Processing triggers for libc-bin (2.36-9+deb12u8) ...
 CLDS: * Install python3-dev.
 CLDS: * Require for: tulipy
-CLDS: * Disk size = 4533244K. Space Used = 75320K. Runtime = 00:00:00:06.
+CLDS: * Disk size = 4533292K. Space Used = 75324K. Runtime = 00:00:00:06.

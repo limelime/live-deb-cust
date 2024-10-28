@@ -1,4 +1,4 @@
 CLDS:>>>>>>>>> Running inst-xtra-vboxguest-additions-doc.sh ...
 './cld/doc/vbox-help.txt' -> '/usr/local/cld/doc/vbox-help.txt'
 CLDS: * Add virtualbox doc-help.
-CLDS: * Disk size = 7894368K. Space Used = 8K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7894432K. Space Used = 8K. Runtime = 00:00:00:02.

@@ -44,4 +44,4 @@ W: http://localhost/aptly-repo/master_virtualbox-contrib/dists/bookworm/InReleas
 CLDS: * Add deb-multimedia keyring.
 CLDS: * Add deb-multimedia repository.
 CLDS: * apt-get update
-CLDS: * Disk size = 1001884K. Space Used = 56K. Runtime = 00:00:00:06.
+CLDS: * Disk size = 1001996K. Space Used = 56K. Runtime = 00:00:00:05.

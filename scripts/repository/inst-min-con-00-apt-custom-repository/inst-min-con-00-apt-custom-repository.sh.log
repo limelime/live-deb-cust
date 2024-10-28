@@ -30,7 +30,7 @@ Get:27 http://localhost/aptly-repo/master_google-cloud-main cloud-sdk/main amd64
 Get:28 http://localhost/aptly-repo/master_google-main stable/main amd64 Packages [926 B]
 Get:29 http://localhost/aptly-repo/master_qgis-main bookworm/main amd64 Packages [36.7 kB]
 Get:30 http://localhost/aptly-repo/master_virtualbox-contrib bookworm/contrib amd64 Packages [1185 B]
-Fetched 579 kB in 4s (140 kB/s)
+Fetched 579 kB in 3s (169 kB/s)
 Reading package lists...
 W: http://localhost/aptly-repo/master_bookworm-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_aptly-main/dists/squeeze/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
@@ -50,4 +50,4 @@ W: http://localhost/aptly-repo/master_google-cloud-main/dists/cloud-sdk/InReleas
 W: http://localhost/aptly-repo/master_google-main/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_qgis-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_virtualbox-contrib/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
-CLDS: * Disk size = 626244K. Space Used = 6516K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 626356K. Space Used = 6516K. Runtime = 00:00:00:04.

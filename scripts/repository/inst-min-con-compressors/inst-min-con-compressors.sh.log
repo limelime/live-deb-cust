@@ -10,7 +10,7 @@ The following NEW packages will be installed:
 Need to get 49.8 kB of archives.
 After this operation, 124 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 bzip2 amd64 1.0.8-5+b1 [49.8 kB]
-Fetched 49.8 kB in 0s (2,515 kB/s)
+Fetched 49.8 kB in 0s (1,878 kB/s)
 Selecting previously unselected package bzip2.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17591 files and directories currently installed.)
 Preparing to unpack .../bzip2_1.0.8-5+b1_amd64.deb ...
@@ -27,7 +27,7 @@ The following NEW packages will be installed:
 Need to get 359 kB of archives.
 After this operation, 1,398 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free bookworm/non-free amd64 rar amd64 2:6.23-1~deb12u1 [359 kB]
-Fetched 359 kB in 0s (16.6 MB/s)
+Fetched 359 kB in 0s (25.7 MB/s)
 Selecting previously unselected package rar.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17620 files and directories currently installed.)
 Preparing to unpack .../rar_2%3a6.23-1~deb12u1_amd64.deb ...
@@ -42,7 +42,7 @@ The following NEW packages will be installed:
 Need to get 141 kB of archives.
 After this operation, 341 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free bookworm/non-free amd64 unrar amd64 1:6.2.6-1+deb12u1 [141 kB]
-Fetched 141 kB in 0s (5,494 kB/s)
+Fetched 141 kB in 0s (2,626 kB/s)
 Selecting previously unselected package unrar.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17636 files and directories currently installed.)
 Preparing to unpack .../unrar_1%3a6.2.6-1+deb12u1_amd64.deb ...
@@ -60,7 +60,7 @@ The following NEW packages will be installed:
 Need to get 230 kB of archives.
 After this operation, 631 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 zip amd64 3.0-13 [230 kB]
-Fetched 230 kB in 0s (20.4 MB/s)
+Fetched 230 kB in 0s (11.6 MB/s)
 Selecting previously unselected package zip.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17644 files and directories currently installed.)
 Preparing to unpack .../archives/zip_3.0-13_amd64.deb ...
@@ -75,7 +75,7 @@ The following NEW packages will be installed:
 Need to get 166 kB of archives.
 After this operation, 388 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 unzip amd64 6.0-28 [166 kB]
-Fetched 166 kB in 0s (10.1 MB/s)
+Fetched 166 kB in 0s (10.7 MB/s)
 Selecting previously unselected package unzip.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17659 files and directories currently installed.)
 Preparing to unpack .../unzip_6.0-28_amd64.deb ...
@@ -95,7 +95,7 @@ Need to get 1,564 kB of archives.
 After this operation, 5,787 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 p7zip amd64 16.02+dfsg-8 [381 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 p7zip-full amd64 16.02+dfsg-8 [1,183 kB]
-Fetched 1,564 kB in 0s (37.6 MB/s)
+Fetched 1,564 kB in 0s (44.1 MB/s)
 Selecting previously unselected package p7zip.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17677 files and directories currently installed.)
 Preparing to unpack .../p7zip_16.02+dfsg-8_amd64.deb ...
@@ -114,7 +114,7 @@ The following NEW packages will be installed:
 Need to get 157 kB of archives.
 After this operation, 396 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 zpaq amd64 7.15+repack-1 [157 kB]
-Fetched 157 kB in 0s (7,671 kB/s)
+Fetched 157 kB in 0s (11.0 MB/s)
 Selecting previously unselected package zpaq.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17775 files and directories currently installed.)
 Preparing to unpack .../zpaq_7.15+repack-1_amd64.deb ...
@@ -132,4 +132,4 @@ CLDS: * Install de/compressor: unzip.
 CLDS: * Install de/compressor: p7zip.
 CLDS: * Install de/compressor: zpaq.
 CLDS: * Add universal extractor: extract.sh.
-CLDS: * Disk size = 1015380K. Space Used = 11856K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 1015492K. Space Used = 11856K. Runtime = 00:00:00:06.

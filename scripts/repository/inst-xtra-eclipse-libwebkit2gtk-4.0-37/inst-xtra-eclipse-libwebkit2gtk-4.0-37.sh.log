@@ -73,9 +73,9 @@ Get:31 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xdg-
 Get:32 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwoff1 amd64 1.0.2-2 [43.0 kB]
 Get:33 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwebkit2gtk-4.0-37 amd64 2.44.2-1~deb12u1 [21.4 MB]
 Preconfiguring packages ...
-Fetched 37.1 MB in 1s (71.2 MB/s)
+Fetched 37.1 MB in 1s (64.2 MB/s)
 Selecting previously unselected package bubblewrap.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123150 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123143 files and directories currently installed.)
 Preparing to unpack .../00-bubblewrap_0.8.0-2+deb12u1_amd64.deb ...
 Unpacking bubblewrap (0.8.0-2+deb12u1) ...
 Selecting previously unselected package emacsen-common.
@@ -212,4 +212,4 @@ Processing triggers for libc-bin (2.36-9+deb12u8) ...
 Processing triggers for dictionaries-common (1.29.5) ...
 CLDS: * Install libwebkit2gtk-4.0-37.
 CLDS: * To be able to render *.md files.
-CLDS: * Disk size = 7737124K. Space Used = 165260K. Runtime = 00:00:00:10.
+CLDS: * Disk size = 7737176K. Space Used = 165256K. Runtime = 00:00:00:12.
