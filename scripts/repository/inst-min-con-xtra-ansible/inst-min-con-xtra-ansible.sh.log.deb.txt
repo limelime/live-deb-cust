@@ -21,4 +21,3 @@ python3-packaging
 python3-pyparsing
 python3-resolvelib
 python3-yaml
-sshpass
