@@ -123,6 +123,7 @@ udevil
 
 # ./inst-min-con-xtra-ansible/inst-min-con-xtra-ansible.sh
 ansible
+sshpass
 python3-cffi-backend
 # ./inst-min-con-xtra-apache2/inst-min-con-xtra-apache2.sh
 apache2

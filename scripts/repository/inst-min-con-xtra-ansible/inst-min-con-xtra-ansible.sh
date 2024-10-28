@@ -10,7 +10,7 @@ echo "${GV_LOG}>>>>>>>>> Running ${SCRIPT_NAME} ..."
 #	apt-get install -s -y <your-package> 
 
 # Install ansible.
-	apt-get -y install ansible
+	apt-get -y install ansible sshpass
 	apt-get -y install -s python3-cffi-backend
 
 # Log
