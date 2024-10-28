@@ -6,4 +6,4 @@ CLDS:>>>>>>>>> Running inst-std-00-jwm-menu.sh ...
 './cld/app/jwm/jwmrc/icons/cinema-1F3A6.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/cinema-1F3A6.svg'
 './cld/app/jwm/jwmrc/icons/globe-1F30E.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/globe-1F30E.svg'
 CLDS: * Add default standard menus in JWM.
-CLDS: * Disk size = 5072788K. Space Used = 32K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 5072896K. Space Used = 32K. Runtime = 00:00:00:02.

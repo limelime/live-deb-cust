@@ -8,7 +8,7 @@ The following NEW packages will be installed:
 Need to get 21.0 kB of archives.
 After this operation, 62.5 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 rename all 2.01-1 [21.0 kB]
-Fetched 21.0 kB in 0s (1,276 kB/s)
+Fetched 21.0 kB in 0s (2,068 kB/s)
 Selecting previously unselected package rename.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22526 files and directories currently installed.)
 Preparing to unpack .../archives/rename_2.01-1_all.deb ...
@@ -17,4 +17,4 @@ Setting up rename (2.01-1) ...
 update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rename) in auto mode
 './cld/doc/rename-help.txt' -> '/usr/local/cld/doc/rename-help.txt'
 CLDS: * Install rename.
-CLDS: * Disk size = 1660336K. Space Used = 144K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1660392K. Space Used = 144K. Runtime = 00:00:00:01.

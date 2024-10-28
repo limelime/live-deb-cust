@@ -14,9 +14,9 @@ After this operation, 41.1 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 vim-runtime all 2:9.0.1378-2 [7,025 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 vim amd64 2:9.0.1378-2 [1,567 kB]
-Fetched 8,607 kB in 0s (77.8 MB/s)
+Fetched 8,607 kB in 0s (118 MB/s)
 Selecting previously unselected package libgpm2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94051 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94058 files and directories currently installed.)
 Preparing to unpack .../libgpm2_1.20.7-10+b1_amd64.deb ...
 Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
 Selecting previously unselected package vim-runtime.
@@ -40,4 +40,4 @@ update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdi
 Processing triggers for libc-bin (2.36-9+deb12u8) ...
 './cld/doc/vim-help.txt' -> '/usr/local/cld/doc/vim-help.txt'
 CLDS: * Install vim.
-CLDS: * Disk size = 4626200K. Space Used = 53036K. Runtime = 00:00:00:06.
+CLDS: * Disk size = 4626308K. Space Used = 53020K. Runtime = 00:00:00:03.

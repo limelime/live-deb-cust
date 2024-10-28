@@ -10,9 +10,9 @@ After this operation, 19.4 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-opengfx all 7.1-1 [2,888 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-openmsx all 0.4.2-1 [96.4 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-opensfx all 1.0.3-2 [9,895 kB]
-Fetched 12.9 MB in 0s (70.2 MB/s)
+Fetched 12.9 MB in 0s (86.3 MB/s)
 Selecting previously unselected package openttd-opengfx.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123905 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123910 files and directories currently installed.)
 Preparing to unpack .../openttd-opengfx_7.1-1_all.deb ...
 Unpacking openttd-opengfx (7.1-1) ...
 Selecting previously unselected package openttd-openmsx.
@@ -41,9 +41,9 @@ Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 timgm
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfluidsynth3 amd64 2.3.1-2 [241 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-data all 13.0-2 [3,143 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd amd64 13.0-2 [3,162 kB]
-Fetched 12.2 MB in 0s (72.2 MB/s)
+Fetched 12.2 MB in 0s (98.0 MB/s)
 Selecting previously unselected package libinstpatch-1.0-2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123979 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123984 files and directories currently installed.)
 Preparing to unpack .../libinstpatch-1.0-2_1.1.6-1_amd64.deb ...
 Unpacking libinstpatch-1.0-2:amd64 (1.1.6-1) ...
 Selecting previously unselected package timgm6mb-soundfont.
@@ -69,4 +69,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u8) ...
 CLDS: * Install OpenTTD 13.0.
-CLDS: * Disk size = 7811268K. Space Used = 74092K. Runtime = 00:00:00:08.
+CLDS: * Disk size = 7816824K. Space Used = 74080K. Runtime = 00:00:00:05.

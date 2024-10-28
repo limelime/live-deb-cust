@@ -27,9 +27,9 @@ Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvo
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsndfile1 amd64 1.2.0-1 [196 kB]
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpulse0 amd64 16.1+dfsg1-2+b1 [274 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsdl2-2.0-0 amd64 2.26.5+dfsg-1 [629 kB]
-Fetched 2,222 kB in 0s (38.8 MB/s)
+Fetched 2,222 kB in 0s (41.0 MB/s)
 Selecting previously unselected package libasyncns0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115314 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115321 files and directories currently installed.)
 Preparing to unpack .../00-libasyncns0_0.8-6+b3_amd64.deb ...
 Unpacking libasyncns0:amd64 (0.8-6+b3) ...
 Selecting previously unselected package libdecor-0-0:amd64.
@@ -79,10 +79,10 @@ Setting up libpulse0:amd64 (16.1+dfsg1-2+b1) ...
 Setting up libsdl2-2.0-0:amd64 (2.26.5+dfsg-1) ...
 Processing triggers for libc-bin (2.36-9+deb12u8) ...
 Selecting previously unselected package net.downloadhelper.coapp.
-(Reading database ... 115401 files and directories currently installed.)
+(Reading database ... 115408 files and directories currently installed.)
 Preparing to unpack net.downloadhelper.coapp-1.6.3-1_amd64.deb ...
 Unpacking net.downloadhelper.coapp (1.6.3) ...
 Setting up net.downloadhelper.coapp (1.6.3) ...
 CLDS: * Install downloadhelper Companion App to record JW Player live stream.
 CLDS: * Install Video DownloadHelper browser extension and record JW player stream.
-CLDS: * Disk size = 5663680K. Space Used = 97736K. Runtime = 00:00:00:06.
+CLDS: * Disk size = 5663800K. Space Used = 97740K. Runtime = 00:00:00:04.
