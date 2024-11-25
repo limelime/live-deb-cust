@@ -32,6 +32,9 @@
     journalctl -b --no-pager
     journalctl -u cron --no-pager
 
+# Remove all jobs
+    crontab -r    
+
 # Keywords
     @yearly (or @annually)  0 0 1 1 *   Run once a year at midnight of 1 January
     @monthly                0 0 1 * *   Run once a month at midnight of the first day of the month
@@ -68,5 +71,5 @@
     $(date +'\%Y-\%m-\%d_\%0k.\%M.\%S').log
 
 # Remove existing job using cronjob_id and replace with new ones.
-    (crontab -l | grep -vF "${cronjob_id}"; cat job.cron | grep -v ^#) | crontab -
+    (crontab -l | grep -vF "${cronjob_id}" || true; cat job.cron | grep -v ^#) | crontab -
 

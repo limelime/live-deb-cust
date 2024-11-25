@@ -103,6 +103,9 @@
 # References for quick search:
     # Multiple lines / heredoc => see cat
 
+# String expansion / single quote
+    numb=456; echo "'${numb}'"
+
 # BASH TEMPLATE
     #!/bin/bash
     set -e
