@@ -1,1 +1,1 @@
-inst-min-win-00-xorg-0-drivers-fix libegl-mesa0
+inst-xtra docker-ce

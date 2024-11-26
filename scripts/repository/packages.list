@@ -435,6 +435,15 @@ php-zip
 pngcrush
 # ./inst-xtra-compressor-pngquant/inst-xtra-compressor-pngquant.sh
 pngquant
+# ./inst-xtra-docker-ce/inst-xtra-docker-ce.sh
+iptables
+ca-certificates
+curl
+docker-ce
+docker-ce-cli
+containerd.io
+docker-buildx-plugin
+docker-compose-plugin
 # ./inst-xtra-eclipse-libwebkit2gtk-4.0-37/inst-xtra-eclipse-libwebkit2gtk-4.0-37.sh
 xdg-dbus-proxy
 libwebkit2gtk-4.0-37
