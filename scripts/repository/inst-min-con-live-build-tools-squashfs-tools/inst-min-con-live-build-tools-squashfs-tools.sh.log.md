@@ -2,7 +2,7 @@
   * After this operation, 467 kB of additional disk space will be used.
   * Install squashfs-tools.
   * Install squashfs-tools to create new squashfs using mksquashfs command.
-  * Disk size = 1563156K. Space Used = 660K. Runtime = 00:00:00:01.
+  * Disk size = 1563540K. Space Used = 660K. Runtime = 00:00:00:01.
   * The following NEW packages will be installed:
   ```bash
 squashfs-tools
