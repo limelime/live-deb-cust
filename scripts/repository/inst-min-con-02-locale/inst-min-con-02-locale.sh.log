@@ -6,11 +6,11 @@ The following additional packages will be installed:
   libc-l10n
 The following NEW packages will be installed:
   libc-l10n locales
-0 upgraded, 2 newly installed, 0 to remove and 14 not upgraded.
-Need to get 4576 kB of archives.
+0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
+Need to get 4580 kB of archives.
 After this operation, 20.7 MB of additional disk space will be used.
-Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libc-l10n all 2.36-9+deb12u8 [674 kB]
-Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 locales all 2.36-9+deb12u8 [3901 kB]
+Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libc-l10n all 2.36-9+deb12u9 [677 kB]
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 locales all 2.36-9+deb12u9 [3904 kB]
 perl: warning: Setting locale failed.
 perl: warning: Please check that your locale settings:
 	LANGUAGE = (unset),
@@ -22,16 +22,16 @@ locale: Cannot set LC_CTYPE to default locale: No such file or directory
 locale: Cannot set LC_MESSAGES to default locale: No such file or directory
 locale: Cannot set LC_ALL to default locale: No such file or directory
 Preconfiguring packages ...
-Fetched 4576 kB in 0s (88.0 MB/s)
+Fetched 4580 kB in 0s (66.7 MB/s)
 Selecting previously unselected package libc-l10n.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 14337 files and directories currently installed.)
-Preparing to unpack .../libc-l10n_2.36-9+deb12u8_all.deb ...
-Unpacking libc-l10n (2.36-9+deb12u8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 14362 files and directories currently installed.)
+Preparing to unpack .../libc-l10n_2.36-9+deb12u9_all.deb ...
+Unpacking libc-l10n (2.36-9+deb12u9) ...
 Selecting previously unselected package locales.
-Preparing to unpack .../locales_2.36-9+deb12u8_all.deb ...
-Unpacking locales (2.36-9+deb12u8) ...
-Setting up libc-l10n (2.36-9+deb12u8) ...
-Setting up locales (2.36-9+deb12u8) ...
+Preparing to unpack .../locales_2.36-9+deb12u9_all.deb ...
+Unpacking locales (2.36-9+deb12u9) ...
+Setting up libc-l10n (2.36-9+deb12u9) ...
+Setting up locales (2.36-9+deb12u9) ...
 Generating locales (this might take a while)...
 Generation complete.
 Generating locales (this might take a while)...
@@ -39,4 +39,4 @@ Generating locales (this might take a while)...
 Generation complete.
 /root/.bashrc: line 21: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
 CLDS: * Install locale and set it to use en_US.UTF-8.
-CLDS: * Disk size = 916348K. Space Used = 28628K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 919676K. Space Used = 28636K. Runtime = 00:00:00:05.

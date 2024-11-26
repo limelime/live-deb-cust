@@ -17,15 +17,15 @@ The following NEW packages will be installed:
   libavahi-common3 libcups2 libfontconfig1 libfreetype6 libgraphite2-3
   libharfbuzz0b libjpeg62-turbo liblcms2-2 libnspr4 libnss3 libpng16-16
   openjdk-17-jre-headless
-0 upgraded, 19 newly installed, 0 to remove and 14 not upgraded.
-Need to get 50.4 MB of archives.
+0 upgraded, 19 newly installed, 0 to remove and 15 not upgraded.
+Need to get 50.5 MB of archives.
 After this operation, 208 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ca-certificates-java all 20230710~deb12u1 [11.9 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 java-common all 0.74 [6,388 B]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-common-data amd64 0.8-10 [107 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-common3 amd64 0.8-10 [41.6 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-client3 amd64 0.8-10 [45.5 kB]
-Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcups2 amd64 2.4.2-3+deb12u7 [245 kB]
+Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcups2 amd64 2.4.2-3+deb12u8 [246 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpng16-16 amd64 1.6.39-2 [276 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfreetype6 amd64 2.12.1+dfsg-5+deb12u3 [398 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 fonts-dejavu-core all 2.37-6 [1,068 kB]
@@ -37,12 +37,12 @@ Get:14 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libn
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnss3 amd64 2:3.87.1-1 [1,331 kB]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgraphite2-3 amd64 1.3.14-1 [81.2 kB]
 Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libharfbuzz0b amd64 6.0.0+dfsg-3 [1,945 kB]
-Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openjdk-17-jre-headless amd64 17.0.12+7-2~deb12u1 [43.7 MB]
+Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openjdk-17-jre-headless amd64 17.0.13+11-2~deb12u1 [43.8 MB]
 Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 default-jre-headless amd64 2:1.17-74 [2,936 B]
 Preconfiguring packages ...
-Fetched 50.4 MB in 0s (105 MB/s)
+Fetched 50.5 MB in 1s (65.8 MB/s)
 Selecting previously unselected package ca-certificates-java.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45084 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45107 files and directories currently installed.)
 Preparing to unpack .../00-ca-certificates-java_20230710~deb12u1_all.deb ...
 Unpacking ca-certificates-java (20230710~deb12u1) ...
 Selecting previously unselected package java-common.
@@ -58,8 +58,8 @@ Selecting previously unselected package libavahi-client3:amd64.
 Preparing to unpack .../04-libavahi-client3_0.8-10_amd64.deb ...
 Unpacking libavahi-client3:amd64 (0.8-10) ...
 Selecting previously unselected package libcups2:amd64.
-Preparing to unpack .../05-libcups2_2.4.2-3+deb12u7_amd64.deb ...
-Unpacking libcups2:amd64 (2.4.2-3+deb12u7) ...
+Preparing to unpack .../05-libcups2_2.4.2-3+deb12u8_amd64.deb ...
+Unpacking libcups2:amd64 (2.4.2-3+deb12u8) ...
 Selecting previously unselected package libpng16-16:amd64.
 Preparing to unpack .../06-libpng16-16_1.6.39-2_amd64.deb ...
 Unpacking libpng16-16:amd64 (1.6.39-2) ...
@@ -94,8 +94,8 @@ Selecting previously unselected package libharfbuzz0b:amd64.
 Preparing to unpack .../16-libharfbuzz0b_6.0.0+dfsg-3_amd64.deb ...
 Unpacking libharfbuzz0b:amd64 (6.0.0+dfsg-3) ...
 Selecting previously unselected package openjdk-17-jre-headless:amd64.
-Preparing to unpack .../17-openjdk-17-jre-headless_17.0.12+7-2~deb12u1_amd64.deb ...
-Unpacking openjdk-17-jre-headless:amd64 (17.0.12+7-2~deb12u1) ...
+Preparing to unpack .../17-openjdk-17-jre-headless_17.0.13+11-2~deb12u1_amd64.deb ...
+Unpacking openjdk-17-jre-headless:amd64 (17.0.13+11-2~deb12u1) ...
 Selecting previously unselected package default-jre-headless.
 Preparing to unpack .../18-default-jre-headless_2%3a1.17-74_amd64.deb ...
 Unpacking default-jre-headless (2:1.17-74) ...
@@ -115,11 +115,11 @@ Setting up libnss3:amd64 (2:3.87.1-1) ...
 Setting up libfreetype6:amd64 (2.12.1+dfsg-5+deb12u3) ...
 Setting up libharfbuzz0b:amd64 (6.0.0+dfsg-3) ...
 Setting up libavahi-client3:amd64 (0.8-10) ...
-Setting up libcups2:amd64 (2.4.2-3+deb12u7) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
+Setting up libcups2:amd64 (2.4.2-3+deb12u8) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for sgml-base (1.31) ...
 Setting up libfontconfig1:amd64 (2.14.1-4) ...
-Setting up openjdk-17-jre-headless:amd64 (17.0.12+7-2~deb12u1) ...
+Setting up openjdk-17-jre-headless:amd64 (17.0.13+11-2~deb12u1) ...
 update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
 update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage to provide /usr/bin/jpackage (jpackage) in auto mode
 update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
@@ -268,9 +268,9 @@ Adding debian:vTrus_Root_CA.pem
 Adding debian:XRamp_Global_CA_Root.pem
 done.
 Setting up default-jre-headless (2:1.17-74) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/bashrc.d/bashrc-java.sh' -> '/usr/local/cld/bashrc.d/bashrc-java.sh'
-CLDS: * Install openjdk version "17.0.12" 2024-07-16.
+CLDS: * Install openjdk version "17.0.13" 2024-10-15.
 CLDS: * To install JAVA binary: https://wiki.debian.org/JavaPackage.
 CLDS: * JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/bin/java".
-CLDS: * Disk size = 2569504K. Space Used = 253148K. Runtime = 00:00:00:07.
+CLDS: * Disk size = 2573140K. Space Used = 253468K. Runtime = 00:00:00:08.

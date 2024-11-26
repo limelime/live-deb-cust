@@ -8,45 +8,44 @@ The following packages will be REMOVED:
   fuse
 The following NEW packages will be installed:
   fuse3 libfuse3-3 libntfs-3g89 ntfs-3g
-0 upgraded, 4 newly installed, 1 to remove and 14 not upgraded.
-Need to get 694 kB of archives.
+0 upgraded, 4 newly installed, 1 to remove and 15 not upgraded.
+Need to get 693 kB of archives.
 After this operation, 2,162 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfuse3-3 amd64 3.14.0-4 [88.1 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 fuse3 amd64 3.14.0-4 [35.9 kB]
-Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libntfs-3g89 amd64 1:2022.10.3-1+b1 [164 kB]
-Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntfs-3g amd64 1:2022.10.3-1+b1 [406 kB]
-Fetched 694 kB in 0s (31.6 MB/s)
+Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libntfs-3g89 amd64 1:2022.10.3-1+deb12u2 [164 kB]
+Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntfs-3g amd64 1:2022.10.3-1+deb12u2 [406 kB]
+Fetched 693 kB in 0s (34.2 MB/s)
 Selecting previously unselected package libfuse3-3:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17925 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17950 files and directories currently installed.)
 Preparing to unpack .../libfuse3-3_3.14.0-4_amd64.deb ...
 Unpacking libfuse3-3:amd64 (3.14.0-4) ...
 dpkg: fuse: dependency problems, but removing anyway as you requested:
  exfat-fuse depends on fuse.
 
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17934 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17959 files and directories currently installed.)
 Removing fuse (2.9.9-6+b1) ...
 update-initramfs: deferring update (trigger activated)
 Selecting previously unselected package fuse3.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17922 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17947 files and directories currently installed.)
 Preparing to unpack .../fuse3_3.14.0-4_amd64.deb ...
 Unpacking fuse3 (3.14.0-4) ...
 Selecting previously unselected package libntfs-3g89:amd64.
-Preparing to unpack .../libntfs-3g89_1%3a2022.10.3-1+b1_amd64.deb ...
-Unpacking libntfs-3g89:amd64 (1:2022.10.3-1+b1) ...
+Preparing to unpack .../libntfs-3g89_1%3a2022.10.3-1+deb12u2_amd64.deb ...
+Unpacking libntfs-3g89:amd64 (1:2022.10.3-1+deb12u2) ...
+Selecting previously unselected package ntfs-3g.
+Preparing to unpack .../ntfs-3g_1%3a2022.10.3-1+deb12u2_amd64.deb ...
+Unpacking ntfs-3g (1:2022.10.3-1+deb12u2) ...
+Setting up libntfs-3g89:amd64 (1:2022.10.3-1+deb12u2) ...
 Setting up libfuse3-3:amd64 (3.14.0-4) ...
 Setting up fuse3 (3.14.0-4) ...
 Installing new version of config file /etc/fuse.conf ...
 update-initramfs: deferring update (trigger activated)
-Selecting previously unselected package ntfs-3g.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17942 files and directories currently installed.)
-Preparing to unpack .../ntfs-3g_1%3a2022.10.3-1+b1_amd64.deb ...
-Unpacking ntfs-3g (1:2022.10.3-1+b1) ...
-Setting up libntfs-3g89:amd64 (1:2022.10.3-1+b1) ...
-Setting up ntfs-3g (1:2022.10.3-1+b1) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
+Setting up ntfs-3g (1:2022.10.3-1+deb12u2) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for initramfs-tools (0.142+deb12u1) ...
-update-initramfs: Generating /boot/initrd.img-6.10.11+bpo-amd64
+update-initramfs: Generating /boot/initrd.img-6.11.5+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install support for NTFS: ntfs-3g.
-CLDS: * Disk size = 1027884K. Space Used = 3260K. Runtime = 00:00:00:22.
+CLDS: * Disk size = 1031196K. Space Used = 3248K. Runtime = 00:00:00:29.

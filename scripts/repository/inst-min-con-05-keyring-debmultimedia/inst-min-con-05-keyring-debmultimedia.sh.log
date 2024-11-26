@@ -1,6 +1,6 @@
 CLDS:>>>>>>>>> Running inst-min-con-05-keyring-debmultimedia.sh ...
 Selecting previously unselected package deb-multimedia-keyring.
-(Reading database ... 17448 files and directories currently installed.)
+(Reading database ... 17473 files and directories currently installed.)
 Preparing to unpack deb-multimedia-keyring_2016.8.1_all.deb ...
 Unpacking deb-multimedia-keyring (2016.8.1) ...
 Setting up deb-multimedia-keyring (2016.8.1) ...
@@ -44,4 +44,4 @@ W: http://localhost/aptly-repo/master_virtualbox-contrib/dists/bookworm/InReleas
 CLDS: * Add deb-multimedia keyring.
 CLDS: * Add deb-multimedia repository.
 CLDS: * apt-get update
-CLDS: * Disk size = 1002052K. Space Used = 56K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 1005384K. Space Used = 52K. Runtime = 00:00:00:04.

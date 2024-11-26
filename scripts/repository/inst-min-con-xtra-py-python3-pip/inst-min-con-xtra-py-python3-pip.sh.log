@@ -13,16 +13,16 @@ Recommended packages:
   build-essential
 The following NEW packages will be installed:
   python3-pip python3-pkg-resources python3-setuptools python3-wheel
-0 upgraded, 4 newly installed, 0 to remove and 14 not upgraded.
+0 upgraded, 4 newly installed, 0 to remove and 15 not upgraded.
 Need to get 2,173 kB of archives.
 After this operation, 10.6 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-pkg-resources all 66.1.1-1 [296 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-setuptools all 66.1.1-1 [521 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-wheel all 0.38.4-2 [30.8 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-pip all 23.0.1+dfsg-1 [1,325 kB]
-Fetched 2,173 kB in 0s (39.7 MB/s)
+Fetched 2,173 kB in 0s (73.9 MB/s)
 Selecting previously unselected package python3-pkg-resources.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 92935 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 92966 files and directories currently installed.)
 Preparing to unpack .../python3-pkg-resources_66.1.1-1_all.deb ...
 Unpacking python3-pkg-resources (66.1.1-1) ...
 Selecting previously unselected package python3-setuptools.
@@ -39,4 +39,4 @@ Setting up python3-setuptools (66.1.1-1) ...
 Setting up python3-wheel (0.38.4-2) ...
 Setting up python3-pip (23.0.1+dfsg-1) ...
 CLDS: * Install python3-pip.
-CLDS: * Disk size = 4561196K. Space Used = 27776K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 4565388K. Space Used = 27776K. Runtime = 00:00:00:06.

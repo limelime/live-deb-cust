@@ -15,7 +15,7 @@ The following NEW packages will be installed:
   dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client
   gpg-wks-server gpgconf gpgsm libassuan0 libksba8 libldap-2.5-0 libnpth0
   libpsl5 libsasl2-2 libsasl2-modules-db libsqlite3-0 pinentry-curses wget
-0 upgraded, 20 newly installed, 0 to remove and 14 not upgraded.
+0 upgraded, 20 newly installed, 0 to remove and 15 not upgraded.
 Need to get 10.0 MB of archives.
 After this operation, 22.3 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpsl5 amd64 0.21.2-1 [58.7 kB]
@@ -30,7 +30,7 @@ Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnp
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 dirmngr amd64 2.2.40-1.1 [792 kB]
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnupg-l10n all 2.2.40-1.1 [1,093 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnupg-utils amd64 2.2.40-1.1 [927 kB]
-Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsqlite3-0 amd64 3.40.1-2 [837 kB]
+Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsqlite3-0 amd64 3.40.1-2+deb12u1 [839 kB]
 Get:14 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg amd64 2.2.40-1.1 [949 kB]
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pinentry-curses amd64 1.2.1-1 [77.4 kB]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg-agent amd64 2.2.40-1.1 [695 kB]
@@ -38,9 +38,9 @@ Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg-
 Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg-wks-server amd64 2.2.40-1.1 [531 kB]
 Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpgsm amd64 2.2.40-1.1 [671 kB]
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnupg all 2.2.40-1.1 [846 kB]
-Fetched 10.0 MB in 0s (67.4 MB/s)
+Fetched 10.0 MB in 0s (65.3 MB/s)
 Selecting previously unselected package libpsl5:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17061 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17086 files and directories currently installed.)
 Preparing to unpack .../00-libpsl5_0.21.2-1_amd64.deb ...
 Unpacking libpsl5:amd64 (0.21.2-1) ...
 Selecting previously unselected package wget.
@@ -77,8 +77,8 @@ Selecting previously unselected package gnupg-utils.
 Preparing to unpack .../11-gnupg-utils_2.2.40-1.1_amd64.deb ...
 Unpacking gnupg-utils (2.2.40-1.1) ...
 Selecting previously unselected package libsqlite3-0:amd64.
-Preparing to unpack .../12-libsqlite3-0_3.40.1-2_amd64.deb ...
-Unpacking libsqlite3-0:amd64 (3.40.1-2) ...
+Preparing to unpack .../12-libsqlite3-0_3.40.1-2+deb12u1_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.40.1-2+deb12u1) ...
 Selecting previously unselected package gpg.
 Preparing to unpack .../13-gpg_2.2.40-1.1_amd64.deb ...
 Unpacking gpg (2.2.40-1.1) ...
@@ -103,7 +103,7 @@ Unpacking gnupg (2.2.40-1.1) ...
 Setting up libksba8:amd64 (1.6.3-2) ...
 Setting up libpsl5:amd64 (0.21.2-1) ...
 Setting up wget (1.21.3-1+b2) ...
-Setting up libsqlite3-0:amd64 (3.40.1-2) ...
+Setting up libsqlite3-0:amd64 (3.40.1-2+deb12u1) ...
 Setting up libnpth0:amd64 (1.6-3) ...
 Setting up libassuan0:amd64 (2.5.5-5) ...
 Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
@@ -125,6 +125,6 @@ Created symlink /etc/systemd/user/sockets.target.wants/dirmngr.socket → /usr/l
 Setting up gpg-wks-server (2.2.40-1.1) ...
 Setting up gpg-wks-client (2.2.40-1.1) ...
 Setting up gnupg (2.2.40-1.1) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install gnupg to manage and create keys.
-CLDS: * Disk size = 1001992K. Space Used = 25452K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 1005328K. Space Used = 25460K. Runtime = 00:00:00:03.

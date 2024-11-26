@@ -7,6 +7,6 @@ openssh-client set to manually installed.
 The following packages were automatically installed and are no longer required:
   libfuse3-3 libntfs-3g89
 Use 'apt autoremove' to remove them.
-0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
 CLDS: * Install openssh-client.
-CLDS: * Disk size = 2893040K. Space Used = 4K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 2897120K. Space Used = 4K. Runtime = 00:00:00:01.

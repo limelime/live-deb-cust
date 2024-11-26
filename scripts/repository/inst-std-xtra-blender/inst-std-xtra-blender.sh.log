@@ -4,7 +4,7 @@ Building dependency tree...
 Reading state information...
 libgl1-mesa-dri is already the newest version (24.2.4-1~bpo12+1).
 libgl1-mesa-dri set to manually installed.
-0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -53,7 +53,7 @@ The following NEW packages will be installed:
   libspnav0 libsuperlu5 libsz2 libtbb12 libtbbbind-2-5 libtbbmalloc2
   liburiparser1 libvidstab1.1 libxerces-c3.2 libyaml-cpp0.7 proj-data
   unixodbc-common
-0 upgraded, 86 newly installed, 0 to remove and 14 not upgraded.
+0 upgraded, 86 newly installed, 0 to remove and 15 not upgraded.
 Need to get 128 MB of archives.
 After this operation, 538 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 blender-data all 3.4.1+dfsg-2 [31.4 MB]
@@ -142,9 +142,9 @@ Get:83 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:84 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpugixml1v5 amd64 1.13-0.2 [84.7 kB]
 Get:85 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libspnav0 amd64 1.0-1 [14.1 kB]
 Get:86 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 blender amd64 3.4.1+dfsg-2+b1 [22.6 MB]
-Fetched 128 MB in 1s (99.9 MB/s)
+Fetched 128 MB in 2s (71.8 MB/s)
 Selecting previously unselected package blender-data.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118388 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118415 files and directories currently installed.)
 Preparing to unpack .../00-blender-data_3.4.1+dfsg-2_all.deb ...
 Unpacking blender-data (3.4.1+dfsg-2) ...
 Selecting previously unselected package fonts-dejavu-extra.
@@ -489,16 +489,16 @@ Setting up libopencv-imgcodecs406:amd64 (4.6.0+dfsg-12) ...
 Processing triggers for fontconfig (2.14.1-4) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
-Processing triggers for udev (252.30-1~deb12u2) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
+Processing triggers for udev (252.31-1~deb12u1) ...
 Processing triggers for sgml-base (1.31) ...
 Setting up libgstreamer-plugins-base1.0-0:amd64 (1.22.0-3+deb12u2) ...
 Setting up libopencv-videoio406:amd64 (4.6.0+dfsg-12) ...
 Setting up libopenimageio2.4:amd64 (2.4.7.1+dfsg-2) ...
 Setting up blender (3.4.1+dfsg-2+b1) ...
-Processing triggers for libc-bin (2.36-9+deb12u8) ...
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install required packages for blender.
 CLDS: * Install blender3d.
 CLDS: * Insert Blender 3D menu in Graphics.
 CLDS: * http://download.blender.org/release/
-CLDS: * Disk size = 7565656K. Space Used = 602756K. Runtime = 00:00:00:21.
+CLDS: * Disk size = 7597808K. Space Used = 602748K. Runtime = 00:00:00:25.
