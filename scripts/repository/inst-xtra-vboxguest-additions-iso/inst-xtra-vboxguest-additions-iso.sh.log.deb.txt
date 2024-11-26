@@ -6,10 +6,10 @@ g++-12
 libc6-dev*
 libdpkg-perl
 libstdc++-12-dev
-linux-headers-6.10.11+bpo-amd64
-linux-headers-6.10.11+bpo-common
+linux-headers-6.11.5+bpo-amd64
+linux-headers-6.11.5+bpo-common
 linux-headers-amd64
-linux-kbuild-6.10.11+bpo
+linux-kbuild-6.11.5+bpo
 lsb-release
 make
 patch

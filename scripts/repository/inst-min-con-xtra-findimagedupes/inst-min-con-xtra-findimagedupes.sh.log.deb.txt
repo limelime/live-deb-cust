@@ -43,6 +43,7 @@ libparse-recdescent-perl
 libpegex-perl
 libquadmath0
 libregexp-ipv6-perl
+libsharpyuv0
 libtiff6
 libtsan2
 libubsan1

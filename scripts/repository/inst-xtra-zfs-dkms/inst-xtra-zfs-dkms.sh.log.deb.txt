@@ -8,7 +8,7 @@ libuutil3linux
 libzfs4linux
 libzpool5linux
 libzstd-dev
-linux-headers-6.10.11+bpo-amd64*
+linux-headers-6.11.5+bpo-amd64*
 linux-headers-amd64
 lsb-release*
 module-assistant
