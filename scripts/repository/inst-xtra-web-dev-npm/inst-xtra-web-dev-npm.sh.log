@@ -1,8 +1,8 @@
 CLDS:>>>>>>>>> Running inst-xtra-web-dev-npm.sh ...
 
-removed 6 packages, and changed 89 packages in 9s
+removed 6 packages, and changed 89 packages in 4s
 
 25 packages are looking for funding
   run `npm fund` for details
 CLDS: * Install npm.
-CLDS: * Disk size = 8345304K. Space Used = 31696K. Runtime = 00:00:00:11.
+CLDS: * Disk size = 8870284K. Space Used = 31696K. Runtime = 00:00:00:06.

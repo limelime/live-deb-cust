@@ -8,7 +8,7 @@ The following NEW packages will be installed:
 Need to get 243 kB of archives.
 After this operation, 1,001 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 net-tools amd64 2.10-0.1 [243 kB]
-Fetched 243 kB in 0s (16.7 MB/s)
+Fetched 243 kB in 0s (22.4 MB/s)
 Selecting previously unselected package net-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20788 files and directories currently installed.)
 Preparing to unpack .../net-tools_2.10-0.1_amd64.deb ...
@@ -16,4 +16,4 @@ Unpacking net-tools (2.10-0.1) ...
 Setting up net-tools (2.10-0.1) ...
 CLDS: * Install net-tools.
 CLDS: * This package is required to access Internet.
-CLDS: * Disk size = 1578172K. Space Used = 900K. Runtime = 00:00:00:00.
+CLDS: * Disk size = 1578556K. Space Used = 900K. Runtime = 00:00:00:01.

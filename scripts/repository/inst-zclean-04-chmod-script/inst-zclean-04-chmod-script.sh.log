@@ -43,4 +43,4 @@ chmod ./jwmrc-startup-keyboard-move-mouse.sh
 chmod ./jwm-bootstrap.sh
 chmod ./crop.sh
 CLDS: * Make *.sh under /usr/local/cld/ executable.
-CLDS: * Disk size = 7169588K. Space Used = 8K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7583828K. Space Used = 4K. Runtime = 00:00:00:01.
