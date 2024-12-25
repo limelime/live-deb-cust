@@ -1,1 +1,1 @@
-inst-xtra docker-ce
+inst-min-con-xtra-vim xclip
