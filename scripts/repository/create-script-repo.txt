@@ -1,1 +1,1 @@
-inst-min-con-xtra-vim xclip
+inst-min-con-xtra xclip

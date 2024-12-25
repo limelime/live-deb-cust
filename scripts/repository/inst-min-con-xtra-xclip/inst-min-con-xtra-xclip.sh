@@ -14,4 +14,4 @@ echo "${GV_LOG}>>>>>>>>> Running ${SCRIPT_NAME} ..."
 
 
 # Log
-	echo "${GV_LOG} * Install xclip."
+	echo "${GV_LOG} * Install xclip for vim and nvim to paste to clipboard"
