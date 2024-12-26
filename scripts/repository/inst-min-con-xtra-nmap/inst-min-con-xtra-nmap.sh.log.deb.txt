@@ -1,6 +1,5 @@
 libblas3
 liblinear4
 libpcap0.8
-lua-lpeg
 nmap
 nmap-common

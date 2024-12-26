@@ -6,15 +6,15 @@ The following additional packages will be installed:
   libpci3 pci.ids
 The following NEW packages will be installed:
   libpci3 pci.ids pciutils
-0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
 Need to get 415 kB of archives.
 After this operation, 1,717 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pci.ids all 0.0~2023.04.11-1 [243 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpci3 amd64 1:3.9.0-4 [67.4 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pciutils amd64 1:3.9.0-4 [104 kB]
-Fetched 415 kB in 0s (24.4 MB/s)
+Fetched 415 kB in 0s (10.8 MB/s)
 Selecting previously unselected package pci.ids.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22525 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22529 files and directories currently installed.)
 Preparing to unpack .../pci.ids_0.0~2023.04.11-1_all.deb ...
 Unpacking pci.ids (0.0~2023.04.11-1) ...
 Selecting previously unselected package libpci3:amd64.
@@ -28,4 +28,4 @@ Setting up libpci3:amd64 (1:3.9.0-4) ...
 Setting up pciutils (1:3.9.0-4) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install pciutils to troubleshoot pci devices(i.e. lspci).
-CLDS: * Disk size = 1663952K. Space Used = 2184K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1696204K. Space Used = 2164K. Runtime = 00:00:00:01.

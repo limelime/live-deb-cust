@@ -196,12 +196,10 @@ smbclient
 sqlite3
 # ./inst-min-con-xtra-tmux/inst-min-con-xtra-tmux.sh
 tmux
-# ./inst-min-con-xtra-vim/inst-min-con-xtra-vim.sh
-vim
-# ./inst-min-con-xtra-vim-universal-ctags/inst-min-con-xtra-vim-universal-ctags.sh
-universal-ctags
 # ./inst-min-con-xtra-vsftpd/inst-min-con-xtra-vsftpd.sh
 vsftpd
+# ./inst-min-con-xtra-xclip/inst-min-con-xtra-xclip.sh
+xclip
 # ./inst-min-con-xtra-xsltproc/inst-min-con-xtra-xsltproc.sh
 xsltproc
 # ./inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0/inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0.sh

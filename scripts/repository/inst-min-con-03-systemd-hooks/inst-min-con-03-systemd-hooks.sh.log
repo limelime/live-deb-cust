@@ -1,21 +1,21 @@
 CLDS:>>>>>>>>> Running inst-min-con-03-systemd-hooks.sh ...
 './cld/bin' -> '/usr/local/cld/bin'
-'./cld/bin/cld-run-scripts.sh' -> '/usr/local/cld/bin/cld-run-scripts.sh'
-'./cld/bin/partition-automount.sh' -> '/usr/local/cld/bin/partition-automount.sh'
 './cld/bin/partition-swap-enable.sh' -> '/usr/local/cld/bin/partition-swap-enable.sh'
-'./cld/log' -> '/usr/local/cld/log'
-'./cld/log/empty-placeholder.txt' -> '/usr/local/cld/log/empty-placeholder.txt'
+'./cld/bin/partition-automount.sh' -> '/usr/local/cld/bin/partition-automount.sh'
+'./cld/bin/cld-run-scripts.sh' -> '/usr/local/cld/bin/cld-run-scripts.sh'
 './cld/systemd' -> '/usr/local/cld/systemd'
-'./cld/systemd/cld-systemd-after-boot.sh' -> '/usr/local/cld/systemd/cld-systemd-after-boot.sh'
-'./cld/systemd/cld-systemd-before-shutdown-halt-reboot.sh' -> '/usr/local/cld/systemd/cld-systemd-before-shutdown-halt-reboot.sh'
 './cld/systemd/cld-systemd-start-stop.service' -> '/usr/local/cld/systemd/cld-systemd-start-stop.service'
+'./cld/systemd/cld-systemd-before-shutdown-halt-reboot.sh' -> '/usr/local/cld/systemd/cld-systemd-before-shutdown-halt-reboot.sh'
+'./cld/systemd/cld-systemd-after-boot.sh' -> '/usr/local/cld/systemd/cld-systemd-after-boot.sh'
 './cld/systemd/runlevel' -> '/usr/local/cld/systemd/runlevel'
 './cld/systemd/runlevel/after-boot' -> '/usr/local/cld/systemd/runlevel/after-boot'
 './cld/systemd/runlevel/after-boot/link-home-directory.sh' -> '/usr/local/cld/systemd/runlevel/after-boot/link-home-directory.sh'
 './cld/systemd/runlevel/after-boot/mount-all.sh' -> '/usr/local/cld/systemd/runlevel/after-boot/mount-all.sh'
 './cld/systemd/runlevel/before-shutdown' -> '/usr/local/cld/systemd/runlevel/before-shutdown'
 './cld/systemd/runlevel/before-shutdown/empty-placeholder.txt' -> '/usr/local/cld/systemd/runlevel/before-shutdown/empty-placeholder.txt'
+'./cld/log' -> '/usr/local/cld/log'
+'./cld/log/empty-placeholder.txt' -> '/usr/local/cld/log/empty-placeholder.txt'
 './cld/systemd/cld-systemd-start-stop.service' -> '/etc/systemd/system/cld-systemd-start-stop.service'
 Created symlink /etc/systemd/system/multi-user.target.wants/cld-systemd-start-stop.service → /etc/systemd/system/cld-systemd-start-stop.service.
 CLDS: * Add systemd hook scripts.
-CLDS: * Disk size = 980240K. Space Used = 76K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1012488K. Space Used = 76K. Runtime = 00:00:00:00.

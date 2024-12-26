@@ -4,8 +4,8 @@ Building dependency tree...
 Reading state information...
 git is already the newest version (1:2.39.5-0+deb12u1).
 git set to manually installed.
-0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 17 not upgraded.
 './cld/doc/git-help.txt' -> '/usr/local/cld/doc/git-help.txt'
 './cld/doc/gitignore-help.txt' -> '/usr/local/cld/doc/gitignore-help.txt'
 CLDS: * Install git.
-CLDS: * Disk size = 8437332K. Space Used = 12K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 8420152K. Space Used = 12K. Runtime = 00:00:00:00.

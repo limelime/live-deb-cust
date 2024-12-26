@@ -8,15 +8,15 @@ Recommended packages:
   exfatprogs
 The following NEW packages will be installed:
   exfat-fuse fuse libfuse2
-0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
 Need to get 211 kB of archives.
 After this operation, 563 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfuse2 amd64 2.9.9-6+b1 [119 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 fuse amd64 2.9.9-6+b1 [61.3 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 exfat-fuse amd64 1.3.0+git20220115-2 [30.9 kB]
-Fetched 211 kB in 0s (17.8 MB/s)
+Fetched 211 kB in 0s (5,726 kB/s)
 Selecting previously unselected package libfuse2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17901 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17905 files and directories currently installed.)
 Preparing to unpack .../libfuse2_2.9.9-6+b1_amd64.deb ...
 Unpacking libfuse2:amd64 (2.9.9-6+b1) ...
 Selecting previously unselected package fuse.
@@ -31,8 +31,8 @@ update-initramfs: deferring update (trigger activated)
 Setting up exfat-fuse (1.3.0+git20220115-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for initramfs-tools (0.142+deb12u1) ...
-update-initramfs: Generating /boot/initrd.img-6.11.5+bpo-amd64
+update-initramfs: Generating /boot/initrd.img-6.11.10+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install exfat-fuse so that you can read and write SD cards and USB keys.
-CLDS: * Disk size = 1027740K. Space Used = 844K. Runtime = 00:00:00:21.
+CLDS: * Disk size = 1059996K. Space Used = 856K. Runtime = 00:00:00:31.

@@ -9,7 +9,7 @@ Suggested packages:
 The following NEW packages will be installed:
   libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxtst6 numlockx
   x11-common
-0 upgraded, 9 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 9 newly installed, 0 to remove and 16 not upgraded.
 Need to get 1,586 kB of archives.
 After this operation, 4,169 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxau6 amd64 1:1.0.9-1 [19.7 kB]
@@ -21,9 +21,9 @@ Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxe
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 x11-common all 1:7.7+23 [252 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxtst6 amd64 2:1.2.3-1.1 [28.0 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 numlockx amd64 1.2-9 [11.4 kB]
-Fetched 1,586 kB in 0s (25.2 MB/s)
+Fetched 1,586 kB in 0s (22.7 MB/s)
 Selecting previously unselected package libxau6:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22188 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22192 files and directories currently installed.)
 Preparing to unpack .../0-libxau6_1%3a1.0.9-1_amd64.deb ...
 Unpacking libxau6:amd64 (1:1.0.9-1) ...
 Selecting previously unselected package libxdmcp6:amd64.
@@ -63,4 +63,4 @@ Setting up libxtst6:amd64 (2:1.2.3-1.1) ...
 Setting up numlockx (1.2-9) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install numlockx to turn on NumLock on boot.
-CLDS: * Disk size = 1661768K. Space Used = 6536K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1694040K. Space Used = 6532K. Runtime = 00:00:00:02.

@@ -13,7 +13,7 @@ Recommended packages:
 The following NEW packages will be installed:
   libavahi-glib1 libavahi-ui-gtk3-0 libfreerdp-client2-2 libfreerdp2-2
   libssh-4 libwinpr2-2 remmina remmina-common remmina-plugin-rdp
-0 upgraded, 9 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 9 newly installed, 0 to remove and 17 not upgraded.
 Need to get 2,332 kB of archives.
 After this operation, 9,658 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-glib1 amd64 0.8-10 [27.4 kB]
@@ -25,9 +25,9 @@ Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libss
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina-common all 1.4.29+dfsg-1 [640 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina amd64 1.4.29+dfsg-1 [215 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina-plugin-rdp amd64 1.4.29+dfsg-1 [57.2 kB]
-Fetched 2,332 kB in 0s (73.2 MB/s)
+Fetched 2,332 kB in 0s (22.5 MB/s)
 Selecting previously unselected package libavahi-glib1:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125956 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123855 files and directories currently installed.)
 Preparing to unpack .../0-libavahi-glib1_0.8-10_amd64.deb ...
 Unpacking libavahi-glib1:amd64 (0.8-10) ...
 Selecting previously unselected package libavahi-ui-gtk3-0:amd64.
@@ -69,4 +69,4 @@ Processing triggers for shared-mime-info (2.2-1) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install remmina.
 CLDS: * Need to remote desktop MS Windows machines.
-CLDS: * Disk size = 8458300K. Space Used = 9844K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 8441132K. Space Used = 9848K. Runtime = 00:00:00:04.

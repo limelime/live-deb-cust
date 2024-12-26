@@ -6,8 +6,6 @@ libfontenc1
 libgl1
 libglvnd0
 libglx0
-libice6
-libsm6
 libunwind8
 libxatracker2
 libxaw7
@@ -18,10 +16,8 @@ libxdamage1
 libxfont2
 libxinerama1
 libxkbfile1
-libxmu6
 libxrandr2
 libxss1
-libxt6
 libxvmc1
 x11-xkb-utils
 xkb-data

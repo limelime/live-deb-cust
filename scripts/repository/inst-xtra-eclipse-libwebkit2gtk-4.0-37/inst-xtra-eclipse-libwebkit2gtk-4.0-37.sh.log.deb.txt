@@ -10,6 +10,7 @@ libcdparanoia0
 libdv4
 libenchant-2-2
 libgles2
+libgpm2
 libgssdp-1.6-0
 libgstreamer-gl1.0-0
 libgstreamer-plugins-bad1.0-0
