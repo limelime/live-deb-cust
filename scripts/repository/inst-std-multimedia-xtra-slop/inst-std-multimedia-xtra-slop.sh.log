@@ -14,7 +14,7 @@ After this operation, 1,360 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libglew2.2 amd64 2.2.0-4+b1 [175 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libslopy7.6 amd64 7.6-4 [37.6 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 slop amd64 7.6-4 [83.9 kB]
-Fetched 297 kB in 0s (7,352 kB/s)
+Fetched 297 kB in 0s (5,423 kB/s)
 Selecting previously unselected package libglew2.2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114958 files and directories currently installed.)
 Preparing to unpack .../libglew2.2_2.2.0-4+b1_amd64.deb ...
@@ -31,4 +31,4 @@ Setting up slop (7.6-4) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install slop.
 CLDS: * Use slop to do area selection before do screen recorder using ffmpeg.
-CLDS: * Disk size = 6882164K. Space Used = 1708K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 6947076K. Space Used = 1708K. Runtime = 00:00:00:01.

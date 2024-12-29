@@ -5,4 +5,4 @@ CLDS:>>>>>>>>> Running inst-min-win-jwm-help-manuals-text.sh ...
 './cld/app/jwm/jwmrc/icons/contacts-E256.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/contacts-E256.svg'
 './cld/app/jwm/jwmrc/icons/compose-E267.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/compose-E267.svg'
 CLDS: * Add user & developer manuals(text) in Help menu.
-CLDS: * Disk size = 4975124K. Space Used = 48K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 5040028K. Space Used = 48K. Runtime = 00:00:00:01.

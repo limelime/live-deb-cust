@@ -14,7 +14,7 @@ After this operation, 5,561 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 liblzo2-2 amd64 2.10-2 [56.9 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 libreiserfscore0 amd64 1:3.6.27-8~bpo12+1 [79.4 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 btrfs-progs amd64 6.6.3-1.2~bpo12+1 [865 kB]
-Fetched 1,001 kB in 0s (17.2 MB/s)
+Fetched 1,001 kB in 0s (19.8 MB/s)
 Selecting previously unselected package liblzo2-2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17810 files and directories currently installed.)
 Preparing to unpack .../liblzo2-2_2.10-2_amd64.deb ...
@@ -35,4 +35,4 @@ live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/doc/btrfs-help.txt' -> '/usr/local/cld/doc/btrfs-help.txt'
 CLDS: * Install btrfs-progs.
-CLDS: * Disk size = 1058648K. Space Used = 7116K. Runtime = 00:00:00:32.
+CLDS: * Disk size = 1123516K. Space Used = 7116K. Runtime = 00:00:00:32.

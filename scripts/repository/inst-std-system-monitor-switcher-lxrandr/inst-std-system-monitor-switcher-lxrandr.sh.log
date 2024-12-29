@@ -10,7 +10,7 @@ The following NEW packages will be installed:
 Need to get 169 kB of archives.
 After this operation, 590 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 x11-xserver-utils amd64 7.7+9+b1 [169 kB]
-Fetched 169 kB in 0s (3,667 kB/s)
+Fetched 169 kB in 0s (4,556 kB/s)
 Selecting previously unselected package x11-xserver-utils.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115756 files and directories currently installed.)
 Preparing to unpack .../x11-xserver-utils_7.7+9+b1_amd64.deb ...
@@ -26,7 +26,7 @@ The following NEW packages will be installed:
 Need to get 52.1 kB of archives.
 After this operation, 411 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 lxrandr amd64 0.3.2-1.1 [52.1 kB]
-Fetched 52.1 kB in 0s (1,293 kB/s)
+Fetched 52.1 kB in 0s (1,438 kB/s)
 Selecting previously unselected package lxrandr.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115795 files and directories currently installed.)
 Preparing to unpack .../lxrandr_0.3.2-1.1_amd64.deb ...
@@ -36,4 +36,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 './cld/doc/monitor-help.txt' -> '/usr/local/cld/doc/monitor-help.txt'
 CLDS: * Install Monitor Switcher: lxrandr.
 CLDS: * Add lxrandr key binding.
-CLDS: * Disk size = 6960444K. Space Used = 980K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7025356K. Space Used = 980K. Runtime = 00:00:00:02.

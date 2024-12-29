@@ -14,7 +14,7 @@ After this operation, 1,421 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libiw30 amd64 30~pre9-14 [16.2 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 conky-std amd64 1.18.3-1 [627 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 conky all 1.18.3-1 [19.3 kB]
-Fetched 662 kB in 0s (14.2 MB/s)
+Fetched 662 kB in 0s (14.3 MB/s)
 Selecting previously unselected package libiw30:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115208 files and directories currently installed.)
 Preparing to unpack .../libiw30_30~pre9-14_amd64.deb ...
@@ -44,4 +44,4 @@ CLDS: * Install System Monitor: conky.
 CLDS: * Add conky config file: .
 CLDS: * Set conky to run on JWM startup.
 CLDS: * Add on the fly settings to Conky.
-CLDS: * Disk size = 6949664K. Space Used = 2144K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7014576K. Space Used = 2144K. Runtime = 00:00:00:02.

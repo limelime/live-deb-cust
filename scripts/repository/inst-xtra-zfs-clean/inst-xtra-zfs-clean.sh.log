@@ -10,4 +10,4 @@ CLDS: * ***************************************  AFTER cleaning  ***************
 Filesystem      Size  Used Avail Use% Mounted on
 udev            5.9G     0  5.9G   0% /dev
 CLDS: * Solving E: You don't have enough free space in /var/cache/apt/archives/.
-CLDS: * Disk size = 7436788K. Space Used = -1413396K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 7504676K. Space Used = -1413392K. Runtime = 00:00:00:01.

@@ -10,4 +10,4 @@ The following NEW packages will be installed:
 Inst dctrl-tools (2.24-3+b1 master_bookworm-main bookworm:bookworm [amd64])
 Conf dctrl-tools (2.24-3+b1 master_bookworm-main bookworm:bookworm [amd64])
 CLDS: * 2021-05-01: From dkms (2.8.4-3~bpo10+1), it needs dctrl-tools.
-CLDS: * Disk size = 8441144K. Space Used = 4K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 8506052K. Space Used = 4K. Runtime = 00:00:00:01.

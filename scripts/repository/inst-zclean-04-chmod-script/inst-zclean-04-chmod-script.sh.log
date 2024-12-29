@@ -43,4 +43,4 @@ chmod ./jwm-bootstrap.sh
 chmod ./jwmrc-startup-configure-conky.sh
 chmod ./open-terminals.sh
 CLDS: * Make *.sh under /usr/local/cld/ executable.
-CLDS: * Disk size = 7570268K. Space Used = 12K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 7638156K. Space Used = 12K. Runtime = 00:00:00:01.
