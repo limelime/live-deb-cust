@@ -6,9 +6,9 @@
 	echo $j
 
 # Printf formatting.
-    printf "%10s: %6d\n" 	   "Oil"    "63"     # Field character width.
-    printf "%10s: %'6d\n"    "Gold" "1342"     # Thousand separator.
-    printf "%10s: %'-8.2f\n" "Gas"     "3.236" # Limit to 2 decimal digits: rounds up. Right alignment.
+    printf "%10s: %6d\n"     "Oil"  "63"    # Field character width.
+    printf "%10s: %'6d\n"    "Gold" "1342"  # Thousand separator.
+    printf "%10s: %'-8.2f\n" "Gas"  "3.236" # Limit to 2 decimal digits, rounds up(8.2f). Right alignment(-).
 
 # Print command examples.
     cmd_eg=$(printf "%s\n%s\n%s\n" \

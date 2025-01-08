@@ -49,3 +49,21 @@ systemd-analyze dump
 
 # Debug service: display logs of NetworkManager service
 	journalctl -n 1000 -u NetworkManager
+
+# Service unit: CLD.service.
+    [Unit]
+    Description=CLD: Systemd Start/Stop service.
+
+    [Service]
+    Type=simple
+    ExecStart=/usr/local/cld/systemd/cld-systemd-after-boot.sh
+    ExecStop=/usr/local/cld/systemd/cld-systemd-before-shutdown-halt-reboot.sh
+
+    [Install]
+    WantedBy=multi-user.target
+
+    # Copy CLD.service to /etc/systemd/system/
+    # Script called from ExecStart/Stop need to start with #!/bin/bash
+    # Enable service: systemctl enable CLD.service
+    # Start service: systemctl start CLD.service
+    # Check status service: systemctl status CLD.service

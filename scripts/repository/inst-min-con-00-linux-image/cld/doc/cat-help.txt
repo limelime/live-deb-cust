@@ -45,3 +45,14 @@
     tr a-z A-Z <<< 'one two three'
 
 # Heredoc into a variable, see read.
+
+# Heredoc assigned to a variable, FRON_MATTER.
+FRON_MATTER=$(
+cat << EOF
++++
+title = '${title}'
+date = ${date_iso}
+draft = false
++++
+EOF
+)

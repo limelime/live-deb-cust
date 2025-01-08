@@ -1,3 +1,8 @@
+# If you use space as delimiter, you want to treat multiple spaces as one.
+#   Otherwise, you will get multiple -f.
+    tr -s ' ' | cut -d ' ' -f 2
+    awk '{print $2}'
+
 # Cut using TAB delimiter.
 	cut -d$'\t' -f2
 

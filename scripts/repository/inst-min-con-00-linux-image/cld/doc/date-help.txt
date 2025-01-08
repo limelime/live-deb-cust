@@ -1,18 +1,24 @@
 # Date & time string.
-	date_string=$(date +"%Y-%m-%d.%0k.%M.%S")
-	
+    date_string=$(date +"%Y-%m-%d.%0k.%M.%S")
+    
 # Get total elapsed time.   
-	# Get time as a UNIX timestamp (seconds elapsed since Jan 1, 1970 0:00 UTC).
-		T="$(date +%s)"
-	
-	# Do some work.
-		sleep 3s
-	
-	# Get total elapsed time.
-		T="$(($(date +%s)-T))"
-		printf "Elapsed time: %02d:%02d:%02d:%02d [DD:HH:MM:SS]\n" "$((T/86400))" "$((T/3600%24))" "$((T/60%60))" "$((T%60))"
-		printf "====== [ %s (%02d:%02d:%02d:%02d) ] ===> %s \n" "$(date +'%Y-%m-%d %0k.%M.%S')" "$((T/86400))" "$((T/3600%24))" "$((T/60%60))" "$((T%60))" "some text"
-		
+    # Get time as a UNIX timestamp (seconds elapsed since Jan 1, 1970 0:00 UTC).
+        T="$(date +%s)"
+    
+    # Do some work.
+        sleep 3s
+    
+    # Get total elapsed time.
+        T="$(($(date +%s)-T))"
+        printf "Elapsed time: %02d:%02d:%02d:%02d [DD:HH:MM:SS]\n" "$((T/86400))" "$((T/3600%24))" "$((T/60%60))" "$((T%60))"
+        printf "====== [ %s (%02d:%02d:%02d:%02d) ] ===> %s \n" "$(date +'%Y-%m-%d %0k.%M.%S')" "$((T/86400))" "$((T/3600%24))" "$((T/60%60))" "$((T%60))" "some text"
+
+    # Simple version
+        start=`date +%s`
+            sleep 1s
+        end=`date +%s`
+        runtime=$((end-start))
+
 # Convert string to date
     date -d '20120131' +'%Y-%m-%d'
     date -d '20120131 - 7 days' +'%Y-%m-%d'
