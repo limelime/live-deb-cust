@@ -12,18 +12,6 @@ wmctrl is already the newest version (1.07-7+b1).
 Reading package lists...
 Building dependency tree...
 Reading state information...
-<<<<<<< HEAD
-Some packages could not be installed. This may mean that you have
-requested an impossible situation or if you are using the unstable
-distribution that some required packages have not yet been created
-or been moved out of Incoming.
-The following information may help to resolve the situation:
-
-The following packages have unmet dependencies:
- libglx-mesa0 : Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
-E: Unable to correct problems, you have held broken packages.
-CLDS: * Disk size = 7285632K. Space Used = 4K. Runtime = 00:00:00:02.
-=======
 x11-utils is already the newest version (7.7+5).
 0 upgraded, 0 newly installed, 0 to remove and 17 not upgraded.
 './cld/app/jwm/bootstrap/jwmrc-startup-open-terminals.sh' -> '/usr/local/cld/app/jwm/bootstrap/jwmrc-startup-open-terminals.sh'
@@ -34,5 +22,4 @@ CLDS: * Install x11-xserver-utils for xrandr.
 CLDS: * Install wmctrl.
 CLDS: * Install x11-utils for xprop.
 CLDS: * Make open-terminals.sh run when JWM start.
-CLDS: * Disk size = 8496192K. Space Used = 24K. Runtime = 00:00:00:01.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 8399648K. Space Used = 24K. Runtime = 00:00:00:01.

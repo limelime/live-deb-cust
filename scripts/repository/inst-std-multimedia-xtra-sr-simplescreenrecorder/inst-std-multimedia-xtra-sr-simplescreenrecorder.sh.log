@@ -2,23 +2,6 @@ CLDS:>>>>>>>>> Running inst-std-multimedia-xtra-sr-simplescreenrecorder.sh ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
-<<<<<<< HEAD
-Some packages could not be installed. This may mean that you have
-requested an impossible situation or if you are using the unstable
-distribution that some required packages have not yet been created
-or been moved out of Incoming.
-The following information may help to resolve the situation:
-
-The following packages have unmet dependencies:
- libqt5widgets5 : Depends: libqt5gui5 (>= 5.15.1) but it is not installable or
-                           libqt5gui5-gles (>= 5.15.1) but it is not installable
- libqt5x11extras5 : Depends: libqt5gui5 (>= 5.15.8+dfsg~) but it is not installable or
-                             libqt5gui5-gles (>= 5.15.8+dfsg~) but it is not installable
- simplescreenrecorder : Depends: libqt5gui5 (>= 5.14.1) but it is not installable or
-                                 libqt5gui5-gles (>= 5.14.1) but it is not installable
-E: Unable to correct problems, you have held broken packages.
-CLDS: * Disk size = 6585968K. Space Used = 4K. Runtime = 00:00:00:02.
-=======
 The following additional packages will be installed:
   libavcodec59 libavformat59 libavutil57 libglu1-mesa libmfx1 libopengl0
   libqt5x11extras5 libssh-gcrypt-4 libswscale6 libv4l-0 libv4lconvert0
@@ -45,9 +28,9 @@ Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libv
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libv4l-0 amd64 1.22.1-5+b2 [109 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 simplescreenrecorder-lib amd64 0.4.4-3 [31.2 kB]
 Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 simplescreenrecorder amd64 0.4.4-3 [1,358 kB]
-Fetched 12.2 MB in 0s (76.1 MB/s)
+Fetched 12.2 MB in 0s (89.1 MB/s)
 Selecting previously unselected package libmfx1:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114991 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114993 files and directories currently installed.)
 Preparing to unpack .../00-libmfx1_22.5.4-1_amd64.deb ...
 Unpacking libmfx1:amd64 (22.5.4-1) ...
 Selecting previously unselected package libavutil57:amd64.
@@ -103,5 +86,4 @@ Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install simplescreenrecorder.
-CLDS: * Disk size = 7012332K. Space Used = 64972K. Runtime = 00:00:00:03.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 6915812K. Space Used = 64976K. Runtime = 00:00:00:04.

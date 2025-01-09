@@ -2,20 +2,6 @@ CLDS:>>>>>>>>> Running inst-std-multimedia-mpv.sh ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
-<<<<<<< HEAD
-Some packages could not be installed. This may mean that you have
-requested an impossible situation or if you are using the unstable
-distribution that some required packages have not yet been created
-or been moved out of Incoming.
-The following information may help to resolve the situation:
-
-The following packages have unmet dependencies:
- libegl-mesa0 : Depends: libgbm1 (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
-                Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
- libglx-mesa0 : Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
-E: Unable to correct problems, you have held broken packages.
-'./cld/bashrc.d/bashrc-alias-mpv.sh' -> '/usr/local/cld/bashrc.d/bashrc-alias-mpv.sh'
-=======
 The following additional packages will be installed:
   libarchive13 libaribb24-0 libass9 libavc1394-0 libavcodec60 libavdevice60
   libavfilter9 libavformat60 libavutil58 libbluray2 libbs2b0 libcaca0
@@ -165,9 +151,9 @@ Get:98 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libx
 Get:99 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 vapoursynth-ffms2 amd64 1:2.40+20211209.git90975ec-dmo4 [13.7 kB]
 Get:100 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 vapoursynth amd64 62-dmo1 [867 kB]
 Get:101 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 mpv amd64 1:0.35.1-dmo5 [1,212 kB]
-Fetched 58.0 MB in 1s (78.2 MB/s)
+Fetched 58.0 MB in 1s (75.4 MB/s)
 Selecting previously unselected package libarchive13:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113930 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113932 files and directories currently installed.)
 Preparing to unpack .../000-libarchive13_3.6.2-1+deb12u1_amd64.deb ...
 Unpacking libarchive13:amd64 (3.6.2-1+deb12u1) ...
 Selecting previously unselected package libaribb24-0:amd64.
@@ -574,21 +560,12 @@ Setting up mpv (1:0.35.1-dmo5) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+'./cld/bashrc.d/bashrc-alias-mpv.sh' -> '/usr/local/cld/bashrc.d/bashrc-alias-mpv.sh'
 './cld/doc/mpv-help.txt' -> '/usr/local/cld/doc/mpv-help.txt'
 './cld/home/.config/mpv' -> '/usr/local/cld/home/.config/mpv'
-'./cld/home/.config/mpv/mpv.conf' -> '/usr/local/cld/home/.config/mpv/mpv.conf'
-<<<<<<< HEAD
-/root/scripts/repository/inst-std-multimedia-mpv/inst-std-multimedia-mpv.sh: line 19: mpv: command not found
-CLDS: * Install Media Player: .
-CLDS: * Add multiple aliases for MPV.
-CLDS: * Add useful mpv keybindings settings.
-CLDS: * Disk size = 6585672K. Space Used = 24K. Runtime = 00:00:00:02.
-=======
 './cld/home/.config/mpv/input.conf' -> '/usr/local/cld/home/.config/mpv/input.conf'
-'./cld/bashrc.d/bashrc-alias-mpv.sh' -> '/usr/local/cld/bashrc.d/bashrc-alias-mpv.sh'
+'./cld/home/.config/mpv/mpv.conf' -> '/usr/local/cld/home/.config/mpv/mpv.conf'
 CLDS: * Install Media Player: mpv 0.35.1 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects.
 CLDS: * Add multiple aliases for MPV.
 CLDS: * Add useful mpv keybindings settings.
-CLDS: * Disk size = 6940988K. Space Used = 218836K. Runtime = 00:00:00:16.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 6844476K. Space Used = 218844K. Runtime = 00:00:00:15.

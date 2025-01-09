@@ -10,20 +10,6 @@ Conf xdg-dbus-proxy (0.1.4-3 master_bookworm-main bookworm:bookworm [amd64])
 Reading package lists...
 Building dependency tree...
 Reading state information...
-<<<<<<< HEAD
-Some packages could not be installed. This may mean that you have
-requested an impossible situation or if you are using the unstable
-distribution that some required packages have not yet been created
-or been moved out of Incoming.
-The following information may help to resolve the situation:
-
-The following packages have unmet dependencies:
- libegl-mesa0 : Depends: libgbm1 (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
-                Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
- libglx-mesa0 : Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
-E: Unable to correct problems, you have held broken packages.
-CLDS: * Disk size = 7136244K. Space Used = 8K. Runtime = 00:00:00:02.
-=======
 The following additional packages will be installed:
   bubblewrap dictionaries-common emacsen-common gstreamer1.0-plugins-base
   gstreamer1.0-plugins-good hunspell-en-us libaa1 libaspell15 libcdparanoia0
@@ -88,9 +74,9 @@ Get:32 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xdg-
 Get:33 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwoff1 amd64 1.0.2-2 [43.0 kB]
 Get:34 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 libwebkit2gtk-4.0-37 amd64 2.46.1-2~bpo12+1 [23.2 MB]
 Preconfiguring packages ...
-Fetched 39.2 MB in 0s (87.1 MB/s)
+Fetched 39.2 MB in 0s (120 MB/s)
 Selecting previously unselected package bubblewrap.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121516 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121518 files and directories currently installed.)
 Preparing to unpack .../00-bubblewrap_0.8.0-2+deb12u1_amd64.deb ...
 Unpacking bubblewrap (0.8.0-2+deb12u1) ...
 Selecting previously unselected package emacsen-common.
@@ -231,5 +217,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for dictionaries-common (1.29.5) ...
 CLDS: * Install libwebkit2gtk-4.0-37.
 CLDS: * To be able to render *.md files.
-CLDS: * Disk size = 8348248K. Space Used = 171784K. Runtime = 00:00:00:07.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 8251704K. Space Used = 171792K. Runtime = 00:00:00:08.

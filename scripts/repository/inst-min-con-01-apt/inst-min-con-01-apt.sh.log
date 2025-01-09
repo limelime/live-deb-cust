@@ -2,8 +2,4 @@ CLDS:>>>>>>>>> Running inst-min-con-01-apt.sh ...
 'preferences-local-repository' -> '/etc/apt/preferences.d/preferences-local-repository'
 CLDS: * Set APT to use local repository first.
 CLDS: * Set APT to skip installing recommended packages.
-<<<<<<< HEAD
-CLDS: * Disk size = 891336K. Space Used = 12K. Runtime = 00:00:00:00.
-=======
-CLDS: * Disk size = 988332K. Space Used = 12K. Runtime = 00:00:00:00.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 891260K. Space Used = 12K. Runtime = 00:00:00:00.

@@ -5,12 +5,11 @@ Reading state information...
 The following additional packages will be installed:
   gdisk libatasmart4 libblockdev-fs2 libblockdev-loop2 libblockdev-part-err2
   libblockdev-part2 libblockdev-swap2 libblockdev-utils2 libblockdev2
-  libcanberra-gtk3-0 libcanberra0 libcrack2 libdvdread8 libltdl7
-  libparted-fs-resize0 libpwquality-common libpwquality1 libsecret-1-0
-  libsecret-common libtdb1 libudisks2-0 libvorbisfile3 sound-theme-freedesktop
-  udisks2
+  libcanberra-gtk3-0 libcanberra0 libcrack2 libltdl7 libparted-fs-resize0
+  libpwquality-common libpwquality1 libsecret-1-0 libsecret-common
+  libudisks2-0 sound-theme-freedesktop udisks2
 Suggested packages:
-  libcanberra-gtk0 libcanberra-pulse libdvdcss2 libparted-dev f2fs-tools
+  libcanberra-gtk0 libcanberra-pulse libparted-dev f2fs-tools
   libblockdev-mdraid2 mdadm nilfs-tools reiserfsprogs udftools udisks2-bcache
   udisks2-btrfs udisks2-lvm2 udisks2-zram xfsprogs
 Recommended packages:
@@ -19,20 +18,12 @@ Recommended packages:
 The following NEW packages will be installed:
   gdisk gnome-disk-utility libatasmart4 libblockdev-fs2 libblockdev-loop2
   libblockdev-part-err2 libblockdev-part2 libblockdev-swap2 libblockdev-utils2
-  libblockdev2 libcanberra-gtk3-0 libcanberra0 libcrack2 libdvdread8 libltdl7
+  libblockdev2 libcanberra-gtk3-0 libcanberra0 libcrack2 libltdl7
   libparted-fs-resize0 libpwquality-common libpwquality1 libsecret-1-0
-<<<<<<< HEAD
-  libsecret-common libtdb1 libudisks2-0 libvorbisfile3 sound-theme-freedesktop
-  udisks2
-0 upgraded, 25 newly installed, 0 to remove and 16 not upgraded.
-Need to get 3,200 kB of archives.
-After this operation, 15.2 MB of additional disk space will be used.
-=======
   libsecret-common libudisks2-0 sound-theme-freedesktop udisks2
 0 upgraded, 22 newly installed, 0 to remove and 16 not upgraded.
 Need to get 3,037 kB of archives.
 After this operation, 14.8 MB of additional disk space will be used.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gdisk amd64 1.0.9-2.1 [221 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libblockdev-part-err2 amd64 2.28-2 [5,572 B]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libblockdev-utils2 amd64 2.28-2 [15.2 kB]
@@ -46,23 +37,6 @@ Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libb
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libudisks2-0 amd64 2.9.4-4 [147 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 udisks2 amd64 2.9.4-4 [402 kB]
 Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libltdl7 amd64 2.4.7-7~deb12u1 [393 kB]
-<<<<<<< HEAD
-Get:14 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 libtdb1 amd64 1.4.12-1~bpo12+1 [45.1 kB]
-Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvorbisfile3 amd64 1.3.7-1 [26.1 kB]
-Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 sound-theme-freedesktop all 0.8-2 [384 kB]
-Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcanberra0 amd64 0.30-10 [41.3 kB]
-Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcanberra-gtk3-0 amd64 0.30-10 [12.7 kB]
-Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libdvdread8 amd64 6.1.3-1 [91.9 kB]
-Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcrack2 amd64 2.9.6-5+b1 [44.0 kB]
-Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpwquality-common all 1.4.5-1 [51.3 kB]
-Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpwquality1 amd64 1.4.5-1+b1 [12.8 kB]
-Get:23 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-common all 0.20.5-3 [28.5 kB]
-Get:24 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-1-0 amd64 0.20.5-3 [115 kB]
-Get:25 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-disk-utility amd64 43.0-1 [1,003 kB]
-Fetched 3,200 kB in 0s (8,930 kB/s)
-Selecting previously unselected package gdisk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114807 files and directories currently installed.)
-=======
 Get:14 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 sound-theme-freedesktop all 0.8-2 [384 kB]
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcanberra0 amd64 0.30-10 [41.3 kB]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcanberra-gtk3-0 amd64 0.30-10 [12.7 kB]
@@ -72,10 +46,9 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-common all 0.20.5-3 [28.5 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-1-0 amd64 0.20.5-3 [115 kB]
 Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-disk-utility amd64 43.0-1 [1,003 kB]
-Fetched 3,037 kB in 0s (32.5 MB/s)
+Fetched 3,037 kB in 0s (77.5 MB/s)
 Selecting previously unselected package gdisk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115236 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115238 files and directories currently installed.)
 Preparing to unpack .../00-gdisk_1.0.9-2.1_amd64.deb ...
 Unpacking gdisk (1.0.9-2.1) ...
 Selecting previously unselected package libblockdev-part-err2:amd64.
@@ -114,47 +87,35 @@ Unpacking udisks2 (2.9.4-4) ...
 Selecting previously unselected package libltdl7:amd64.
 Preparing to unpack .../12-libltdl7_2.4.7-7~deb12u1_amd64.deb ...
 Unpacking libltdl7:amd64 (2.4.7-7~deb12u1) ...
-Selecting previously unselected package libtdb1:amd64.
-Preparing to unpack .../13-libtdb1_1.4.12-1~bpo12+1_amd64.deb ...
-Unpacking libtdb1:amd64 (1.4.12-1~bpo12+1) ...
-Selecting previously unselected package libvorbisfile3:amd64.
-Preparing to unpack .../14-libvorbisfile3_1.3.7-1_amd64.deb ...
-Unpacking libvorbisfile3:amd64 (1.3.7-1) ...
 Selecting previously unselected package sound-theme-freedesktop.
-Preparing to unpack .../15-sound-theme-freedesktop_0.8-2_all.deb ...
+Preparing to unpack .../13-sound-theme-freedesktop_0.8-2_all.deb ...
 Unpacking sound-theme-freedesktop (0.8-2) ...
 Selecting previously unselected package libcanberra0:amd64.
-Preparing to unpack .../16-libcanberra0_0.30-10_amd64.deb ...
+Preparing to unpack .../14-libcanberra0_0.30-10_amd64.deb ...
 Unpacking libcanberra0:amd64 (0.30-10) ...
 Selecting previously unselected package libcanberra-gtk3-0:amd64.
-Preparing to unpack .../17-libcanberra-gtk3-0_0.30-10_amd64.deb ...
+Preparing to unpack .../15-libcanberra-gtk3-0_0.30-10_amd64.deb ...
 Unpacking libcanberra-gtk3-0:amd64 (0.30-10) ...
-Selecting previously unselected package libdvdread8:amd64.
-Preparing to unpack .../18-libdvdread8_6.1.3-1_amd64.deb ...
-Unpacking libdvdread8:amd64 (6.1.3-1) ...
 Selecting previously unselected package libcrack2:amd64.
-Preparing to unpack .../19-libcrack2_2.9.6-5+b1_amd64.deb ...
+Preparing to unpack .../16-libcrack2_2.9.6-5+b1_amd64.deb ...
 Unpacking libcrack2:amd64 (2.9.6-5+b1) ...
 Selecting previously unselected package libpwquality-common.
-Preparing to unpack .../20-libpwquality-common_1.4.5-1_all.deb ...
+Preparing to unpack .../17-libpwquality-common_1.4.5-1_all.deb ...
 Unpacking libpwquality-common (1.4.5-1) ...
 Selecting previously unselected package libpwquality1:amd64.
-Preparing to unpack .../21-libpwquality1_1.4.5-1+b1_amd64.deb ...
+Preparing to unpack .../18-libpwquality1_1.4.5-1+b1_amd64.deb ...
 Unpacking libpwquality1:amd64 (1.4.5-1+b1) ...
 Selecting previously unselected package libsecret-common.
-Preparing to unpack .../22-libsecret-common_0.20.5-3_all.deb ...
+Preparing to unpack .../19-libsecret-common_0.20.5-3_all.deb ...
 Unpacking libsecret-common (0.20.5-3) ...
 Selecting previously unselected package libsecret-1-0:amd64.
-Preparing to unpack .../23-libsecret-1-0_0.20.5-3_amd64.deb ...
+Preparing to unpack .../20-libsecret-1-0_0.20.5-3_amd64.deb ...
 Unpacking libsecret-1-0:amd64 (0.20.5-3) ...
 Selecting previously unselected package gnome-disk-utility.
-Preparing to unpack .../24-gnome-disk-utility_43.0-1_amd64.deb ...
+Preparing to unpack .../21-gnome-disk-utility_43.0-1_amd64.deb ...
 Unpacking gnome-disk-utility (43.0-1) ...
 Setting up libpwquality-common (1.4.5-1) ...
-Setting up libtdb1:amd64 (1.4.12-1~bpo12+1) ...
 Setting up gdisk (1.0.9-2.1) ...
-Setting up libvorbisfile3:amd64 (1.3.7-1) ...
-Setting up libdvdread8:amd64 (6.1.3-1) ...
 Setting up libatasmart4:amd64 (0.19-5) ...
 Setting up libblockdev-utils2:amd64 (2.28-2) ...
 Setting up libltdl7:amd64 (2.4.7-7~deb12u1) ...
@@ -185,8 +146,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install Partition Manager: gnome-disk-utility.
 CLDS: * Run: gnome-disks.
 CLDS: * Insert gnome-disk-utility menu in Administration.
-<<<<<<< HEAD
-CLDS: * Disk size = 6598632K. Space Used = 10408K. Runtime = 00:00:00:07.
-=======
-CLDS: * Disk size = 7024372K. Space Used = 9796K. Runtime = 00:00:00:04.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 6927844K. Space Used = 9788K. Runtime = 00:00:00:03.

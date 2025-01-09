@@ -5,8 +5,4 @@ CLDS:>>>>>>>>> Running inst-min-win-jwm-keyboard-move-mouse.sh ...
 CLDS: * Setup X Window to allow keyboard to move mouse.
 CLDS: * Press Left Shift+NumLock.
 CLDS: * Press on numpad keys to move the mouse.
-<<<<<<< HEAD
-CLDS: * Disk size = 4730940K. Space Used = 16K. Runtime = 00:00:00:02.
-=======
-CLDS: * Disk size = 5040052K. Space Used = 24K. Runtime = 00:00:00:01.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 4943236K. Space Used = 24K. Runtime = 00:00:00:01.

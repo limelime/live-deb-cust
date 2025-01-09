@@ -19,15 +19,9 @@ Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libmt
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libusb-1.0-0 amd64 2:1.0.26-1 [62.6 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libmtp9 amd64 1.1.20-1 [214 kB]
 Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 jmtpfs amd64 0.5-4 [41.9 kB]
-<<<<<<< HEAD
-Fetched 786 kB in 0s (13.2 MB/s)
+Fetched 786 kB in 0s (13.9 MB/s)
 Selecting previously unselected package libmagic-mgc.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20737 files and directories currently installed.)
-=======
-Fetched 786 kB in 0s (8,867 kB/s)
-Selecting previously unselected package libmagic-mgc.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20735 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../0-libmagic-mgc_1%3a5.44-3_amd64.deb ...
 Unpacking libmagic-mgc (1:5.44-3) ...
 Selecting previously unselected package libmagic1:amd64.
@@ -53,16 +47,12 @@ Setting up libmtp9:amd64 (1.1.20-1) ...
 Setting up jmtpfs (0.5-4) ...
 Processing triggers for udev (252.31-1~deb12u1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
-'./cld/doc/smartphone-help.txt' -> '/usr/local/cld/doc/smartphone-help.txt'
 './cld/doc/phone-help.txt' -> '/usr/local/cld/doc/phone-help.txt'
+'./cld/doc/smartphone-help.txt' -> '/usr/local/cld/doc/smartphone-help.txt'
 CLDS: * Install jmtpfs to mount smartphones that use Media Transfer Protocol(MTP).
 CLDS: *   # Connect your smartphone.
 CLDS: *   mkdir /path/to/your/mount/directory/
 CLDS: *   jmtpfs -o allow_other /path/to/your/mount/directory/
 CLDS: *   # Enter your PIN to unlock your smartphone.
 CLDS: *   cd /path/to/your/mount/directory/
-<<<<<<< HEAD
-CLDS: * Disk size = 1577980K. Space Used = 10540K. Runtime = 00:00:00:02.
-=======
-CLDS: * Disk size = 1674800K. Space Used = 10540K. Runtime = 00:00:00:01.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 1577900K. Space Used = 10540K. Runtime = 00:00:00:02.

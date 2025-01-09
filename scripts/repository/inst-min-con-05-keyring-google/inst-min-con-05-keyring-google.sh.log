@@ -1,6 +1,2 @@
 CLDS:>>>>>>>>> Running inst-min-con-05-keyring-google.sh ...
-<<<<<<< HEAD
-CLDS: * Disk size = 1005896K. Space Used = 8K. Runtime = 00:00:00:01.
-=======
-CLDS: * Disk size = 1102888K. Space Used = 8K. Runtime = 00:00:00:00.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 1005820K. Space Used = 8K. Runtime = 00:00:00:00.

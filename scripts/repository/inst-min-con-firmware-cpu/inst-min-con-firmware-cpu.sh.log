@@ -8,15 +8,9 @@ The following NEW packages will be installed:
 Need to get 174 kB of archives.
 After this operation, 506 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 amd64-microcode amd64 3.20240820.1~deb12u1 [174 kB]
-<<<<<<< HEAD
-Fetched 174 kB in 0s (13.6 MB/s)
+Fetched 174 kB in 0s (6,127 kB/s)
 Selecting previously unselected package amd64-microcode.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18037 files and directories currently installed.)
-=======
-Fetched 174 kB in 0s (3,883 kB/s)
-Selecting previously unselected package amd64-microcode.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18035 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../amd64-microcode_3.20240820.1~deb12u1_amd64.deb ...
 Unpacking amd64-microcode (3.20240820.1~deb12u1) ...
 Setting up amd64-microcode (3.20240820.1~deb12u1) ...
@@ -35,15 +29,9 @@ Need to get 7,054 kB of archives.
 After this operation, 14.2 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 iucode-tool amd64 2.3.1-3 [56.1 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 intel-microcode amd64 3.20240910.1~deb12u1 [6,998 kB]
-<<<<<<< HEAD
-Fetched 7,054 kB in 0s (103 MB/s)
+Fetched 7,054 kB in 0s (93.3 MB/s)
 Selecting previously unselected package iucode-tool.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18062 files and directories currently installed.)
-=======
-Fetched 7,054 kB in 0s (75.0 MB/s)
-Selecting previously unselected package iucode-tool.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18060 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../iucode-tool_2.3.1-3_amd64.deb ...
 Unpacking iucode-tool (2.3.1-3) ...
 Selecting previously unselected package intel-microcode.
@@ -58,8 +46,4 @@ W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install CPU firmware: amd64-microcode.
 CLDS: * Install CPU firmware: intel-microcode.
-<<<<<<< HEAD
-CLDS: * Disk size = 1061368K. Space Used = 29488K. Runtime = 00:00:00:46.
-=======
-CLDS: * Disk size = 1158180K. Space Used = 29492K. Runtime = 00:00:01:06.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 1061292K. Space Used = 29492K. Runtime = 00:00:00:39.

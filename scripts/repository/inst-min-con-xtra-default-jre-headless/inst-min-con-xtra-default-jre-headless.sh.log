@@ -40,15 +40,9 @@ Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libh
 Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openjdk-17-jre-headless amd64 17.0.13+11-2~deb12u1 [43.8 MB]
 Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 default-jre-headless amd64 2:1.17-74 [2,936 B]
 Preconfiguring packages ...
-<<<<<<< HEAD
-Fetched 50.5 MB in 1s (84.2 MB/s)
+Fetched 50.5 MB in 1s (70.4 MB/s)
 Selecting previously unselected package ca-certificates-java.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45113 files and directories currently installed.)
-=======
-Fetched 50.5 MB in 1s (90.7 MB/s)
-Selecting previously unselected package ca-certificates-java.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45111 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../00-ca-certificates-java_20230710~deb12u1_all.deb ...
 Unpacking ca-certificates-java (20230710~deb12u1) ...
 Selecting previously unselected package java-common.
@@ -279,8 +273,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install openjdk version "17.0.13" 2024-10-15.
 CLDS: * To install JAVA binary: https://wiki.debian.org/JavaPackage.
 CLDS: * JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/bin/java".
-<<<<<<< HEAD
-CLDS: * Disk size = 2573836K. Space Used = 253452K. Runtime = 00:00:00:09.
-=======
-CLDS: * Disk size = 2670688K. Space Used = 253460K. Runtime = 00:00:00:07.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 2573760K. Space Used = 253452K. Runtime = 00:00:00:08.

@@ -38,11 +38,7 @@ Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg-
 Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpg-wks-server amd64 2.2.40-1.1 [531 kB]
 Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gpgsm amd64 2.2.40-1.1 [671 kB]
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnupg all 2.2.40-1.1 [846 kB]
-<<<<<<< HEAD
-Fetched 10.0 MB in 0s (75.0 MB/s)
-=======
-Fetched 10.0 MB in 0s (70.8 MB/s)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+Fetched 10.0 MB in 0s (65.2 MB/s)
 Selecting previously unselected package libpsl5:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17087 files and directories currently installed.)
 Preparing to unpack .../00-libpsl5_0.21.2-1_amd64.deb ...
@@ -131,8 +127,4 @@ Setting up gpg-wks-client (2.2.40-1.1) ...
 Setting up gnupg (2.2.40-1.1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install gnupg to manage and create keys.
-<<<<<<< HEAD
-CLDS: * Disk size = 1005832K. Space Used = 25460K. Runtime = 00:00:00:04.
-=======
-CLDS: * Disk size = 1102824K. Space Used = 25456K. Runtime = 00:00:00:02.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 1005756K. Space Used = 25460K. Runtime = 00:00:00:03.

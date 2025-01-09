@@ -2,15 +2,41 @@ CLDS:>>>>>>>>> Running inst-xtra-zfs-dkms.sh ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
+The following packages were automatically installed and are no longer required:
+  blender-data bubblewrap dictionaries-common emacsen-common fonts-dejavu
+  gdal-data gdal-plugins hunspell-en-us iso-codes libaa1 libaec0
+  libarmadillo11 libarpack2 libaspell15 libavdevice59 libavfilter8 libblosc1
+  libboost-iostreams1.74.0 libboost-locale1.74.0 libboost-thread1.74.0
+  libcdparanoia0 libcfitsio10 libcharls2 libdcmtk17 libdv4 libembree3-3
+  libenchant-2-2 libfreexl1 libfyba0 libgdal32 libgdcm3.0 libgeos-c1v5
+  libgeos3.11.1 libgeotiff5 libgfortran5 libgles2 libgphoto2-6
+  libgphoto2-port12 libgssdp-1.6-0 libgupnp-1.6-0 libgupnp-igd-1.0-4
+  libharfbuzz-icu0 libhdf4-0-alt libhdf5-103-1 libhdf5-hl-100
+  libhunspell-1.7-0 libhwloc15 libhyphen0 libimath-3-1-29
+  libjavascriptcoregtk-4.0-18 libkmlbase1 libkmldom1 libkmlengine1 liblapack3
+  liblog4cplus-2.0.5 libmanette-0.2-0 libminizip1 libnetcdf19 libnice10
+  libodbc2 libodbcinst2 libogdi4.1 libopencolorio2.1 libopencv-core406
+  libopencv-imgcodecs406 libopencv-imgproc406 libopenexr-3-1-30 libopenvdb10.0
+  liborc-0.4-0 libosdcpu3.5.0 libosdgpu3.5.0 libpcre3 libplacebo208
+  libpocketsphinx3 libpostproc56 libpotrace0 libpq5 libproj25 libpugixml1v5
+  libpystring0 libqhull-r8.0 libraw20 librttopo1 libshout3 libsocket++1
+  libsoup2.4-1 libsoup2.4-common libspatialite7 libsphinxbase3 libspnav0
+  libsuperlu5 libsz2 libtag1v5 libtag1v5-vanilla libtbb12 libtbbbind-2-5
+  libtbbmalloc2 liburiparser1 libvidstab1.1 libvisual-0.4-0 libwavpack1
+  libwoff1 libxerces-c3.2 libyaml-cpp0.7 proj-data unixodbc-common
+  xdg-dbus-proxy
+Use 'apt autoremove' to remove them.
 The following additional packages will be installed:
   libelf1 libzstd-dev
+The following packages will be REMOVED:
+  blender gstreamer1.0-plugins-base gstreamer1.0-plugins-good libdw1
+  libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libopencv-videoio406
+  libopenimageio2.4 libwebkit2gtk-4.0-37
 The following NEW packages will be installed:
   libelf-dev libzstd-dev
 The following packages will be upgraded:
   libelf1
-<<<<<<< HEAD
-1 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
-=======
 1 upgraded, 2 newly installed, 11 to remove and 16 not upgraded.
 Remv blender [3.4.1+dfsg-2+b1]
 Remv libwebkit2gtk-4.0-37 [2.46.1-2~bpo12+1]
@@ -23,7 +49,6 @@ Remv libgstreamer-gl1.0-0 [1.22.0-3+deb12u2]
 Remv libgstreamer-plugins-base1.0-0 [1.22.0-3+deb12u2]
 Remv libgstreamer1.0-0 [1.22.0-2]
 Remv libdw1 [0.188-2.1]
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Inst libelf1 [0.188-2.1] (0.191-1~bpo12+1 master_bookworm-backports-main bookworm-backports:bookworm-backports [amd64])
 Inst libzstd-dev (1.5.4+dfsg2-5 master_bookworm-main bookworm:bookworm [amd64])
 Inst libelf-dev (0.191-1~bpo12+1 master_bookworm-backports-main bookworm-backports:bookworm-backports [amd64])
@@ -41,15 +66,9 @@ The following NEW packages will be installed:
 Need to get 1,416 B of archives.
 After this operation, 13.3 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-headers-amd64 amd64 6.11.10-1~bpo12+1 [1,416 B]
-<<<<<<< HEAD
-Fetched 1,416 B in 0s (134 kB/s)
+Fetched 1,416 B in 0s (0 B/s)
 Selecting previously unselected package linux-headers-amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 142437 files and directories currently installed.)
-=======
-Fetched 1,416 B in 0s (32.1 kB/s)
-Selecting previously unselected package linux-headers-amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148355 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148357 files and directories currently installed.)
 Preparing to unpack .../linux-headers-amd64_6.11.10-1~bpo12+1_amd64.deb ...
 Unpacking linux-headers-amd64 (6.11.10-1~bpo12+1) ...
 Setting up linux-headers-amd64 (6.11.10-1~bpo12+1) ...
@@ -74,15 +93,9 @@ The following NEW packages will be installed:
 Need to get 102 kB of archives.
 After this operation, 416 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 module-assistant all 0.11.11 [102 kB]
-<<<<<<< HEAD
-Fetched 102 kB in 0s (3,952 kB/s)
+Fetched 102 kB in 0s (0 B/s)
 Selecting previously unselected package module-assistant.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 142439 files and directories currently installed.)
-=======
-Fetched 102 kB in 0s (3,207 kB/s)
-Selecting previously unselected package module-assistant.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148357 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148359 files and directories currently installed.)
 Preparing to unpack .../module-assistant_0.11.11_all.deb ...
 Unpacking module-assistant (0.11.11) ...
 Setting up module-assistant (0.11.11) ...
@@ -120,15 +133,9 @@ After this operation, 18.2 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 file amd64 1:5.44-3 [42.5 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports/contrib amd64 zfs-dkms all 2.2.7-1~bpo12+1 [2,378 kB]
 Preconfiguring packages ...
-<<<<<<< HEAD
-Fetched 2,421 kB in 0s (68.7 MB/s)
+Fetched 2,421 kB in 0s (94.6 MB/s)
 Selecting previously unselected package file.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 142492 files and directories currently installed.)
-=======
-Fetched 2,421 kB in 0s (37.8 MB/s)
-Selecting previously unselected package file.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148410 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 148412 files and directories currently installed.)
 Preparing to unpack .../file_1%3a5.44-3_amd64.deb ...
 Unpacking file (1:5.44-3) ...
 Selecting previously unselected package zfs-dkms.
@@ -154,11 +161,7 @@ Running module version sanity check.
    - No original module exists within this kernel
  - Installation
    - Installing to /lib/modules/6.11.10+bpo-amd64/updates/dkms/
-<<<<<<< HEAD
-depmod......
-=======
 depmod.....
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Processing triggers for initramfs-tools (0.142+deb12u1) ...
 update-initramfs: Generating /boot/initrd.img-6.11.10+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
@@ -184,15 +187,9 @@ Get:3 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-bac
 Get:4 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports/contrib amd64 libzpool5linux amd64 2.2.7-1~bpo12+1 [1,341 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports/contrib amd64 zfsutils-linux amd64 2.2.7-1~bpo12+1 [564 kB]
 Get:6 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports/contrib amd64 zfs-initramfs all 2.2.7-1~bpo12+1 [36.7 kB]
-<<<<<<< HEAD
-Fetched 2,285 kB in 0s (60.2 MB/s)
+Fetched 2,285 kB in 0s (76.0 MB/s)
 Selecting previously unselected package libnvpair3linux.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 143461 files and directories currently installed.)
-=======
-Fetched 2,285 kB in 0s (22.5 MB/s)
-Selecting previously unselected package libnvpair3linux.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 149379 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 149381 files and directories currently installed.)
 Preparing to unpack .../0-libnvpair3linux_2.2.7-1~bpo12+1_amd64.deb ...
 Unpacking libnvpair3linux (2.2.7-1~bpo12+1) ...
 Selecting previously unselected package libuutil3linux.
@@ -244,8 +241,4 @@ CLDS: * Install instructions: https://github.com/zfsonlinux/zfs/wiki/Debian
 CLDS: * Install zfs-dkms: version: 2.2.7-1~bpo12+1, DKMS style package. DKMS vs KMOD, see http://zfsonlinux.org/generic-deb.html
 CLDS: * Install zfs-initramfs to be able to boot from ZFS.
 CLDS: * Import existing ZFS partitions: zpool import -a
-<<<<<<< HEAD
-CLDS: * Disk size = 6668676K. Space Used = 46096K. Runtime = 00:00:10:56.
-=======
-CLDS: * Disk size = 7557336K. Space Used = 46108K. Runtime = 00:00:04:51.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 7461532K. Space Used = 46112K. Runtime = 00:00:06:24.

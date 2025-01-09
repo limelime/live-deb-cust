@@ -2,49 +2,20 @@ CLDS:>>>>>>>>> Running inst-std-system-monitor-switcher-lxrandr.sh ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
-The following additional packages will be installed:
-  libxaw7 libxmuu1 libxxf86vm1
 Suggested packages:
   nickle cairo-5c xorg-docs-core
 The following NEW packages will be installed:
-<<<<<<< HEAD
-  libxaw7 libxmuu1 libxxf86vm1 x11-xserver-utils
-0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
-Need to get 415 kB of archives.
-After this operation, 1,228 kB of additional disk space will be used.
-Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxaw7 amd64 2:1.0.14-1 [201 kB]
-Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxmuu1 amd64 2:1.1.3-3 [23.9 kB]
-Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxxf86vm1 amd64 1:1.1.4-1+b2 [20.8 kB]
-Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 x11-xserver-utils amd64 7.7+9+b1 [169 kB]
-Fetched 415 kB in 0s (28.2 MB/s)
-Selecting previously unselected package libxaw7:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115347 files and directories currently installed.)
-Preparing to unpack .../libxaw7_2%3a1.0.14-1_amd64.deb ...
-Unpacking libxaw7:amd64 (2:1.0.14-1) ...
-Selecting previously unselected package libxmuu1:amd64.
-Preparing to unpack .../libxmuu1_2%3a1.1.3-3_amd64.deb ...
-Unpacking libxmuu1:amd64 (2:1.1.3-3) ...
-Selecting previously unselected package libxxf86vm1:amd64.
-Preparing to unpack .../libxxf86vm1_1%3a1.1.4-1+b2_amd64.deb ...
-Unpacking libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
-Selecting previously unselected package x11-xserver-utils.
-=======
   x11-xserver-utils
 0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
 Need to get 169 kB of archives.
 After this operation, 590 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 x11-xserver-utils amd64 7.7+9+b1 [169 kB]
-Fetched 169 kB in 0s (4,556 kB/s)
+Fetched 169 kB in 0s (14.1 MB/s)
 Selecting previously unselected package x11-xserver-utils.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115756 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115758 files and directories currently installed.)
 Preparing to unpack .../x11-xserver-utils_7.7+9+b1_amd64.deb ...
 Unpacking x11-xserver-utils (7.7+9+b1) ...
-Setting up libxaw7:amd64 (2:1.0.14-1) ...
-Setting up libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
-Setting up libxmuu1:amd64 (2:1.1.3-3) ...
 Setting up x11-xserver-utils (7.7+9+b1) ...
-Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for menu (2.1.49) ...
 Reading package lists...
 Building dependency tree...
@@ -55,15 +26,9 @@ The following NEW packages will be installed:
 Need to get 52.1 kB of archives.
 After this operation, 411 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 lxrandr amd64 0.3.2-1.1 [52.1 kB]
-<<<<<<< HEAD
-Fetched 52.1 kB in 0s (4,823 kB/s)
+Fetched 52.1 kB in 0s (0 B/s)
 Selecting previously unselected package lxrandr.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115407 files and directories currently installed.)
-=======
-Fetched 52.1 kB in 0s (1,438 kB/s)
-Selecting previously unselected package lxrandr.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115795 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115797 files and directories currently installed.)
 Preparing to unpack .../lxrandr_0.3.2-1.1_amd64.deb ...
 Unpacking lxrandr (0.3.2-1.1) ...
 Setting up lxrandr (0.3.2-1.1) ...
@@ -71,8 +36,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 './cld/doc/monitor-help.txt' -> '/usr/local/cld/doc/monitor-help.txt'
 CLDS: * Install Monitor Switcher: lxrandr.
 CLDS: * Add lxrandr key binding.
-<<<<<<< HEAD
-CLDS: * Disk size = 6600536K. Space Used = 1900K. Runtime = 00:00:00:04.
-=======
-CLDS: * Disk size = 7025356K. Space Used = 980K. Runtime = 00:00:00:02.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 6928824K. Space Used = 972K. Runtime = 00:00:00:02.

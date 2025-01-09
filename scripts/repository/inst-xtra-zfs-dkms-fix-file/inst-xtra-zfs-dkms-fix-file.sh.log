@@ -8,8 +8,4 @@ The following NEW packages will be installed:
 Inst file (1:5.44-3 master_bookworm-main bookworm:bookworm [amd64])
 Conf file (1:5.44-3 master_bookworm-main bookworm:bookworm [amd64])
 CLDS: * Install file.
-<<<<<<< HEAD
-CLDS: * Disk size = 6622580K. Space Used = 6552K. Runtime = 00:00:00:03.
-=======
-CLDS: * Disk size = 7511228K. Space Used = 6552K. Runtime = 00:00:00:02.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 7415420K. Space Used = 6552K. Runtime = 00:00:00:01.

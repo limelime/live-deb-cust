@@ -8,22 +8,12 @@ The following NEW packages will be installed:
 Need to get 183 kB of archives.
 After this operation, 467 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 squashfs-tools amd64 1:4.5.1-1 [183 kB]
-<<<<<<< HEAD
-Fetched 183 kB in 0s (10.8 MB/s)
+Fetched 183 kB in 0s (0 B/s)
 Selecting previously unselected package squashfs-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20669 files and directories currently installed.)
-=======
-Fetched 183 kB in 0s (4,598 kB/s)
-Selecting previously unselected package squashfs-tools.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20667 files and directories currently installed.)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../squashfs-tools_1%3a4.5.1-1_amd64.deb ...
 Unpacking squashfs-tools (1:4.5.1-1) ...
 Setting up squashfs-tools (1:4.5.1-1) ...
 CLDS: * Install squashfs-tools.
 CLDS: * Install squashfs-tools to create new squashfs using mksquashfs command.
-<<<<<<< HEAD
-CLDS: * Disk size = 1563864K. Space Used = 660K. Runtime = 00:00:00:00.
-=======
-CLDS: * Disk size = 1660684K. Space Used = 660K. Runtime = 00:00:00:01.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 1563784K. Space Used = 660K. Runtime = 00:00:00:01.

@@ -231,11 +231,7 @@ perl: warning: Falling back to the standard locale ("C").
 locale: Cannot set LC_CTYPE to default locale: No such file or directory
 locale: Cannot set LC_MESSAGES to default locale: No such file or directory
 locale: Cannot set LC_ALL to default locale: No such file or directory
-<<<<<<< HEAD
-Fetched 1128 kB in 0s (34.4 MB/s)
-=======
-Fetched 1128 kB in 0s (18.8 MB/s)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+Fetched 1128 kB in 0s (43.2 MB/s)
 Selecting previously unselected package libdbus-1-3:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 8733 files and directories currently installed.)
 Preparing to unpack .../0-libdbus-1-3_1.14.10-1~deb12u1_amd64.deb ...
@@ -312,11 +308,7 @@ locale: Cannot set LC_CTYPE to default locale: No such file or directory
 locale: Cannot set LC_MESSAGES to default locale: No such file or directory
 locale: Cannot set LC_ALL to default locale: No such file or directory
 Preconfiguring packages ...
-<<<<<<< HEAD
-Fetched 104 MB in 1s (75.6 MB/s)
-=======
-Fetched 104 MB in 1s (94.9 MB/s)
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+Fetched 104 MB in 2s (57.4 MB/s)
 Selecting previously unselected package rsync.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 8980 files and directories currently installed.)
 Preparing to unpack .../00-rsync_3.2.7-1_amd64.deb ...
@@ -383,68 +375,68 @@ W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 './cld' -> '/usr/local/cld'
 './cld/doc' -> '/usr/local/cld/doc'
-'./cld/doc/crontab-help.txt' -> '/usr/local/cld/doc/crontab-help.txt'
-'./cld/doc/readarray-help.txt' -> '/usr/local/cld/doc/readarray-help.txt'
-'./cld/doc/touch-help.txt' -> '/usr/local/cld/doc/touch-help.txt'
-'./cld/doc/ps-help.txt' -> '/usr/local/cld/doc/ps-help.txt'
-'./cld/doc/java-help.txt' -> '/usr/local/cld/doc/java-help.txt'
-'./cld/doc/network-help.txt' -> '/usr/local/cld/doc/network-help.txt'
-'./cld/doc/swap-help.txt' -> '/usr/local/cld/doc/swap-help.txt'
-'./cld/doc/bash-error-help.txt' -> '/usr/local/cld/doc/bash-error-help.txt'
-'./cld/doc/column-help.txt' -> '/usr/local/cld/doc/column-help.txt'
-'./cld/doc/bash-if-help.txt' -> '/usr/local/cld/doc/bash-if-help.txt'
-'./cld/doc/timeout-help.txt' -> '/usr/local/cld/doc/timeout-help.txt'
-'./cld/doc/cut-help.txt' -> '/usr/local/cld/doc/cut-help.txt'
+'./cld/doc/date-help.txt' -> '/usr/local/cld/doc/date-help.txt'
+'./cld/doc/awk-help.txt' -> '/usr/local/cld/doc/awk-help.txt'
 './cld/doc/bash-case-help.txt' -> '/usr/local/cld/doc/bash-case-help.txt'
-'./cld/doc/printf-help.txt' -> '/usr/local/cld/doc/printf-help.txt'
-'./cld/doc/df-help.txt' -> '/usr/local/cld/doc/df-help.txt'
+'./cld/doc/bash-error-help.txt' -> '/usr/local/cld/doc/bash-error-help.txt'
+'./cld/doc/bash-help.txt' -> '/usr/local/cld/doc/bash-help.txt'
+'./cld/doc/bash-if-help.txt' -> '/usr/local/cld/doc/bash-if-help.txt'
+'./cld/doc/bash-loop-help.txt' -> '/usr/local/cld/doc/bash-loop-help.txt'
+'./cld/doc/bash-msg-help.txt' -> '/usr/local/cld/doc/bash-msg-help.txt'
+'./cld/doc/blkid-help.txt' -> '/usr/local/cld/doc/blkid-help.txt'
+'./cld/doc/cat-help.txt' -> '/usr/local/cld/doc/cat-help.txt'
+'./cld/doc/column-help.txt' -> '/usr/local/cld/doc/column-help.txt'
+'./cld/doc/comm-help.txt' -> '/usr/local/cld/doc/comm-help.txt'
+'./cld/doc/cp-help.txt' -> '/usr/local/cld/doc/cp-help.txt'
+'./cld/doc/crontab-help.txt' -> '/usr/local/cld/doc/crontab-help.txt'
+'./cld/doc/cut-help.txt' -> '/usr/local/cld/doc/cut-help.txt'
+'./cld/doc/dd-help.txt' -> '/usr/local/cld/doc/dd-help.txt'
 './cld/doc/device-help.txt' -> '/usr/local/cld/doc/device-help.txt'
+'./cld/doc/df-help.txt' -> '/usr/local/cld/doc/df-help.txt'
+'./cld/doc/dpkg-query-help.txt' -> '/usr/local/cld/doc/dpkg-query-help.txt'
 './cld/doc/du-help.txt' -> '/usr/local/cld/doc/du-help.txt'
+'./cld/doc/echo-help.txt' -> '/usr/local/cld/doc/echo-help.txt'
+'./cld/doc/file-help.txt' -> '/usr/local/cld/doc/file-help.txt'
+'./cld/doc/gnupg-help.txt' -> '/usr/local/cld/doc/gnupg-help.txt'
+'./cld/doc/gpg-help.txt' -> '/usr/local/cld/doc/gpg-help.txt'
+'./cld/doc/grep-help.txt' -> '/usr/local/cld/doc/grep-help.txt'
+'./cld/doc/head-help.txt' -> '/usr/local/cld/doc/head-help.txt'
+'./cld/doc/java-help.txt' -> '/usr/local/cld/doc/java-help.txt'
+'./cld/doc/ln-help.txt' -> '/usr/local/cld/doc/ln-help.txt'
 './cld/doc/locale-help.txt' -> '/usr/local/cld/doc/locale-help.txt'
 './cld/doc/ls-help.txt' -> '/usr/local/cld/doc/ls-help.txt'
-'./cld/doc/dpkg-query-help.txt' -> '/usr/local/cld/doc/dpkg-query-help.txt'
+'./cld/doc/lspci-help.txt' -> '/usr/local/cld/doc/lspci-help.txt'
+'./cld/doc/mount-help.txt' -> '/usr/local/cld/doc/mount-help.txt'
+'./cld/doc/network-help.txt' -> '/usr/local/cld/doc/network-help.txt'
+'./cld/doc/numfmt-help.txt' -> '/usr/local/cld/doc/numfmt-help.txt'
+'./cld/doc/partition-help.txt' -> '/usr/local/cld/doc/partition-help.txt'
+'./cld/doc/paste-help.txt' -> '/usr/local/cld/doc/paste-help.txt'
+'./cld/doc/perl-help.txt' -> '/usr/local/cld/doc/perl-help.txt'
+'./cld/doc/ping-help.txt' -> '/usr/local/cld/doc/ping-help.txt'
+'./cld/doc/printf-help.txt' -> '/usr/local/cld/doc/printf-help.txt'
+'./cld/doc/ps-help.txt' -> '/usr/local/cld/doc/ps-help.txt'
+'./cld/doc/read-help.txt' -> '/usr/local/cld/doc/read-help.txt'
+'./cld/doc/rsync-help.txt' -> '/usr/local/cld/doc/rsync-help.txt'
+'./cld/doc/sed-help.txt' -> '/usr/local/cld/doc/sed-help.txt'
+'./cld/doc/sort-help.txt' -> '/usr/local/cld/doc/sort-help.txt'
+'./cld/doc/swap-help.txt' -> '/usr/local/cld/doc/swap-help.txt'
 './cld/doc/tail-help.txt' -> '/usr/local/cld/doc/tail-help.txt'
 './cld/doc/tar-help.txt' -> '/usr/local/cld/doc/tar-help.txt'
 './cld/doc/tee-help.txt' -> '/usr/local/cld/doc/tee-help.txt'
-'./cld/doc/ln-help.txt' -> '/usr/local/cld/doc/ln-help.txt'
-'./cld/doc/date-help.txt' -> '/usr/local/cld/doc/date-help.txt'
-'./cld/doc/dd-help.txt' -> '/usr/local/cld/doc/dd-help.txt'
-'./cld/doc/lspci-help.txt' -> '/usr/local/cld/doc/lspci-help.txt'
-'./cld/doc/cp-help.txt' -> '/usr/local/cld/doc/cp-help.txt'
-'./cld/doc/bash-msg-help.txt' -> '/usr/local/cld/doc/bash-msg-help.txt'
-'./cld/doc/gnupg-help.txt' -> '/usr/local/cld/doc/gnupg-help.txt'
-'./cld/doc/ping-help.txt' -> '/usr/local/cld/doc/ping-help.txt'
-'./cld/doc/head-help.txt' -> '/usr/local/cld/doc/head-help.txt'
-'./cld/doc/partition-help.txt' -> '/usr/local/cld/doc/partition-help.txt'
-'./cld/doc/paste-help.txt' -> '/usr/local/cld/doc/paste-help.txt'
-'./cld/doc/gpg-help.txt' -> '/usr/local/cld/doc/gpg-help.txt'
-'./cld/doc/awk-help.txt' -> '/usr/local/cld/doc/awk-help.txt'
-'./cld/doc/comm-help.txt' -> '/usr/local/cld/doc/comm-help.txt'
-'./cld/doc/mount-help.txt' -> '/usr/local/cld/doc/mount-help.txt'
-'./cld/doc/perl-help.txt' -> '/usr/local/cld/doc/perl-help.txt'
-'./cld/doc/echo-help.txt' -> '/usr/local/cld/doc/echo-help.txt'
-'./cld/doc/sort-help.txt' -> '/usr/local/cld/doc/sort-help.txt'
-'./cld/doc/xargs-help.txt' -> '/usr/local/cld/doc/xargs-help.txt'
-'./cld/doc/file-help.txt' -> '/usr/local/cld/doc/file-help.txt'
-'./cld/doc/blkid-help.txt' -> '/usr/local/cld/doc/blkid-help.txt'
-'./cld/doc/grep-help.txt' -> '/usr/local/cld/doc/grep-help.txt'
+'./cld/doc/timeout-help.txt' -> '/usr/local/cld/doc/timeout-help.txt'
+'./cld/doc/touch-help.txt' -> '/usr/local/cld/doc/touch-help.txt'
 './cld/doc/tr-help.txt' -> '/usr/local/cld/doc/tr-help.txt'
-'./cld/doc/numfmt-help.txt' -> '/usr/local/cld/doc/numfmt-help.txt'
-'./cld/doc/cld-help.txt' -> '/usr/local/cld/doc/cld-help.txt'
-'./cld/doc/rsync-help.txt' -> '/usr/local/cld/doc/rsync-help.txt'
+'./cld/doc/xargs-help.txt' -> '/usr/local/cld/doc/xargs-help.txt'
+'./cld/doc/readarray-help.txt' -> '/usr/local/cld/doc/readarray-help.txt'
+'./cld/doc/find-help.txt' -> '/usr/local/cld/doc/find-help.txt'
+'./cld/doc/split-help.txt' -> '/usr/local/cld/doc/split-help.txt'
 './cld/doc/lsb_release-help.txt' -> '/usr/local/cld/doc/lsb_release-help.txt'
-'./cld/doc/apt-get-help.txt' -> '/usr/local/cld/doc/apt-get-help.txt'
+'./cld/doc/dpkg-help.txt' -> '/usr/local/cld/doc/dpkg-help.txt'
+'./cld/doc/cld-help.txt' -> '/usr/local/cld/doc/cld-help.txt'
 './cld/doc/wget-help.txt' -> '/usr/local/cld/doc/wget-help.txt'
 './cld/doc/pr-help.txt' -> '/usr/local/cld/doc/pr-help.txt'
-'./cld/doc/split-help.txt' -> '/usr/local/cld/doc/split-help.txt'
-'./cld/doc/bash-loop-help.txt' -> '/usr/local/cld/doc/bash-loop-help.txt'
-'./cld/doc/sed-help.txt' -> '/usr/local/cld/doc/sed-help.txt'
-'./cld/doc/dpkg-help.txt' -> '/usr/local/cld/doc/dpkg-help.txt'
+'./cld/doc/apt-get-help.txt' -> '/usr/local/cld/doc/apt-get-help.txt'
 './cld/doc/systemd-help.txt' -> '/usr/local/cld/doc/systemd-help.txt'
-'./cld/doc/read-help.txt' -> '/usr/local/cld/doc/read-help.txt'
-'./cld/doc/cat-help.txt' -> '/usr/local/cld/doc/cat-help.txt'
-'./cld/doc/bash-help.txt' -> '/usr/local/cld/doc/bash-help.txt'
-'./cld/doc/find-help.txt' -> '/usr/local/cld/doc/find-help.txt'
 Desired=Unknown/Install/Remove/Purge/Hold
 | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
@@ -457,68 +449,34 @@ un  linux-image-generic                    <none>            <none>       (no de
 total 45932
 -rw-r--r-- 1 root root       83 Dec 19 14:30 System.map-6.11.10+bpo-amd64
 -rw-r--r-- 1 root root   278785 Dec 19 14:30 config-6.11.10+bpo-amd64
-<<<<<<< HEAD
--rw-r--r-- 1 root root 36972383 Jan  8 17:58 initrd.img-6.11.10+bpo-amd64
+-rw-r--r-- 1 root root 36970878 Jan  9 18:09 initrd.img-6.11.10+bpo-amd64
 -rw-r--r-- 1 root root  9770944 Dec 19 14:30 vmlinuz-6.11.10+bpo-amd64
 e0a6c09212a19ed48183a052eab847e7  /boot/System.map-6.11.10+bpo-amd64
 8abf7b6596012d260e6bf1eda4b3f7b9  /boot/config-6.11.10+bpo-amd64
-5b7a66004827753d03083495196723cc  /boot/initrd.img-6.11.10+bpo-amd64
+d55d86616488e685a6dd777af886f5a4  /boot/initrd.img-6.11.10+bpo-amd64
 99c5f26d4dff4cad611fc662f6ee0875  /boot/vmlinuz-6.11.10+bpo-amd64
 total 48
-lrwxrwxrwx   1 root root    7 Jan  8 17:57 bin -> usr/bin
-drwxr-xr-x   2 root root 4096 Jan  8 17:58 boot
-drwxr-xr-x  18 root root 3980 Jan  8 09:50 dev
-drwxr-xr-x  49 root root 4096 Jan  8 17:58 etc
+lrwxrwxrwx   1 root root    7 Jan  9 18:07 bin -> usr/bin
+drwxr-xr-x   2 root root 4096 Jan  9 18:09 boot
+drwxr-xr-x  18 root root 3980 Jan  9 11:31 dev
+drwxr-xr-x  49 root root 4096 Jan  9 18:09 etc
 drwxr-xr-x   2 root root 4096 Oct 31 11:04 home
-lrwxrwxrwx   1 root root   33 Jan  8 17:58 initrd.img -> boot/initrd.img-6.11.10+bpo-amd64
-lrwxrwxrwx   1 root root    7 Jan  8 17:57 lib -> usr/lib
-lrwxrwxrwx   1 root root    9 Jan  8 17:57 lib64 -> usr/lib64
-drwxr-xr-x   2 root root 4096 Jan  8 17:57 media
-drwxr-xr-x   2 root root 4096 Jan  8 17:57 mnt
-drwxr-xr-x   2 root root 4096 Jan  8 17:57 opt
-dr-xr-xr-x 378 root root    0 Jan  8 17:57 proc
-drwx------   4 root root 4096 Jan  8 17:57 root
-drwxr-xr-x   8 root root 4096 Jan  8 17:57 run
-lrwxrwxrwx   1 root root    8 Jan  8 17:57 sbin -> usr/sbin
-drwxr-xr-x   2 root root 4096 Jan  8 17:57 srv
-dr-xr-xr-x  13 root root    0 Jan  8 09:49 sys
-drwxrwxrwt   2 root root 4096 Jan  8 17:58 tmp
-drwxr-xr-x  12 root root 4096 Jan  8 17:57 usr
-drwxr-xr-x  11 root root 4096 Jan  8 17:57 var
-lrwxrwxrwx   1 root root   30 Jan  8 17:58 vmlinuz -> boot/vmlinuz-6.11.10+bpo-amd64
+lrwxrwxrwx   1 root root   33 Jan  9 18:08 initrd.img -> boot/initrd.img-6.11.10+bpo-amd64
+lrwxrwxrwx   1 root root    7 Jan  9 18:07 lib -> usr/lib
+lrwxrwxrwx   1 root root    9 Jan  9 18:07 lib64 -> usr/lib64
+drwxr-xr-x   2 root root 4096 Jan  9 18:08 media
+drwxr-xr-x   2 root root 4096 Jan  9 18:08 mnt
+drwxr-xr-x   2 root root 4096 Jan  9 18:08 opt
+dr-xr-xr-x 378 root root    0 Jan  9 18:08 proc
+drwx------   4 root root 4096 Jan  9 18:08 root
+drwxr-xr-x   8 root root 4096 Jan  9 18:08 run
+lrwxrwxrwx   1 root root    8 Jan  9 18:08 sbin -> usr/sbin
+drwxr-xr-x   2 root root 4096 Jan  9 18:08 srv
+dr-xr-xr-x  13 root root    0 Jan  9 11:30 sys
+drwxrwxrwt   2 root root 4096 Jan  9 18:08 tmp
+drwxr-xr-x  12 root root 4096 Jan  9 18:08 usr
+drwxr-xr-x  11 root root 4096 Jan  9 18:08 var
+lrwxrwxrwx   1 root root   30 Jan  9 18:08 vmlinuz -> boot/vmlinuz-6.11.10+bpo-amd64
 CLDS: * Generate dbus-uuidgen to /var/lib/dbus/machine-id.
 CLDS: * Installed Linux image: linux-image-6.11.10+bpo-amd64.
-CLDS: * Disk size = 891240K. Space Used = 264320K. Runtime = 00:00:01:05.
-=======
--rw-r--r-- 1 root root 36971908 Dec 26 03:01 initrd.img-6.11.10+bpo-amd64
--rw-r--r-- 1 root root  9770944 Dec 19 14:30 vmlinuz-6.11.10+bpo-amd64
-e0a6c09212a19ed48183a052eab847e7  /boot/System.map-6.11.10+bpo-amd64
-8abf7b6596012d260e6bf1eda4b3f7b9  /boot/config-6.11.10+bpo-amd64
-edd269b1c1a2c755a9ac307ecf12e309  /boot/initrd.img-6.11.10+bpo-amd64
-99c5f26d4dff4cad611fc662f6ee0875  /boot/vmlinuz-6.11.10+bpo-amd64
-total 48
-lrwxrwxrwx   1 root root    7 Dec 26 02:59 bin -> usr/bin
-drwxr-xr-x   2 root root 4096 Dec 26 03:01 boot
-drwxr-xr-x  18 root root 3740 Dec 26 02:50 dev
-drwxr-xr-x  49 root root 4096 Dec 26 03:00 etc
-drwxr-xr-x   2 root root 4096 Oct 31 11:04 home
-lrwxrwxrwx   1 root root   33 Dec 26 03:00 initrd.img -> boot/initrd.img-6.11.10+bpo-amd64
-lrwxrwxrwx   1 root root    7 Dec 26 02:59 lib -> usr/lib
-lrwxrwxrwx   1 root root    9 Dec 26 02:59 lib64 -> usr/lib64
-drwxr-xr-x   2 root root 4096 Dec 26 02:59 media
-drwxr-xr-x   2 root root 4096 Dec 26 02:59 mnt
-drwxr-xr-x   2 root root 4096 Dec 26 02:59 opt
-dr-xr-xr-x 312 root root    0 Dec 26 02:59 proc
-drwx------   4 root root 4096 Dec 26 02:59 root
-drwxr-xr-x   8 root root 4096 Dec 26 03:00 run
-lrwxrwxrwx   1 root root    8 Dec 26 02:59 sbin -> usr/sbin
-drwxr-xr-x   2 root root 4096 Dec 26 02:59 srv
-dr-xr-xr-x  13 root root    0 Dec 26 02:49 sys
-drwxrwxrwt   2 root root 4096 Dec 26 03:00 tmp
-drwxr-xr-x  12 root root 4096 Dec 26 02:59 usr
-drwxr-xr-x  11 root root 4096 Dec 26 02:59 var
-lrwxrwxrwx   1 root root   30 Dec 26 03:00 vmlinuz -> boot/vmlinuz-6.11.10+bpo-amd64
-CLDS: * Generate dbus-uuidgen to /var/lib/dbus/machine-id.
-CLDS: * Installed Linux image: linux-image-6.11.10+bpo-amd64.
-CLDS: * Disk size = 988236K. Space Used = 264328K. Runtime = 00:00:01:21.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+CLDS: * Disk size = 891164K. Space Used = 264312K. Runtime = 00:00:00:56.
