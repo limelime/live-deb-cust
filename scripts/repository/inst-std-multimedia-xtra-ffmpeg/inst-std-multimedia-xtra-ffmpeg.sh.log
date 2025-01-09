@@ -2,6 +2,7 @@ CLDS:>>>>>>>>> Running inst-std-multimedia-xtra-ffmpeg.sh ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
+<<<<<<< HEAD
 Some packages could not be installed. This may mean that you have
 requested an impossible situation or if you are using the unstable
 distribution that some required packages have not yet been created
@@ -12,3 +13,36 @@ The following packages have unmet dependencies:
  libglx-mesa0 : Depends: libglapi-mesa (= 22.3.6-1+deb12u1) but 24.2.8-1~bpo12+1 is to be installed
 E: Unable to correct problems, you have held broken packages.
 CLDS: * Disk size = 6585680K. Space Used = 8K. Runtime = 00:00:00:01.
+=======
+Suggested packages:
+  nvidia-vdpau-driver ffmpeg-doc
+The following NEW packages will be installed:
+  ffmpeg
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 1,871 kB of archives.
+After this operation, 2,483 kB of additional disk space will be used.
+Get:1 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 ffmpeg amd64 10:6.0.1-dmo0+deb12u1 [1,871 kB]
+Fetched 1,871 kB in 0s (30.4 MB/s)
+Selecting previously unselected package ffmpeg.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114926 files and directories currently installed.)
+Preparing to unpack .../ffmpeg_10%3a6.0.1-dmo0+deb12u1_amd64.deb ...
+Unpacking ffmpeg (10:6.0.1-dmo0+deb12u1) ...
+Setting up ffmpeg (10:6.0.1-dmo0+deb12u1) ...
+'./cld/doc/ffmpeg-crop-help.txt' -> '/usr/local/cld/doc/ffmpeg-crop-help.txt'
+'./cld/doc/ffmpeg-box-help.txt' -> '/usr/local/cld/doc/ffmpeg-box-help.txt'
+'./cld/doc/ffmpeg-help.txt' -> '/usr/local/cld/doc/ffmpeg-help.txt'
+'./cld/doc/ffmpeg-capture-help.txt' -> '/usr/local/cld/doc/ffmpeg-capture-help.txt'
+'./cld/doc/ffmpeg-cat-help.txt' -> '/usr/local/cld/doc/ffmpeg-cat-help.txt'
+'./cld/doc/ffprobe-help.txt' -> '/usr/local/cld/doc/ffprobe-help.txt'
+'./cld/doc/ffmpeg-split-help.txt' -> '/usr/local/cld/doc/ffmpeg-split-help.txt'
+'./cld/doc/ffplay-help.txt' -> '/usr/local/cld/doc/ffplay-help.txt'
+'./cld/doc/ffmpeg-gif-help.txt' -> '/usr/local/cld/doc/ffmpeg-gif-help.txt'
+'./cld/doc/ffmpeg-overlay-help.txt' -> '/usr/local/cld/doc/ffmpeg-overlay-help.txt'
+'./cld/doc/ffmpeg-slide-help.txt' -> '/usr/local/cld/doc/ffmpeg-slide-help.txt'
+'./cld/doc/ffmpeg-360-help.txt' -> '/usr/local/cld/doc/ffmpeg-360-help.txt'
+'./cld/doc/crop.sh' -> '/usr/local/cld/doc/crop.sh'
+'./cld/doc/ffmpeg-error-help.txt' -> '/usr/local/cld/doc/ffmpeg-error-help.txt'
+'./cld/doc/ffmpeg-sub-help.txt' -> '/usr/local/cld/doc/ffmpeg-sub-help.txt'
+CLDS: * Install ffmpeg.
+CLDS: * Disk size = 6945368K. Space Used = 4380K. Runtime = 00:00:00:01.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

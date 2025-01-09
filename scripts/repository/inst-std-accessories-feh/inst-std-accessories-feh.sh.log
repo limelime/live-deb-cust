@@ -14,11 +14,18 @@ Suggested packages:
 Recommended packages:
   libjpeg-progs fonts-droid-fallback libpaper-utils
 The following NEW packages will be installed:
+<<<<<<< HEAD
   feh fonts-urw-base35 libcurl4 libexif12 libfontenc1 libgif7 libgs-common
   libgs10 libgs10-common libid3tag0 libidn12 libijs-0.35 libimlib2
   libjbig2dec0 libpaper1 libspectre1 libwebpdemux2 poppler-data
   xfonts-encodings xfonts-utils yudit-common
 0 upgraded, 21 newly installed, 0 to remove and 16 not upgraded.
+=======
+  feh fonts-urw-base35 libcurl4 libexif12 libgs-common libgs10 libgs10-common
+  libid3tag0 libidn12 libijs-0.35 libimlib2 libjbig2dec0 libpaper1 libspectre1
+  libwebpdemux2 poppler-data xfonts-encodings xfonts-utils yudit-common
+0 upgraded, 19 newly installed, 0 to remove and 16 not upgraded.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Need to get 19.6 MB of archives.
 After this operation, 72.0 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 poppler-data all 0.4.12-1 [1,601 kB]
@@ -43,9 +50,15 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libi
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 yudit-common all 3.1.0-1 [1,752 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 feh amd64 3.9.1-2 [157 kB]
 Preconfiguring packages ...
+<<<<<<< HEAD
 Fetched 19.6 MB in 0s (54.8 MB/s)
 Selecting previously unselected package poppler-data.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 104406 files and directories currently installed.)
+=======
+Fetched 19.6 MB in 0s (81.7 MB/s)
+Selecting previously unselected package poppler-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 103524 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../00-poppler-data_0.4.12-1_all.deb ...
 Unpacking poppler-data (0.4.12-1) ...
 Selecting previously unselected package libcurl4:amd64.
@@ -136,4 +149,8 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for fontconfig (2.14.1-4) ...
 './cld/doc/feh-help.txt' -> '/usr/local/cld/doc/feh-help.txt'
 CLDS: * Install command line image viewer: feh.
+<<<<<<< HEAD
 CLDS: * Disk size = 4896948K. Space Used = 89664K. Runtime = 00:00:00:09.
+=======
+CLDS: * Disk size = 5206888K. Space Used = 89388K. Runtime = 00:00:00:05.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

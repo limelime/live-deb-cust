@@ -1,2 +1,17 @@
 * >>>>>>>>> Running inst-min-win-00-xorg.sh ...
+<<<<<<< HEAD
   * Disk size = 4632796K. Space Used = 12K. Runtime = 00:00:00:02.
+=======
+  * After this operation, 2,404 kB of additional disk space will be used.
+  * Set keyboard to use US international.
+  * Install minimum Xorg X server.
+  * Install xinit so you can run startx.
+  * Add auto start window manager(i.e startx).
+  * Disk size = 4949364K. Space Used = 4680K. Runtime = 00:00:00:03.
+  * The following NEW packages will be installed:
+  ```bash
+libevdev2 libgudev-1.0-0 libinput10 libinput-bin libmtdev1
+libwacom9 libwacom-common libxmuu1 xauth xinit
+xserver-xorg xserver-xorg-input-all xserver-xorg-input-libinput
+  ```
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

@@ -30,9 +30,15 @@ Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pytho
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-ntp amd64 1.2.2+dfsg1-1+deb12u1 [88.9 kB]
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntpsec amd64 1.2.2+dfsg1-1+deb12u1 [340 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntp all 1:4.2.8p15+dfsg-2~1.2.2+dfsg1-1+deb12u1 [22.0 kB]
+<<<<<<< HEAD
 Fetched 5,828 kB in 0s (88.1 MB/s)
 Selecting previously unselected package libpython3.11-minimal:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21373 files and directories currently installed.)
+=======
+Fetched 5,828 kB in 0s (56.4 MB/s)
+Selecting previously unselected package libpython3.11-minimal:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21371 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../libpython3.11-minimal_3.11.2-6+deb12u4_amd64.deb ...
 Unpacking libpython3.11-minimal:amd64 (3.11.2-6+deb12u4) ...
 Selecting previously unselected package python3.11-minimal.
@@ -41,7 +47,11 @@ Unpacking python3.11-minimal (3.11.2-6+deb12u4) ...
 Setting up libpython3.11-minimal:amd64 (3.11.2-6+deb12u4) ...
 Setting up python3.11-minimal (3.11.2-6+deb12u4) ...
 Selecting previously unselected package python3-minimal.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21679 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21677 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../0-python3-minimal_3.11.2-1+b1_amd64.deb ...
 Unpacking python3-minimal (3.11.2-1+b1) ...
 Selecting previously unselected package media-types.
@@ -61,7 +71,11 @@ Preparing to unpack .../5-libpython3-stdlib_3.11.2-1+b1_amd64.deb ...
 Unpacking libpython3-stdlib:amd64 (3.11.2-1+b1) ...
 Setting up python3-minimal (3.11.2-1+b1) ...
 Selecting previously unselected package python3.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22094 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22092 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../python3_3.11.2-1+b1_amd64.deb ...
 Unpacking python3 (3.11.2-1+b1) ...
 Selecting previously unselected package python3-ntp.
@@ -94,4 +108,8 @@ Setting up ntp (1:4.2.8p15+dfsg-2~1.2.2+dfsg1-1+deb12u1) ...
 Processing triggers for systemd (252.31-1~deb12u1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install Network Time Protocol: ntp.
+<<<<<<< HEAD
 CLDS: * Disk size = 1655560K. Space Used = 43008K. Runtime = 00:00:00:05.
+=======
+CLDS: * Disk size = 1752376K. Space Used = 43008K. Runtime = 00:00:00:04.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

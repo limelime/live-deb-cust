@@ -5,7 +5,11 @@
   * After this operation, 15.6 MB of additional disk space will be used.
   * Install Thunar file manager.
   * Insert Thunar in Accessories menu.
+<<<<<<< HEAD
   * Disk size = 4954568K. Space Used = 30688K. Runtime = 00:00:00:09.
+=======
+  * Disk size = 5264424K. Space Used = 30596K. Runtime = 00:00:00:06.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
   * The following NEW packages will be installed:
   ```bash
 desktop-file-utils gnome-icon-theme libgudev-1.0-0 librsvg2-common libthunarx-3-0

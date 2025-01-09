@@ -5,4 +5,8 @@ Reading state information...
 usr-is-merged is already the newest version (37~deb12u1).
 0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
 CLDS: * Install usr-is-merged: Fix: debootstrap can't find usr-is-merged package
+<<<<<<< HEAD
 CLDS: * Disk size = 891244K. Space Used = 4K. Runtime = 00:00:00:00.
+=======
+CLDS: * Disk size = 988240K. Space Used = 4K. Runtime = 00:00:00:00.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

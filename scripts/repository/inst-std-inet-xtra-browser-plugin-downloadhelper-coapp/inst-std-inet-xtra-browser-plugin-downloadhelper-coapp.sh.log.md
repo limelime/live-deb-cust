@@ -2,7 +2,11 @@
   * After this operation, 188 MB of additional disk space will be used.
   * Install downloadhelper Companion App to record JW Player live stream.
   * Install Video DownloadHelper browser extension and record JW player stream.
+<<<<<<< HEAD
   * Disk size = 5596880K. Space Used = 315312K. Runtime = 00:00:00:13.
+=======
+  * Disk size = 5734296K. Space Used = 97728K. Runtime = 00:00:00:04.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
   * The following NEW packages will be installed:
   ```bash
 libasyncns0 libdecor-0-0 libdrm2 libdrm-amdgpu1 libdrm-common

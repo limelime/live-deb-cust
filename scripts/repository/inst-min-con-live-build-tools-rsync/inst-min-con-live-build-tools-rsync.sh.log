@@ -6,4 +6,8 @@ rsync is already the newest version (3.2.7-1).
 rsync set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
 CLDS: * Install rsync to copy directories.
+<<<<<<< HEAD
 CLDS: * Disk size = 1563204K. Space Used = 4K. Runtime = 00:00:00:01.
+=======
+CLDS: * Disk size = 1660024K. Space Used = 4K. Runtime = 00:00:00:00.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

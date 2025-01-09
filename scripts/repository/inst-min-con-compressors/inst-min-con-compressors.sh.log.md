@@ -14,7 +14,11 @@
   * Install de/compressor: p7zip.
   * Install de/compressor: zpaq.
   * Add universal extractor: extract.sh.
+<<<<<<< HEAD
   * Disk size = 1019388K. Space Used = 11848K. Runtime = 00:00:00:04.
+=======
+  * Disk size = 1116372K. Space Used = 11844K. Runtime = 00:00:00:03.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
   * The following NEW packages will be installed:
   ```bash
 bzip2 p7zip p7zip-full rar unrar

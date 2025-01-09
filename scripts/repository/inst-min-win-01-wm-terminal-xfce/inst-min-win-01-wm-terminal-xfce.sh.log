@@ -18,4 +18,8 @@ xfce4-terminal is already the newest version (1.0.4-1).
 xfce4-terminal set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
 CLDS: * Install terminal: xfce4-terminal.
+<<<<<<< HEAD
 CLDS: * Disk size = 4730764K. Space Used = 4K. Runtime = 00:00:00:02.
+=======
+CLDS: * Disk size = 5038376K. Space Used = 4K. Runtime = 00:00:00:01.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

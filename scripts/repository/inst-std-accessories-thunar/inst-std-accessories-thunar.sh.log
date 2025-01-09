@@ -10,6 +10,7 @@ Recommended packages:
   libxfce4panel-2.0-4 gvfs policykit-1-gnome | polkit-1-auth-agent
   thunar-volman tumbler udisks2 xdg-user-dirs
 The following NEW packages will be installed:
+<<<<<<< HEAD
   desktop-file-utils libgudev-1.0-0 libthunarx-3-0 thunar thunar-data
 0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
 Need to get 1,484 kB of archives.
@@ -22,6 +23,19 @@ Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 thuna
 Fetched 1,484 kB in 0s (28.0 MB/s)
 Selecting previously unselected package desktop-file-utils.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 107411 files and directories currently installed.)
+=======
+  desktop-file-utils libthunarx-3-0 thunar thunar-data
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 1,469 kB of archives.
+After this operation, 7,302 kB of additional disk space will be used.
+Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 desktop-file-utils amd64 0.26-1 [91.2 kB]
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 thunar-data all 4.18.4-1 [854 kB]
+Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libthunarx-3-0 amd64 4.18.4-1 [119 kB]
+Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 thunar amd64 4.18.4-1 [405 kB]
+Fetched 1,469 kB in 0s (24.5 MB/s)
+Selecting previously unselected package desktop-file-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106515 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../desktop-file-utils_0.26-1_amd64.deb ...
 Unpacking desktop-file-utils (0.26-1) ...
 Selecting previously unselected package libgudev-1.0-0:amd64.
@@ -54,9 +68,15 @@ The following NEW packages will be installed:
 Need to get 70.4 kB of archives.
 After this operation, 400 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 thunar-archive-plugin amd64 0.5.0-1 [70.4 kB]
+<<<<<<< HEAD
 Fetched 70.4 kB in 0s (3,587 kB/s)
 Selecting previously unselected package thunar-archive-plugin:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 107562 files and directories currently installed.)
+=======
+Fetched 70.4 kB in 0s (2,306 kB/s)
+Selecting previously unselected package thunar-archive-plugin:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106661 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../thunar-archive-plugin_0.5.0-1_amd64.deb ...
 Unpacking thunar-archive-plugin:amd64 (0.5.0-1) ...
 Setting up thunar-archive-plugin:amd64 (0.5.0-1) ...
@@ -70,9 +90,15 @@ The following NEW packages will be installed:
 Need to get 127 kB of archives.
 After this operation, 907 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 thunar-volman amd64 4.18.0-1 [127 kB]
+<<<<<<< HEAD
 Fetched 127 kB in 0s (11.9 MB/s)
 Selecting previously unselected package thunar-volman.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 107648 files and directories currently installed.)
+=======
+Fetched 127 kB in 0s (2,917 kB/s)
+Selecting previously unselected package thunar-volman.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106747 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../thunar-volman_4.18.0-1_amd64.deb ...
 Unpacking thunar-volman (4.18.0-1) ...
 Setting up thunar-volman (4.18.0-1) ...
@@ -90,9 +116,15 @@ Need to get 9,888 kB of archives.
 After this operation, 15.6 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 librsvg2-common amd64 2.54.7+dfsg-1~deb12u1 [21.4 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-icon-theme all 3.12.0-5 [9,867 kB]
+<<<<<<< HEAD
 Fetched 9,888 kB in 0s (77.3 MB/s)
 Selecting previously unselected package librsvg2-common:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 107724 files and directories currently installed.)
+=======
+Fetched 9,888 kB in 0s (87.8 MB/s)
+Selecting previously unselected package librsvg2-common:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106823 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../librsvg2-common_2.54.7+dfsg-1~deb12u1_amd64.deb ...
 Unpacking librsvg2-common:amd64 (2.54.7+dfsg-1~deb12u1) ...
 Selecting previously unselected package gnome-icon-theme.
@@ -104,4 +136,8 @@ update-alternatives: using /usr/share/icons/gnome/scalable/places/debian-swirl.s
 Processing triggers for libgdk-pixbuf-2.0-0:amd64 (2.42.10+dfsg-1+deb12u1) ...
 CLDS: * Install Thunar file manager.
 CLDS: * Insert Thunar in Accessories menu.
+<<<<<<< HEAD
 CLDS: * Disk size = 4954568K. Space Used = 30688K. Runtime = 00:00:00:09.
+=======
+CLDS: * Disk size = 5264424K. Space Used = 30596K. Runtime = 00:00:00:06.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

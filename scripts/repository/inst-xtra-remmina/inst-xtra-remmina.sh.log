@@ -17,6 +17,7 @@ Recommended packages:
   va-driver-all | va-driver vdpau-driver-all | vdpau-driver remmina-plugin-vnc
   remmina-plugin-secret
 The following NEW packages will be installed:
+<<<<<<< HEAD
   libavahi-glib1 libavahi-ui-gtk3-0 libavcodec59 libavutil57 libavutil58
   libcodec2-1.0 libfreerdp-client2-2 libfreerdp2-2 libgsm1 libjson-glib-1.0-0
   libjson-glib-1.0-common libmfx1 libshine3 libsnappy1v5 libsoxr0 libspeex1
@@ -67,6 +68,26 @@ Fetched 22.3 MB in 0s (60.8 MB/s)
 Selecting previously unselected package libavahi-glib1:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 117663 files and directories currently installed.)
 Preparing to unpack .../00-libavahi-glib1_0.8-10_amd64.deb ...
+=======
+  libavahi-glib1 libavahi-ui-gtk3-0 libfreerdp-client2-2 libfreerdp2-2
+  libssh-4 libwinpr2-2 remmina remmina-common remmina-plugin-rdp
+0 upgraded, 9 newly installed, 0 to remove and 17 not upgraded.
+Need to get 2,332 kB of archives.
+After this operation, 9,658 kB of additional disk space will be used.
+Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-glib1 amd64 0.8-10 [27.4 kB]
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libavahi-ui-gtk3-0 amd64 0.8-10 [39.1 kB]
+Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwinpr2-2 amd64 2.10.0+dfsg1-1 [352 kB]
+Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfreerdp2-2 amd64 2.10.0+dfsg1-1 [542 kB]
+Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfreerdp-client2-2 amd64 2.10.0+dfsg1-1 [270 kB]
+Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libssh-4 amd64 0.10.6-0+deb12u1 [189 kB]
+Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina-common all 1.4.29+dfsg-1 [640 kB]
+Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina amd64 1.4.29+dfsg-1 [215 kB]
+Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 remmina-plugin-rdp amd64 1.4.29+dfsg-1 [57.2 kB]
+Fetched 2,332 kB in 0s (34.0 MB/s)
+Selecting previously unselected package libavahi-glib1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123855 files and directories currently installed.)
+Preparing to unpack .../0-libavahi-glib1_0.8-10_amd64.deb ...
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Unpacking libavahi-glib1:amd64 (0.8-10) ...
 Selecting previously unselected package libavahi-ui-gtk3-0:amd64.
 Preparing to unpack .../01-libavahi-ui-gtk3-0_0.8-10_amd64.deb ...
@@ -215,4 +236,8 @@ Processing triggers for shared-mime-info (2.2-1) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install remmina.
 CLDS: * Need to remote desktop MS Windows machines.
+<<<<<<< HEAD
 CLDS: * Disk size = 7383608K. Space Used = 97976K. Runtime = 00:00:00:11.
+=======
+CLDS: * Disk size = 8506040K. Space Used = 9848K. Runtime = 00:00:00:04.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

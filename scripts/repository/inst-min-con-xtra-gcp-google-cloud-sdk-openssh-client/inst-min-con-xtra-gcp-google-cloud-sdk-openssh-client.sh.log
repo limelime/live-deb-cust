@@ -9,4 +9,8 @@ The following packages were automatically installed and are no longer required:
 Use 'apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
 CLDS: * Install openssh-client.
+<<<<<<< HEAD
 CLDS: * Disk size = 2897816K. Space Used = 4K. Runtime = 00:00:00:01.
+=======
+CLDS: * Disk size = 2994664K. Space Used = 4K. Runtime = 00:00:00:00.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

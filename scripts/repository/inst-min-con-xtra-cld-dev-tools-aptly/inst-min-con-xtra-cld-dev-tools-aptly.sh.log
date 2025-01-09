@@ -46,9 +46,15 @@ The following NEW packages will be installed:
 Need to get 471 kB of archives.
 After this operation, 1,255 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xz-utils amd64 5.4.1-0.2 [471 kB]
+<<<<<<< HEAD
 Fetched 471 kB in 0s (33.3 MB/s)
 Selecting previously unselected package xz-utils.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 44911 files and directories currently installed.)
+=======
+Fetched 471 kB in 0s (8,139 kB/s)
+Selecting previously unselected package xz-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 44909 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../xz-utils_5.4.1-0.2_amd64.deb ...
 Unpacking xz-utils (5.4.1-0.2) ...
 Setting up xz-utils (5.4.1-0.2) ...
@@ -64,9 +70,15 @@ The following NEW packages will be installed:
 Need to get 5,950 kB of archives.
 After this operation, 25.2 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 aptly amd64 1.5.0+ds1-1+b4 [5,950 kB]
+<<<<<<< HEAD
 Fetched 5,950 kB in 0s (89.6 MB/s)
 Selecting previously unselected package aptly.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45091 files and directories currently installed.)
+=======
+Fetched 5,950 kB in 0s (73.7 MB/s)
+Selecting previously unselected package aptly.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45089 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../aptly_1.5.0+ds1-1+b4_amd64.deb ...
 Unpacking aptly (1.5.0+ds1-1+b4) ...
 Setting up aptly (1.5.0+ds1-1+b4) ...
@@ -75,4 +87,8 @@ Setting up aptly (1.5.0+ds1-1+b4) ...
 CLDS: * Add aptly nightly build repository.
 CLDS: * Install aptly version: 1.5.0+ds1-1+b4 to create local debian repository.
 CLDS: * Add xz-utils package because aptly snapshot merge needs it.
+<<<<<<< HEAD
 CLDS: * Disk size = 2319628K. Space Used = 31296K. Runtime = 00:00:00:05.
+=======
+CLDS: * Disk size = 2416472K. Space Used = 31304K. Runtime = 00:01:10:43.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

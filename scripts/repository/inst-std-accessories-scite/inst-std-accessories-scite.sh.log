@@ -11,9 +11,15 @@ Need to get 2,496 kB of archives.
 After this operation, 9,839 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 liblua5.3-0 amd64 5.3.6-2 [123 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 scite amd64 5.3.3-1 [2,373 kB]
+<<<<<<< HEAD
 Fetched 2,496 kB in 0s (78.9 MB/s)
 Selecting previously unselected package liblua5.3-0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106600 files and directories currently installed.)
+=======
+Fetched 2,496 kB in 0s (36.6 MB/s)
+Selecting previously unselected package liblua5.3-0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105704 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../liblua5.3-0_5.3.6-2_amd64.deb ...
 Unpacking liblua5.3-0:amd64 (5.3.6-2) ...
 Selecting previously unselected package scite.
@@ -34,9 +40,15 @@ Need to get 703 kB of archives.
 After this operation, 5,449 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gsettings-desktop-schemas all 43.0-1 [643 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 at-spi2-core amd64 2.54.0-1~bpo12+1 [60.0 kB]
+<<<<<<< HEAD
 Fetched 703 kB in 0s (38.2 MB/s)
 Selecting previously unselected package gsettings-desktop-schemas.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 107291 files and directories currently installed.)
+=======
+Fetched 703 kB in 0s (14.8 MB/s)
+Selecting previously unselected package gsettings-desktop-schemas.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106395 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../gsettings-desktop-schemas_43.0-1_all.deb ...
 Unpacking gsettings-desktop-schemas (43.0-1) ...
 Selecting previously unselected package at-spi2-core.
@@ -49,4 +61,8 @@ Setting up at-spi2-core (2.54.0-1~bpo12+1) ...
 CLDS: * Install Text Editor: SciTE.
 CLDS: * Insert SciTE in Accessories menu.
 CLDS: * Install at-spi2-core to shut up Accessibility warning message.
+<<<<<<< HEAD
 CLDS: * Disk size = 4923880K. Space Used = 14580K. Runtime = 00:00:00:05.
+=======
+CLDS: * Disk size = 5233828K. Space Used = 14588K. Runtime = 00:00:00:03.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

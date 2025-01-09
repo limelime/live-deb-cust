@@ -48,14 +48,24 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libw
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 socat amd64 1.7.4.4-2 [375 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 mariadb-server amd64 1:10.11.6-0+deb12u1 [3,655 kB]
 Preconfiguring packages ...
+<<<<<<< HEAD
 Fetched 18.6 MB in 0s (88.7 MB/s)
 Selecting previously unselected package libsigsegv2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88783 files and directories currently installed.)
+=======
+Fetched 18.6 MB in 0s (82.8 MB/s)
+Selecting previously unselected package libsigsegv2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88781 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../libsigsegv2_2.14-1_amd64.deb ...
 Unpacking libsigsegv2:amd64 (2.14-1) ...
 Setting up libsigsegv2:amd64 (2.14-1) ...
 Selecting previously unselected package gawk.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88792 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88790 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../00-gawk_1%3a5.2.1-2_amd64.deb ...
 Unpacking gawk (1:5.2.1-2) ...
 Selecting previously unselected package mysql-common.
@@ -117,7 +127,11 @@ update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.c
 Setting up mariadb-common (1:10.11.6-0+deb12u1) ...
 update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
 Selecting previously unselected package mariadb-server.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89635 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89633 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../mariadb-server_1%3a10.11.6-0+deb12u1_amd64.deb ...
 invoke-rc.d: unknown initscript, /etc/init.d/mariadb not found.
 Running in chroot, ignoring request.
@@ -150,18 +164,22 @@ invoke-rc.d: policy-rc.d denied execution of start.
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/doc/mysql-admin-help.txt' -> '/usr/local/cld/doc/mysql-admin-help.txt'
 './cld/doc/mysql-aggregate-help.txt' -> '/usr/local/cld/doc/mysql-aggregate-help.txt'
-'./cld/doc/mysql-alter-help.txt' -> '/usr/local/cld/doc/mysql-alter-help.txt'
-'./cld/doc/mysql-cmd-help.txt' -> '/usr/local/cld/doc/mysql-cmd-help.txt'
 './cld/doc/mysql-cnf-help.txt' -> '/usr/local/cld/doc/mysql-cnf-help.txt'
-'./cld/doc/mysql-create-help.txt' -> '/usr/local/cld/doc/mysql-create-help.txt'
-'./cld/doc/mysql-data-type-help.txt' -> '/usr/local/cld/doc/mysql-data-type-help.txt'
+'./cld/doc/mysql-view-help.txt' -> '/usr/local/cld/doc/mysql-view-help.txt'
+'./cld/doc/mysql-alter-help.txt' -> '/usr/local/cld/doc/mysql-alter-help.txt'
 './cld/doc/mysql-error-help.txt' -> '/usr/local/cld/doc/mysql-error-help.txt'
-'./cld/doc/mysql-help.txt' -> '/usr/local/cld/doc/mysql-help.txt'
 './cld/doc/mysql-intersect-help.txt' -> '/usr/local/cld/doc/mysql-intersect-help.txt'
+'./cld/doc/mysql-help.txt' -> '/usr/local/cld/doc/mysql-help.txt'
+'./cld/doc/mysql-create-help.txt' -> '/usr/local/cld/doc/mysql-create-help.txt'
 './cld/doc/mysql-sql-examples.sql' -> '/usr/local/cld/doc/mysql-sql-examples.sql'
 './cld/doc/mysql-trigger-help.txt' -> '/usr/local/cld/doc/mysql-trigger-help.txt'
+'./cld/doc/mysql-cmd-help.txt' -> '/usr/local/cld/doc/mysql-cmd-help.txt'
+'./cld/doc/mysql-data-type-help.txt' -> '/usr/local/cld/doc/mysql-data-type-help.txt'
 './cld/doc/mysql-user-help.txt' -> '/usr/local/cld/doc/mysql-user-help.txt'
-'./cld/doc/mysql-view-help.txt' -> '/usr/local/cld/doc/mysql-view-help.txt'
 CLDS: * Install mariadb-server.
 CLDS: * Set root password to [password].
+<<<<<<< HEAD
 CLDS: * Disk size = 4391032K. Space Used = 321468K. Runtime = 00:00:00:10.
+=======
+CLDS: * Disk size = 4487824K. Space Used = 321456K. Runtime = 00:00:00:07.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

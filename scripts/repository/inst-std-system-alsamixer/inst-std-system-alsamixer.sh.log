@@ -1,4 +1,8 @@
 CLDS:>>>>>>>>> Running inst-std-system-alsamixer.sh ...
 './cld/doc/sound-help.txt' -> '/usr/local/cld/doc/sound-help.txt'
 CLDS: * Insert Alsamixer menu in Administration.
+<<<<<<< HEAD
 CLDS: * Disk size = 6585976K. Space Used = 8K. Runtime = 00:00:00:01.
+=======
+CLDS: * Disk size = 7012340K. Space Used = 8K. Runtime = 00:00:00:01.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

@@ -8,13 +8,23 @@ The following NEW packages will be installed:
 Need to get 76.0 kB of archives.
 After this operation, 178 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gromit-mpx amd64 1.4.3-1 [76.0 kB]
+<<<<<<< HEAD
 Fetched 76.0 kB in 0s (5,259 kB/s)
 Selecting previously unselected package gromit-mpx.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114754 files and directories currently installed.)
+=======
+Fetched 76.0 kB in 0s (1,664 kB/s)
+Selecting previously unselected package gromit-mpx.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114974 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../gromit-mpx_1.4.3-1_amd64.deb ...
 Unpacking gromit-mpx (1.4.3-1) ...
 Setting up gromit-mpx (1.4.3-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install gromit-mpx.
+<<<<<<< HEAD
 CLDS: * Disk size = 6585964K. Space Used = 280K. Runtime = 00:00:00:02.
+=======
+CLDS: * Disk size = 6947360K. Space Used = 284K. Runtime = 00:00:00:02.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

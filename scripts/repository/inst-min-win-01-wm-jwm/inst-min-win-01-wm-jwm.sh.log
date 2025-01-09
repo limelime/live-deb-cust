@@ -29,11 +29,18 @@ The following NEW packages will be installed:
   libvte-2.91-common libwayland-client0 libwayland-cursor0 libwayland-egl1
   libx11-xcb1 libxcb-util1 libxcomposite1 libxcursor1 libxdamage1
   libxfce4ui-2-0 libxfce4ui-common libxfce4util-common libxfce4util7
+<<<<<<< HEAD
   libxfconf-0-3 libxfixes3 libxft2 libxi6 libxinerama1 libxkbcommon0 libxmu6
   libxrandr2 libxt6 xfce4-terminal xfconf xkb-data
 0 upgraded, 54 newly installed, 0 to remove and 16 not upgraded.
 Need to get 21.0 MB of archives.
 After this operation, 99.0 MB of additional disk space will be used.
+=======
+  libxfconf-0-3 libxft2 libxi6 libxkbcommon0 xfce4-terminal xfconf
+0 upgraded, 40 newly installed, 0 to remove and 16 not upgraded.
+Need to get 19.3 MB of archives.
+After this operation, 88.9 MB of additional disk space will be used.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 hicolor-icon-theme all 0.17-2 [11.4 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgdk-pixbuf2.0-common all 2.42.10+dfsg-1+deb12u1 [306 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgdk-pixbuf-2.0-0 amd64 2.42.10+dfsg-1+deb12u1 [139 kB]
@@ -51,6 +58,7 @@ Get:14 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backp
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libatk-bridge2.0-0 amd64 2.46.0-5 [64.6 kB]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcairo-gobject2 amd64 1.16.0-7 [112 kB]
 Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libcolord2 amd64 1.4.6-2.2 [137 kB]
+<<<<<<< HEAD
 Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libepoxy0 amd64 1.5.10-1 [189 kB]
 Get:19 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 libwayland-client0 amd64 1.23.0-1~bpo12+1 [26.4 kB]
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwayland-cursor0 amd64 1.21.0-1 [14.4 kB]
@@ -91,6 +99,34 @@ Get:54 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 jwm 
 Fetched 21.0 MB in 0s (48.0 MB/s)
 Selecting previously unselected package hicolor-icon-theme.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 96223 files and directories currently installed.)
+=======
+Get:18 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwayland-cursor0 amd64 1.21.0-1 [14.4 kB]
+Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libwayland-egl1 amd64 1.21.0-1 [8,640 B]
+Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxcomposite1 amd64 1:0.4.5-1 [16.6 kB]
+Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxkbcommon0 amd64 1.5.0-1 [106 kB]
+Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgtk-3-common all 3.24.38-2~deb12u3 [3,895 kB]
+Get:23 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgtk-3-0 amd64 3.24.38-2~deb12u3 [2,847 kB]
+Get:24 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxfce4util-common all 4.18.1-2 [66.0 kB]
+Get:25 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxfce4util7 amd64 4.18.1-2 [37.0 kB]
+Get:26 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libexo-2-0 amd64 4.18.0-1 [249 kB]
+Get:27 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxfce4ui-common all 4.18.2-2 [221 kB]
+Get:28 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libstartup-notification0 amd64 0.12-6+b1 [23.1 kB]
+Get:29 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xfconf amd64 4.18.0-2 [126 kB]
+Get:30 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxfconf-0-3 amd64 4.18.0-2 [44.5 kB]
+Get:31 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxfce4ui-2-0 amd64 4.18.2-2 [72.1 kB]
+Get:32 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 exo-utils amd64 4.18.0-1 [58.1 kB]
+Get:33 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libutempter0 amd64 1.2.1-3 [8,960 B]
+Get:34 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvte-2.91-common amd64 0.70.6-2~deb12u1 [642 kB]
+Get:35 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvte-2.91-0 amd64 0.70.6-2~deb12u1 [799 kB]
+Get:36 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xfce4-terminal amd64 1.0.4-1 [697 kB]
+Get:37 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxft2 amd64 2.3.6-1 [61.8 kB]
+Get:38 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpangoxft-1.0-0 amd64 1.50.12+ds-1 [26.7 kB]
+Get:39 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 librsvg2-2 amd64 2.54.7+dfsg-1~deb12u1 [2,620 kB]
+Get:40 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 jwm amd64 2.4.3-1 [146 kB]
+Fetched 19.3 MB in 0s (81.3 MB/s)
+Selecting previously unselected package hicolor-icon-theme.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 95698 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../00-hicolor-icon-theme_0.17-2_all.deb ...
 Unpacking hicolor-icon-theme (0.17-2) ...
 Selecting previously unselected package libgdk-pixbuf2.0-common.
@@ -313,19 +349,23 @@ Setting up jwm (2.4.3-1) ...
 update-alternatives: using /usr/bin/jwm to provide /usr/bin/x-window-manager (x-window-manager) in auto mode
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/app/jwm' -> '/usr/local/cld/app/jwm'
-'./cld/app/jwm/jwm-bootstrap.sh' -> '/usr/local/cld/app/jwm/jwm-bootstrap.sh'
 './cld/app/jwm/jwmrc' -> '/usr/local/cld/app/jwm/jwmrc'
-'./cld/app/jwm/jwmrc/jwmrc-key.xml' -> '/usr/local/cld/app/jwm/jwmrc/jwmrc-key.xml'
 './cld/app/jwm/jwmrc/jwmrc-menu-shutdown.xml' -> '/usr/local/cld/app/jwm/jwmrc/jwmrc-menu-shutdown.xml'
 './cld/app/jwm/jwmrc/jwmrc-menus.xml' -> '/usr/local/cld/app/jwm/jwmrc/jwmrc-menus.xml'
 './cld/app/jwm/jwmrc/jwmrc-tray.xml' -> '/usr/local/cld/app/jwm/jwmrc/jwmrc-tray.xml'
+'./cld/app/jwm/jwmrc/jwmrc-key.xml' -> '/usr/local/cld/app/jwm/jwmrc/jwmrc-key.xml'
 './cld/app/jwm/jwmrc/icons' -> '/usr/local/cld/app/jwm/jwmrc/icons'
 './cld/app/jwm/jwmrc/icons/bomb-1F4A3.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/bomb-1F4A3.svg'
-'./cld/app/jwm/jwmrc/icons/gear-2699.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/gear-2699.svg'
 './cld/app/jwm/jwmrc/icons/counterclockwise-1F504.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/counterclockwise-1F504.svg'
+'./cld/app/jwm/jwmrc/icons/gear-2699.svg' -> '/usr/local/cld/app/jwm/jwmrc/icons/gear-2699.svg'
+'./cld/app/jwm/jwm-bootstrap.sh' -> '/usr/local/cld/app/jwm/jwm-bootstrap.sh'
 './cld/home' -> '/usr/local/cld/home'
 './cld/home/.jwmrc' -> '/usr/local/cld/home/.jwmrc'
 CLDS: * Install Window Manager jwm: JWM v2.4.4 by Joe Wingbermuehle.
 CLDS: * Set .
 CLDS: * Change X window manager: update-alternatives --config x-window-manager
+<<<<<<< HEAD
 CLDS: * Disk size = 4730760K. Space Used = 97956K. Runtime = 00:00:00:16.
+=======
+CLDS: * Disk size = 5038372K. Space Used = 89004K. Runtime = 00:00:00:09.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

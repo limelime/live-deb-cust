@@ -5,4 +5,8 @@ Reading state information...
 0 upgraded, 0 newly installed, 0 to remove and 5 not upgraded.
 CLDS: * Remove unused packages: apt-get -y autoremove.
 CLDS: * Clean cached DEB: apt-get clean.
+<<<<<<< HEAD
 CLDS: * Disk size = 6748628K. Space Used = -178964K. Runtime = 00:00:00:02.
+=======
+CLDS: * Disk size = 7638132K. Space Used = -178780K. Runtime = 00:00:00:01.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

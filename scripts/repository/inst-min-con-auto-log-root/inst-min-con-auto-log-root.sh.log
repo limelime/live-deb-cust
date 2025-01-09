@@ -1,3 +1,7 @@
 CLDS:>>>>>>>>> Running inst-min-con-auto-log-root.sh ...
 './cld/doc/user-help.txt' -> '/usr/local/cld/doc/user-help.txt'
+<<<<<<< HEAD
 CLDS: * Disk size = 1005912K. Space Used = 16K. Runtime = 00:00:00:00.
+=======
+CLDS: * Disk size = 1102904K. Space Used = 16K. Runtime = 00:00:00:00.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

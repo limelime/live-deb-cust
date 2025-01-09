@@ -12,9 +12,15 @@ After this operation, 1,915 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libonig5 amd64 6.9.8-1 [188 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-mbstring amd64 8.2.24-1~deb12u1 [443 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php-mbstring all 2:8.2+93 [3,664 B]
+<<<<<<< HEAD
 Fetched 635 kB in 0s (25.4 MB/s)
 Selecting previously unselected package libonig5:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115536 files and directories currently installed.)
+=======
+Fetched 635 kB in 0s (10.3 MB/s)
+Selecting previously unselected package libonig5:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120971 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../libonig5_6.9.8-1_amd64.deb ...
 Unpacking libonig5:amd64 (6.9.8-1) ...
 Selecting previously unselected package php8.2-mbstring.
@@ -34,4 +40,8 @@ Running in chroot, ignoring request.
 invoke-rc.d: policy-rc.d denied execution of restart.
 Processing triggers for php8.2-cli (8.2.24-1~deb12u1) ...
 CLDS: * Install php-mbstring.
+<<<<<<< HEAD
 CLDS: * Disk size = 6604096K. Space Used = 2584K. Runtime = 00:00:00:03.
+=======
+CLDS: * Disk size = 7644304K. Space Used = 2576K. Runtime = 00:00:00:02.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

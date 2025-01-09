@@ -11,9 +11,15 @@ Need to get 497 kB of archives.
 After this operation, 2,576 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libhandy-1-0 amd64 1.8.1-1 [321 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-screenshot amd64 41.0-2 [175 kB]
+<<<<<<< HEAD
 Fetched 497 kB in 0s (19.6 MB/s)
 Selecting previously unselected package libhandy-1-0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106456 files and directories currently installed.)
+=======
+Fetched 497 kB in 0s (9,779 kB/s)
+Selecting previously unselected package libhandy-1-0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105560 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../libhandy-1-0_1.8.1-1_amd64.deb ...
 Unpacking libhandy-1-0:amd64 (1.8.1-1) ...
 Selecting previously unselected package gnome-screenshot.
@@ -27,4 +33,8 @@ Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u4) ...
 CLDS: * Install gnome-screenshot to be used for PrintScreen key.
 CLDS: * Insert PrintScreen key binding.
 CLDS: * By default, screenshots are saved under ~/Pictures/.
+<<<<<<< HEAD
 CLDS: * Disk size = 4909300K. Space Used = 1476K. Runtime = 00:00:00:03.
+=======
+CLDS: * Disk size = 5219240K. Space Used = 1464K. Runtime = 00:00:00:01.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

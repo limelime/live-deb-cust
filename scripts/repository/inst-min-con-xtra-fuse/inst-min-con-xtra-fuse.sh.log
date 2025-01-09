@@ -12,7 +12,11 @@ The following NEW packages will be installed:
 0 upgraded, 1 newly installed, 2 to remove and 16 not upgraded.
 Need to get 0 B/61.3 kB of archives.
 After this operation, 1,475 kB disk space will be freed.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47138 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47136 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Removing ntfs-3g (1:2022.10.3-1+deb12u2) ...
 dpkg: fuse3: dependency problems, but removing anyway as you requested:
  jmtpfs depends on fuse; however:
@@ -25,7 +29,11 @@ dpkg: fuse3: dependency problems, but removing anyway as you requested:
 Removing fuse3 (3.14.0-4) ...
 update-initramfs: deferring update (trigger activated)
 Selecting previously unselected package fuse.
+<<<<<<< HEAD
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47060 files and directories currently installed.)
+=======
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47058 files and directories currently installed.)
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
 Preparing to unpack .../fuse_2.9.9-6+b1_amd64.deb ...
 Unpacking fuse (2.9.9-6+b1) ...
 Setting up fuse (2.9.9-6+b1) ...
@@ -36,4 +44,8 @@ update-initramfs: Generating /boot/initrd.img-6.11.10+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install fuse(fusermount) to run TMSU.
+<<<<<<< HEAD
 CLDS: * Disk size = 2893352K. Space Used = 9136K. Runtime = 00:00:00:36.
+=======
+CLDS: * Disk size = 2990200K. Space Used = 9152K. Runtime = 00:00:00:47.
+>>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
