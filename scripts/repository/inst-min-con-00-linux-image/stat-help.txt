@@ -1,0 +1,5 @@
+# Get file size
+    stat --printf="%s" somefile.txt
+
+# Get file size with thousand separator.
+    stat --printf="%'s" somefile.txt

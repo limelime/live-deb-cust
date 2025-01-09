@@ -10,8 +10,11 @@ echo "${GV_LOG}>>>>>>>>> Running ${SCRIPT_NAME} ..."
 #	apt-get install -s -y <your-package> 
 
 # Install libegl-mesa0.
-	apt-get -y install libegl-mesa0=24.2.4-1~bpo12+1
-	apt-get -y install libglx-mesa0=24.2.4-1~bpo12+1
+	apt-get -y install libegl-mesa0
+	apt-get -y install libglx-mesa0
+
+	# apt-get -y install libegl-mesa0=24.2.4-1~bpo12+1
+	# apt-get -y install libglx-mesa0=24.2.4-1~bpo12+1
 
 
 # Log

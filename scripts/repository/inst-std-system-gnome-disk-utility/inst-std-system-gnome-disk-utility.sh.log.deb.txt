@@ -11,12 +11,15 @@ libblockdev-utils2
 libcanberra0
 libcanberra-gtk3-0
 libcrack2
+libdvdread8
 libltdl7
 libparted-fs-resize0
 libpwquality1
 libpwquality-common
 libsecret-1-0
 libsecret-common
+libtdb1
 libudisks2-0
+libvorbisfile3
 sound-theme-freedesktop
 udisks2

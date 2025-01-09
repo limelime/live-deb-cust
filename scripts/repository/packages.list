@@ -205,8 +205,8 @@ vsftpd
 # ./inst-min-con-xtra-xsltproc/inst-min-con-xtra-xsltproc.sh
 xsltproc
 # ./inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0/inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0.sh
-libegl-mesa0=24.2.4-1~bpo12+1
-libglx-mesa0=24.2.4-1~bpo12+1
+libegl-mesa0
+libglx-mesa0
 # ./inst-min-win-00-xorg-drivers/inst-min-win-00-xorg-drivers.sh
 xserver-xorg-video-all
 xserver-xorg-video-amdgpu
