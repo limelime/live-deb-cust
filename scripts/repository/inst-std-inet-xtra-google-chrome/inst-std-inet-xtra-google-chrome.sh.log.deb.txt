@@ -1,3 +1,2 @@
 google-chrome-stable
-libvulkan1
 xdg-utils

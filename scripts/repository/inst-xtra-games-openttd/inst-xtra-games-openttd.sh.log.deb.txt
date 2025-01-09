@@ -1,6 +1,5 @@
 libfluidsynth3
 libinstpatch-1.0-2
-libjack-jackd2-0
 openttd
 openttd-data
 openttd-opengfx

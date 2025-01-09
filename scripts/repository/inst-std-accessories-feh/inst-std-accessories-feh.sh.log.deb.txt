@@ -2,8 +2,6 @@ feh
 fonts-urw-base35
 libcurl4
 libexif12
-libfontenc1
-libgif7
 libgs10
 libgs10-common
 libgs-common

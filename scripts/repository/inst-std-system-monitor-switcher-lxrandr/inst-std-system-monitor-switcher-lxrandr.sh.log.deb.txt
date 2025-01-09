@@ -1,5 +1,2 @@
-libxaw7
-libxmuu1
-libxxf86vm1
 lxrandr
 x11-xserver-utils

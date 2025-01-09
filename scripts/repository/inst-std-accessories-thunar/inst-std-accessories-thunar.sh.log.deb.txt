@@ -1,6 +1,5 @@
 desktop-file-utils
 gnome-icon-theme
-libgudev-1.0-0
 librsvg2-common
 libthunarx-3-0
 thunar
