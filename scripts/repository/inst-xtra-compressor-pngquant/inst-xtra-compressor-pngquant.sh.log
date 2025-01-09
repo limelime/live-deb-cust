@@ -6,14 +6,14 @@ The following additional packages will be installed:
   libimagequant0
 The following NEW packages will be installed:
   libimagequant0 pngquant
-0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
 Need to get 53.8 kB of archives.
 After this operation, 146 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libimagequant0 amd64 2.17.0-1 [32.5 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pngquant amd64 2.17.0-1 [21.3 kB]
-Fetched 53.8 kB in 0s (3,691 kB/s)
+Fetched 53.8 kB in 0s (3,174 kB/s)
 Selecting previously unselected package libimagequant0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123161 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115619 files and directories currently installed.)
 Preparing to unpack .../libimagequant0_2.17.0-1_amd64.deb ...
 Unpacking libimagequant0:amd64 (2.17.0-1) ...
 Selecting previously unselected package pngquant.
@@ -23,4 +23,4 @@ Setting up libimagequant0:amd64 (2.17.0-1) ...
 Setting up pngquant (2.17.0-1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install pngquant.
-CLDS: * Disk size = 7603560K. Space Used = 256K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 6606416K. Space Used = 260K. Runtime = 00:00:00:03.

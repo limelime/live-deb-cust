@@ -6,48 +6,43 @@ The following packages were automatically installed and are no longer required:
   libfuse3-3 libntfs-3g89
 Use 'apt autoremove' to remove them.
 The following additional packages will be installed:
-  libblas3 liblinear4 libpcap0.8 lua-lpeg nmap-common
+  libblas3 liblinear4 libpcap0.8 nmap-common
 Suggested packages:
   liblinear-tools liblinear-dev ncat ndiff zenmap
 The following NEW packages will be installed:
-  libblas3 liblinear4 libpcap0.8 lua-lpeg nmap nmap-common
-0 upgraded, 6 newly installed, 0 to remove and 15 not upgraded.
-Need to get 6,518 kB of archives.
+  libblas3 liblinear4 libpcap0.8 nmap nmap-common
+0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+Need to get 6,586 kB of archives.
 After this operation, 27.8 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libblas3 amd64 3.11.0-2 [149 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 liblinear4 amd64 2.3.0+dfsg-5 [43.6 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpcap0.8 amd64 1.10.3-1 [157 kB]
-Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 lua-lpeg amd64 1.0.2-2 [37.7 kB]
-Get:5 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 nmap-common all 7.94+git20230807.3be01efb1+dfsg-1~bpo12+1 [4,231 kB]
-Get:6 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 nmap amd64 7.94+git20230807.3be01efb1+dfsg-1~bpo12+1 [1,900 kB]
-Fetched 6,518 kB in 0s (101 MB/s)
+Get:4 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 nmap-common all 7.94+git20230807.3be01efb1+dfsg-4~bpo12+1 [4,322 kB]
+Get:5 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 nmap amd64 7.94+git20230807.3be01efb1+dfsg-4~bpo12+1 [1,914 kB]
+Fetched 6,586 kB in 0s (67.5 MB/s)
 Selecting previously unselected package libblas3:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89798 files and directories currently installed.)
-Preparing to unpack .../0-libblas3_3.11.0-2_amd64.deb ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89804 files and directories currently installed.)
+Preparing to unpack .../libblas3_3.11.0-2_amd64.deb ...
 Unpacking libblas3:amd64 (3.11.0-2) ...
 Selecting previously unselected package liblinear4:amd64.
-Preparing to unpack .../1-liblinear4_2.3.0+dfsg-5_amd64.deb ...
+Preparing to unpack .../liblinear4_2.3.0+dfsg-5_amd64.deb ...
 Unpacking liblinear4:amd64 (2.3.0+dfsg-5) ...
 Selecting previously unselected package libpcap0.8:amd64.
-Preparing to unpack .../2-libpcap0.8_1.10.3-1_amd64.deb ...
+Preparing to unpack .../libpcap0.8_1.10.3-1_amd64.deb ...
 Unpacking libpcap0.8:amd64 (1.10.3-1) ...
-Selecting previously unselected package lua-lpeg:amd64.
-Preparing to unpack .../3-lua-lpeg_1.0.2-2_amd64.deb ...
-Unpacking lua-lpeg:amd64 (1.0.2-2) ...
 Selecting previously unselected package nmap-common.
-Preparing to unpack .../4-nmap-common_7.94+git20230807.3be01efb1+dfsg-1~bpo12+1_all.deb ...
-Unpacking nmap-common (7.94+git20230807.3be01efb1+dfsg-1~bpo12+1) ...
+Preparing to unpack .../nmap-common_7.94+git20230807.3be01efb1+dfsg-4~bpo12+1_all.deb ...
+Unpacking nmap-common (7.94+git20230807.3be01efb1+dfsg-4~bpo12+1) ...
 Selecting previously unselected package nmap.
-Preparing to unpack .../5-nmap_7.94+git20230807.3be01efb1+dfsg-1~bpo12+1_amd64.deb ...
-Unpacking nmap (7.94+git20230807.3be01efb1+dfsg-1~bpo12+1) ...
-Setting up lua-lpeg:amd64 (1.0.2-2) ...
+Preparing to unpack .../nmap_7.94+git20230807.3be01efb1+dfsg-4~bpo12+1_amd64.deb ...
+Unpacking nmap (7.94+git20230807.3be01efb1+dfsg-4~bpo12+1) ...
 Setting up libblas3:amd64 (3.11.0-2) ...
 update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
 Setting up libpcap0.8:amd64 (1.10.3-1) ...
-Setting up nmap-common (7.94+git20230807.3be01efb1+dfsg-1~bpo12+1) ...
+Setting up nmap-common (7.94+git20230807.3be01efb1+dfsg-4~bpo12+1) ...
 Setting up liblinear4:amd64 (2.3.0+dfsg-5) ...
-Setting up nmap (7.94+git20230807.3be01efb1+dfsg-1~bpo12+1) ...
+Setting up nmap (7.94+git20230807.3be01efb1+dfsg-4~bpo12+1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/doc/nmap-help.txt' -> '/usr/local/cld/doc/nmap-help.txt'
 CLDS: * Install nmap.
-CLDS: * Disk size = 4427688K. Space Used = 34488K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 4427808K. Space Used = 34300K. Runtime = 00:00:00:27.

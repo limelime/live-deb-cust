@@ -42,13 +42,13 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   xz-utils
-0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
 Need to get 471 kB of archives.
 After this operation, 1,255 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xz-utils amd64 5.4.1-0.2 [471 kB]
-Fetched 471 kB in 0s (27.7 MB/s)
+Fetched 471 kB in 0s (33.3 MB/s)
 Selecting previously unselected package xz-utils.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 44905 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 44911 files and directories currently installed.)
 Preparing to unpack .../xz-utils_5.4.1-0.2_amd64.deb ...
 Unpacking xz-utils (5.4.1-0.2) ...
 Setting up xz-utils (5.4.1-0.2) ...
@@ -60,13 +60,13 @@ Suggested packages:
   graphviz
 The following NEW packages will be installed:
   aptly
-0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
 Need to get 5,950 kB of archives.
 After this operation, 25.2 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 aptly amd64 1.5.0+ds1-1+b4 [5,950 kB]
-Fetched 5,950 kB in 0s (89.8 MB/s)
+Fetched 5,950 kB in 0s (89.6 MB/s)
 Selecting previously unselected package aptly.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45085 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 45091 files and directories currently installed.)
 Preparing to unpack .../aptly_1.5.0+ds1-1+b4_amd64.deb ...
 Unpacking aptly (1.5.0+ds1-1+b4) ...
 Setting up aptly (1.5.0+ds1-1+b4) ...
@@ -75,4 +75,4 @@ Setting up aptly (1.5.0+ds1-1+b4) ...
 CLDS: * Add aptly nightly build repository.
 CLDS: * Install aptly version: 1.5.0+ds1-1+b4 to create local debian repository.
 CLDS: * Add xz-utils package because aptly snapshot merge needs it.
-CLDS: * Disk size = 2319316K. Space Used = 31296K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 2319628K. Space Used = 31296K. Runtime = 00:00:00:05.

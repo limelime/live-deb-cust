@@ -9,15 +9,15 @@ Recommended packages:
   powermgmt-base
 The following NEW packages will be installed:
   hdparm
-0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
 Need to get 116 kB of archives.
 After this operation, 262 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 hdparm amd64 9.65+ds-1 [116 kB]
-Fetched 116 kB in 0s (5,833 kB/s)
+Fetched 116 kB in 0s (7,810 kB/s)
 Selecting previously unselected package hdparm.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88668 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88674 files and directories currently installed.)
 Preparing to unpack .../hdparm_9.65+ds-1_amd64.deb ...
 Unpacking hdparm (9.65+ds-1) ...
 Setting up hdparm (9.65+ds-1) ...
 CLDS: * Install hdparm.
-CLDS: * Disk size = 4064112K. Space Used = 440K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 4064416K. Space Used = 440K. Runtime = 00:00:00:02.

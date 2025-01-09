@@ -19,7 +19,7 @@ The following NEW packages will be installed:
   libjs-sphinxdoc libjs-underscore libnsl-dev libpython3-dev libpython3.11
   libpython3.11-dev libtirpc-dev linux-libc-dev python3-dev python3.11-dev
   rpcsvc-proto zlib1g-dev
-0 upgraded, 17 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 17 newly installed, 0 to remove and 16 not upgraded.
 Need to get 13.5 MB of archives.
 After this operation, 59.5 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libc-dev-bin amd64 2.36-9+deb12u9 [46.7 kB]
@@ -39,9 +39,9 @@ Get:14 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:15 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpython3-dev amd64 3.11.2-1+b1 [9,572 B]
 Get:16 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3.11-dev amd64 3.11.2-6+deb12u4 [616 kB]
 Get:17 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-dev amd64 3.11.2-1+b1 [26.2 kB]
-Fetched 13.5 MB in 0s (106 MB/s)
+Fetched 13.5 MB in 0s (40.7 MB/s)
 Selecting previously unselected package libc-dev-bin.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90913 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90890 files and directories currently installed.)
 Preparing to unpack .../00-libc-dev-bin_2.36-9+deb12u9_amd64.deb ...
 Unpacking libc-dev-bin (2.36-9+deb12u9) ...
 Selecting previously unselected package linux-libc-dev:amd64.
@@ -112,4 +112,4 @@ Setting up python3-dev (3.11.2-1+b1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install python3-dev.
 CLDS: * Require for: tulipy
-CLDS: * Disk size = 4537996K. Space Used = 75396K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 4538112K. Space Used = 75392K. Runtime = 00:00:00:50.

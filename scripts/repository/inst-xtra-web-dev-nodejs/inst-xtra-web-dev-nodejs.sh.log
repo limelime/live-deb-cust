@@ -1,5 +1,5 @@
 CLDS:>>>>>>>>> Running inst-xtra-web-dev-nodejs.sh ...
-[38;5;79m2024-11-26 17:14:38 - Installing pre-requisites[0m
+[38;5;79m2025-01-08 18:18:45 - Installing pre-requisites[0m
 Hit:1 http://localhost/aptly-repo/master_bookworm-main bookworm InRelease
 Hit:2 http://localhost/aptly-repo/master_aptly-main squeeze InRelease
 Hit:3 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports InRelease
@@ -10,17 +10,17 @@ Hit:7 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm InR
 Hit:8 http://localhost/aptly-repo/master_bookworm-non-free bookworm InRelease
 Hit:9 http://localhost/aptly-repo/master_bookworm-updates-contrib bookworm-updates InRelease
 Hit:10 http://localhost/aptly-repo/master_bookworm-updates-main bookworm-updates InRelease
-Hit:11 https://download.docker.com/linux/debian bookworm InRelease
-Hit:12 http://localhost/aptly-repo/master_bookworm-updates-non-free bookworm-updates InRelease
-Hit:13 http://localhost/aptly-repo/master_deb-multimedia-main bookworm InRelease
-Hit:14 http://localhost/aptly-repo/master_deb-multimedia-non-free bookworm InRelease
-Hit:15 http://localhost/aptly-repo/master_docker-stable bookworm InRelease
-Hit:16 http://localhost/aptly-repo/master_google-cloud-main cloud-sdk InRelease
-Hit:17 http://localhost/aptly-repo/master_google-main stable InRelease
-Hit:18 http://localhost/aptly-repo/master_qgis-main bookworm InRelease
-Hit:19 http://localhost/aptly-repo/master_virtualbox-contrib bookworm InRelease
-Hit:20 https://dl.google.com/linux/chrome/deb stable InRelease
-Hit:21 https://packages.microsoft.com/repos/edge stable InRelease
+Hit:11 http://localhost/aptly-repo/master_bookworm-updates-non-free bookworm-updates InRelease
+Hit:12 http://localhost/aptly-repo/master_deb-multimedia-main bookworm InRelease
+Hit:13 http://localhost/aptly-repo/master_deb-multimedia-non-free bookworm InRelease
+Hit:14 http://localhost/aptly-repo/master_docker-stable bookworm InRelease
+Hit:15 http://localhost/aptly-repo/master_google-cloud-main cloud-sdk InRelease
+Hit:16 http://localhost/aptly-repo/master_google-main stable InRelease
+Hit:17 http://localhost/aptly-repo/master_qgis-main bookworm InRelease
+Hit:18 http://localhost/aptly-repo/master_virtualbox-contrib bookworm InRelease
+Hit:19 https://download.docker.com/linux/debian bookworm InRelease
+Hit:20 https://packages.microsoft.com/repos/edge stable InRelease
+Hit:21 https://dl.google.com/linux/chrome/deb stable InRelease
 Reading package lists...
 W: http://localhost/aptly-repo/master_bookworm-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_aptly-main/dists/squeeze/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
@@ -45,9 +45,9 @@ Building dependency tree...
 Reading state information...
 apt-transport-https is already the newest version (2.6.1).
 ca-certificates is already the newest version (20230311).
-curl is already the newest version (8.10.1-1~bpo12+1).
+curl is already the newest version (8.11.1-1~bpo12+1).
 gnupg is already the newest version (2.2.40-1.1).
-0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 17 not upgraded.
 Hit:1 http://localhost/aptly-repo/master_bookworm-main bookworm InRelease
 Hit:2 http://localhost/aptly-repo/master_aptly-main squeeze InRelease
 Hit:3 http://localhost/aptly-repo/master_bookworm-backports-contrib bookworm-backports InRelease
@@ -71,7 +71,7 @@ Hit:20 https://packages.microsoft.com/repos/edge stable InRelease
 Hit:21 https://dl.google.com/linux/chrome/deb stable InRelease
 Get:22 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
 Get:23 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [9,928 B]
-Fetched 22.1 kB in 4s (5,120 B/s)
+Fetched 22.1 kB in 4s (5,204 B/s)
 Reading package lists...
 W: http://localhost/aptly-repo/master_bookworm-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_aptly-main/dists/squeeze/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
@@ -91,25 +91,25 @@ W: http://localhost/aptly-repo/master_google-cloud-main/dists/cloud-sdk/InReleas
 W: http://localhost/aptly-repo/master_google-main/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_qgis-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_virtualbox-contrib/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
-[1;34m2024-11-26 17:14:46 - Repository configured successfully.[0m
-[38;5;79m2024-11-26 17:14:46 - To install Node.js, run: apt-get install nodejs -y[0m
-[38;5;79m2024-11-26 17:14:46 - You can use N|solid Runtime as a node.js alternative[0m
-[1;32m2024-11-26 17:14:46 - To install N|solid Runtime, run: apt-get install nsolid -y 
+[1;34m2025-01-08 18:18:54 - Repository configured successfully.[0m
+[38;5;79m2025-01-08 18:18:54 - To install Node.js, run: apt-get install nodejs -y[0m
+[38;5;79m2025-01-08 18:18:54 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2025-01-08 18:18:54 - To install N|solid Runtime, run: apt-get install nsolid -y 
 [0m
 Reading package lists...
 Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   nodejs
-0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 17 not upgraded.
 Need to get 31.8 MB of archives.
 After this operation, 197 MB of additional disk space will be used.
 Get:1 https://deb.nodesource.com/node_20.x nodistro/main amd64 nodejs amd64 20.18.1-1nodesource1 [31.8 MB]
-Fetched 31.8 MB in 0s (65.1 MB/s)
+Fetched 31.8 MB in 1s (38.6 MB/s)
 Selecting previously unselected package nodejs.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 145078 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 137060 files and directories currently installed.)
 Preparing to unpack .../nodejs_20.18.1-1nodesource1_amd64.deb ...
 Unpacking nodejs (20.18.1-1nodesource1) ...
 Setting up nodejs (20.18.1-1nodesource1) ...
 CLDS: * Install nodejs.
-CLDS: * Disk size = 8838588K. Space Used = 235192K. Runtime = 00:00:00:15.
+CLDS: * Disk size = 7764004K. Space Used = 235156K. Runtime = 00:00:00:19.

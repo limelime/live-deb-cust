@@ -8,14 +8,14 @@ Suggested packages:
   libparted-dev libparted-i18n parted-doc
 The following NEW packages will be installed:
   libparted2 parted
-0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
 Need to get 333 kB of archives.
 After this operation, 662 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libparted2 amd64 3.5-3 [294 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 parted amd64 3.5-3 [39.1 kB]
-Fetched 333 kB in 0s (19.4 MB/s)
+Fetched 333 kB in 0s (22.3 MB/s)
 Selecting previously unselected package libparted2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17603 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17607 files and directories currently installed.)
 Preparing to unpack .../libparted2_3.5-3_amd64.deb ...
 Unpacking libparted2:amd64 (3.5-3) ...
 Selecting previously unselected package parted.
@@ -28,7 +28,7 @@ Reading package lists...
 Building dependency tree...
 Reading state information...
 util-linux is already the newest version (2.38.1-5+deb12u2).
-0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
 './cld/bin/cld-dirs-create.sh' -> '/usr/local/cld/bin/cld-dirs-create.sh'
 './cld/bin/cld-help.sh' -> '/usr/local/cld/bin/cld-help.sh'
 './cld/bin/cld-dd-usb.sh' -> '/usr/local/cld/bin/cld-dd-usb.sh'
@@ -39,4 +39,4 @@ util-linux is already the newest version (2.38.1-5+deb12u2).
 './cld/bin/cld-persistence.sh' -> '/usr/local/cld/bin/cld-persistence.sh'
 './cld/bin/cld-remaster.sh' -> '/usr/local/cld/bin/cld-remaster.sh'
 './cld/bin/readme.md' -> '/usr/local/cld/bin/readme.md'
-CLDS: * Disk size = 1007400K. Space Used = 1072K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1007540K. Space Used = 1072K. Runtime = 00:00:00:01.

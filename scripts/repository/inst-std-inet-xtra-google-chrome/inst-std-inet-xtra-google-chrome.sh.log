@@ -3,37 +3,44 @@ Reading package lists...
 Building dependency tree...
 Reading state information...
 The following additional packages will be installed:
-  xdg-utils
+  libvulkan1 xdg-utils
 Recommended packages:
-  libnet-dbus-perl libx11-protocol-perl x11-xserver-utils
+  mesa-vulkan-drivers | vulkan-icd libnet-dbus-perl libx11-protocol-perl
+  x11-utils x11-xserver-utils
 The following NEW packages will be installed:
-  google-chrome-stable xdg-utils
-0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
-Need to get 112 MB of archives.
-After this operation, 366 MB of additional disk space will be used.
-Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xdg-utils all 1.1.3-4.1 [75.5 kB]
-Get:2 http://localhost/aptly-repo/master_google-main stable/main amd64 google-chrome-stable amd64 131.0.6778.85-1 [112 MB]
-Fetched 112 MB in 1s (104 MB/s)
+  google-chrome-stable libvulkan1 xdg-utils
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 113 MB of archives.
+After this operation, 369 MB of additional disk space will be used.
+Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvulkan1 amd64 1.3.239.0-1 [116 kB]
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xdg-utils all 1.1.3-4.1 [75.5 kB]
+Get:3 http://localhost/aptly-repo/master_google-main stable/main amd64 google-chrome-stable amd64 131.0.6778.264-1 [113 MB]
+Fetched 113 MB in 2s (63.6 MB/s)
+Selecting previously unselected package libvulkan1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114208 files and directories currently installed.)
+Preparing to unpack .../libvulkan1_1.3.239.0-1_amd64.deb ...
+Unpacking libvulkan1:amd64 (1.3.239.0-1) ...
 Selecting previously unselected package xdg-utils.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115500 files and directories currently installed.)
 Preparing to unpack .../xdg-utils_1.1.3-4.1_all.deb ...
 Unpacking xdg-utils (1.1.3-4.1) ...
 Selecting previously unselected package google-chrome-stable.
-Preparing to unpack .../google-chrome-stable_131.0.6778.85-1_amd64.deb ...
-Unpacking google-chrome-stable (131.0.6778.85-1) ...
+Preparing to unpack .../google-chrome-stable_131.0.6778.264-1_amd64.deb ...
+Unpacking google-chrome-stable (131.0.6778.264-1) ...
+Setting up libvulkan1:amd64 (1.3.239.0-1) ...
 Setting up xdg-utils (1.1.3-4.1) ...
 update-alternatives: using /usr/bin/xdg-open to provide /usr/bin/open (open) in auto mode
-Setting up google-chrome-stable (131.0.6778.85-1) ...
+Setting up google-chrome-stable (131.0.6778.264-1) ...
 update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
 update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
 update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/google-chrome (google-chrome) in auto mode
+Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for menu (2.1.49) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 './cld/bashrc.d/bashrc-alias-google-chrome.sh' -> '/usr/local/cld/bashrc.d/bashrc-alias-google-chrome.sh'
-CLDS: * Install Google Chrome 131.0.6778.85 .
+CLDS: * Install Google Chrome 131.0.6778.264 .
 CLDS: * Modify configuration to run google-chrome as root.
 CLDS: * Insert Google Chrome in Internet menu.
 CLDS: * Add google chrome alias, chrome.
 CLDS: * Set default browser: update-alternatives --config x-www-browser.
 CLDS: * Enable Flash: Run chrome://plugins and then disable and enable Flash. Test at https://www.google.com/finance?q=NASDAQ%3AAAPL
-CLDS: * Disk size = 6182364K. Space Used = 467468K. Runtime = 00:00:00:10.
+CLDS: * Disk size = 6088836K. Space Used = 471472K. Runtime = 00:00:00:14.

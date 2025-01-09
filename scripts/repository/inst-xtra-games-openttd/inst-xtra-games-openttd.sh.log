@@ -4,7 +4,7 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   openttd-opengfx openttd-openmsx openttd-opensfx
-0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 3 newly installed, 0 to remove and 17 not upgraded.
 Need to get 12.9 MB of archives.
 After this operation, 19.4 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-opengfx all 7.1-1 [2,888 kB]
@@ -12,7 +12,7 @@ Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 opent
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-opensfx all 1.0.3-2 [9,895 kB]
 Fetched 12.9 MB in 0s (102 MB/s)
 Selecting previously unselected package openttd-opengfx.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124385 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 116081 files and directories currently installed.)
 Preparing to unpack .../openttd-opengfx_7.1-1_all.deb ...
 Unpacking openttd-opengfx (7.1-1) ...
 Selecting previously unselected package openttd-openmsx.
@@ -28,37 +28,44 @@ Reading package lists...
 Building dependency tree...
 Reading state information...
 The following additional packages will be installed:
-  libfluidsynth3 libinstpatch-1.0-2 openttd-data timgm6mb-soundfont
+  libfluidsynth3 libinstpatch-1.0-2 libjack-jackd2-0 openttd-data
+  timgm6mb-soundfont
 Suggested packages:
-  timidity fluid-soundfont-gm
+  jackd2 timidity fluid-soundfont-gm
 The following NEW packages will be installed:
-  libfluidsynth3 libinstpatch-1.0-2 openttd openttd-data timgm6mb-soundfont
-0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
-Need to get 12.2 MB of archives.
-After this operation, 30.7 MB of additional disk space will be used.
+  libfluidsynth3 libinstpatch-1.0-2 libjack-jackd2-0 openttd openttd-data
+  timgm6mb-soundfont
+0 upgraded, 6 newly installed, 0 to remove and 17 not upgraded.
+Need to get 12.5 MB of archives.
+After this operation, 31.9 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libinstpatch-1.0-2 amd64 1.1.6-1 [259 kB]
-Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 timgm6mb-soundfont all 1.3-5 [5,427 kB]
-Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfluidsynth3 amd64 2.3.1-2 [241 kB]
-Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-data all 13.0-2 [3,143 kB]
-Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd amd64 13.0-2 [3,162 kB]
-Fetched 12.2 MB in 0s (89.5 MB/s)
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libjack-jackd2-0 amd64 1.9.21~dfsg-3 [281 kB]
+Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 timgm6mb-soundfont all 1.3-5 [5,427 kB]
+Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfluidsynth3 amd64 2.3.1-2 [241 kB]
+Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd-data all 13.0-2 [3,143 kB]
+Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 openttd amd64 13.0-2 [3,162 kB]
+Fetched 12.5 MB in 0s (60.1 MB/s)
 Selecting previously unselected package libinstpatch-1.0-2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124459 files and directories currently installed.)
-Preparing to unpack .../libinstpatch-1.0-2_1.1.6-1_amd64.deb ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 116155 files and directories currently installed.)
+Preparing to unpack .../0-libinstpatch-1.0-2_1.1.6-1_amd64.deb ...
 Unpacking libinstpatch-1.0-2:amd64 (1.1.6-1) ...
+Selecting previously unselected package libjack-jackd2-0:amd64.
+Preparing to unpack .../1-libjack-jackd2-0_1.9.21~dfsg-3_amd64.deb ...
+Unpacking libjack-jackd2-0:amd64 (1.9.21~dfsg-3) ...
 Selecting previously unselected package timgm6mb-soundfont.
-Preparing to unpack .../timgm6mb-soundfont_1.3-5_all.deb ...
+Preparing to unpack .../2-timgm6mb-soundfont_1.3-5_all.deb ...
 Unpacking timgm6mb-soundfont (1.3-5) ...
 Selecting previously unselected package libfluidsynth3:amd64.
-Preparing to unpack .../libfluidsynth3_2.3.1-2_amd64.deb ...
+Preparing to unpack .../3-libfluidsynth3_2.3.1-2_amd64.deb ...
 Unpacking libfluidsynth3:amd64 (2.3.1-2) ...
 Selecting previously unselected package openttd-data.
-Preparing to unpack .../openttd-data_13.0-2_all.deb ...
+Preparing to unpack .../4-openttd-data_13.0-2_all.deb ...
 Unpacking openttd-data (13.0-2) ...
 Selecting previously unselected package openttd.
-Preparing to unpack .../openttd_13.0-2_amd64.deb ...
+Preparing to unpack .../5-openttd_13.0-2_amd64.deb ...
 Unpacking openttd (13.0-2) ...
 Setting up openttd-data (13.0-2) ...
+Setting up libjack-jackd2-0:amd64 (1.9.21~dfsg-3) ...
 Setting up timgm6mb-soundfont (1.3-5) ...
 update-alternatives: using /usr/share/sounds/sf2/TimGM6mb.sf2 to provide /usr/share/sounds/sf2/default-GM.sf2 (default-GM.sf2) in auto mode
 update-alternatives: using /usr/share/sounds/sf2/TimGM6mb.sf2 to provide /usr/share/sounds/sf3/default-GM.sf3 (default-GM.sf3) in auto mode
@@ -69,4 +76,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install OpenTTD 13.0.
-CLDS: * Disk size = 8374596K. Space Used = 74084K. Runtime = 00:00:00:05.
+CLDS: * Disk size = 7211792K. Space Used = 75548K. Runtime = 00:00:00:08.
