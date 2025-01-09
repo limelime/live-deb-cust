@@ -2,11 +2,7 @@
   * After this operation, 2,143 kB of additional disk space will be used.
   * Install fonts-liberation to get free variants of the Times, Arial and Courier fonts.
   * Otherwise, install ttf-mscorefonts-installer to get Microsoft TrueType core fonts.
-<<<<<<< HEAD
-  * Disk size = 4957552K. Space Used = 2984K. Runtime = 00:00:00:03.
-=======
-  * Disk size = 5267408K. Space Used = 2984K. Runtime = 00:00:00:01.
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
+  * Disk size = 5170596K. Space Used = 2984K. Runtime = 00:00:00:02.
   * The following NEW packages will be installed:
   ```bash
 fonts-liberation

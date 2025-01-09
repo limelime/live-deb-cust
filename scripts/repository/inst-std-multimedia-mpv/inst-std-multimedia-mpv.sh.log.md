@@ -1,11 +1,9 @@
 * >>>>>>>>> Running inst-std-multimedia-mpv.sh ...
-  * Install Media Player: .
+  * After this operation, 163 MB of additional disk space will be used.
+  * Install Media Player: mpv 0.35.1 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects.
   * Add multiple aliases for MPV.
   * Add useful mpv keybindings settings.
-<<<<<<< HEAD
-  * Disk size = 6585672K. Space Used = 24K. Runtime = 00:00:00:02.
-=======
-  * Disk size = 6940988K. Space Used = 218836K. Runtime = 00:00:00:16.
+  * Disk size = 6844476K. Space Used = 218844K. Runtime = 00:00:00:15.
   * The following NEW packages will be installed:
   ```bash
 libarchive13 libaribb24-0 libass9 libavc1394-0 libavcodec60
@@ -30,4 +28,3 @@ libxpresent1 libxvidcore4 libzimg2 libzmq5 libzvbi0
 libzvbi-common mpv ocl-icd-libopencl1 samba-libs vapoursynth
 vapoursynth-ffms2
   ```
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c

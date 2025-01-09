@@ -1,11 +1,8 @@
 * >>>>>>>>> Running inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0.sh ...
-<<<<<<< HEAD
-  * Disk size = 4632768K. Space Used = 4K. Runtime = 00:00:00:03.
-=======
-  * After this operation, 182 MB of additional disk space will be used.
-  * After this operation, 1,618 kB of additional disk space will be used.
+  * After this operation, 183 MB of additional disk space will be used.
+  * After this operation, 1,619 kB of additional disk space will be used.
   * Install libegl-mesa0.
-  * Disk size = 4894508K. Space Used = 220788K. Runtime = 00:00:00:06.
+  * Disk size = 4797724K. Space Used = 220872K. Runtime = 00:00:00:08.
   * The following NEW packages will be installed:
   ```bash
 libdrm2 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-radeon1
@@ -15,4 +12,3 @@ libwayland-client0 libwayland-server0 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0
 libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-sync1 libxcb-xfixes0
 libxfixes3 libxshmfence1 libxxf86vm1 libz3-4 mesa-libgallium
   ```
->>>>>>> d76aedafffe03d8fcc13dfbdb7ded4ec9825752c
