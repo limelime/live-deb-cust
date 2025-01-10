@@ -36,4 +36,4 @@ update-initramfs: Generating /boot/initrd.img-6.11.10+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install fuse(fusermount) to run TMSU.
-CLDS: * Disk size = 2893280K. Space Used = 9144K. Runtime = 00:00:00:32.
+CLDS: * Disk size = 2893396K. Space Used = 9140K. Runtime = 00:00:00:32.

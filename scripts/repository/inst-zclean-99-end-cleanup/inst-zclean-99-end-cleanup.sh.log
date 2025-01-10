@@ -1,4 +1,4 @@
 CLDS:>>>>>>>>> Running inst-zclean-99-end-cleanup.sh ...
 CLDS: * rm -rf /tmp/*.
 CLDS: * Umount /sys, /dev/pts and /proc.
-CLDS: * Disk size = 7325268K. Space Used = -32K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 7325376K. Space Used = -32K. Runtime = 00:00:00:02.

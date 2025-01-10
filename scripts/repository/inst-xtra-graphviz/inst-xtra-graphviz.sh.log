@@ -24,7 +24,7 @@ Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgv
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgvpr2 amd64 2.42.2-7+deb12u1 [189 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 liblab-gamut1 amd64 2.42.2-7+deb12u1 [197 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 graphviz amd64 2.42.2-7+deb12u1 [611 kB]
-Fetched 2,006 kB in 0s (47.7 MB/s)
+Fetched 2,006 kB in 0s (82.6 MB/s)
 Selecting previously unselected package libann0.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123683 files and directories currently installed.)
 Preparing to unpack .../0-libann0_1.1.2+doc-9+b1_amd64.deb ...
@@ -66,4 +66,4 @@ Processing triggers for menu (2.1.49) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/doc/graphviz-help.txt' -> '/usr/local/cld/doc/graphviz-help.txt'
 CLDS: * Install graphviz.
-CLDS: * Disk size = 8399624K. Space Used = 11104K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 8399736K. Space Used = 11104K. Runtime = 00:00:00:03.

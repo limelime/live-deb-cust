@@ -30,4 +30,4 @@ Running in chroot, ignoring request.
 invoke-rc.d: policy-rc.d denied execution of restart.
 Processing triggers for php8.2-cli (8.2.24-1~deb12u1) ...
 CLDS: * Install php-sqlite3.
-CLDS: * Disk size = 8822360K. Space Used = 244K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 8822480K. Space Used = 244K. Runtime = 00:00:00:03.

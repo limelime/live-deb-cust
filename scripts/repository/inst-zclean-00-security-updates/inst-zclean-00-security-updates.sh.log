@@ -21,8 +21,8 @@ Hit:15 http://localhost/aptly-repo/master_google-cloud-main cloud-sdk InRelease
 Hit:16 http://localhost/aptly-repo/master_google-main stable InRelease
 Hit:17 http://localhost/aptly-repo/master_qgis-main bookworm InRelease
 Hit:18 http://localhost/aptly-repo/master_virtualbox-contrib bookworm InRelease
-Hit:19 https://download.docker.com/linux/debian bookworm InRelease
-Hit:20 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:19 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:20 https://download.docker.com/linux/debian bookworm InRelease
 Hit:21 https://packages.microsoft.com/repos/edge stable InRelease
 Hit:22 https://dl.google.com/linux/chrome/deb stable InRelease
 Reading package lists...
@@ -68,7 +68,7 @@ Get:9 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backpo
 Get:10 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 libss2 amd64 1.47.2~rc1-2~bpo12+2 [28.5 kB]
 Get:11 https://packages.microsoft.com/repos/edge stable/main amd64 microsoft-edge-stable amd64 131.0.2903.112-1 [169 MB]
 Preconfiguring packages ...
-Fetched 172 MB in 9s (19.5 MB/s)
+Fetched 172 MB in 6s (27.0 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 149744 files and directories currently installed.)
 Preparing to unpack .../sysvinit-utils_3.08-3~bpo12+2_amd64.deb ...
 Unpacking sysvinit-utils (3.08-3~bpo12+2) over (3.06-4) ...
@@ -105,8 +105,8 @@ Setting up libcom-err2:amd64 (1.47.2~rc1-2~bpo12+2) ...
 Setting up tzdata (2024b-0+deb12u1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Thu Jan  9 18:30:46 UTC 2025.
-Universal Time is now:  Thu Jan  9 18:30:46 UTC 2025.
+Local time is now:      Fri Jan 10 17:37:22 UTC 2025.
+Universal Time is now:  Fri Jan 10 17:37:22 UTC 2025.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up libss2:amd64 (1.47.2~rc1-2~bpo12+2) ...
@@ -140,4 +140,4 @@ W: No zstd in /usr/bin:/sbin:/bin, using gzip
 setupcon is missing. Please install the 'console-setup' package.
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install security updates at the ends.
-CLDS: * Disk size = 7721132K. Space Used = 259600K. Runtime = 00:00:01:04.
+CLDS: * Disk size = 7721244K. Space Used = 259600K. Runtime = 00:00:01:01.

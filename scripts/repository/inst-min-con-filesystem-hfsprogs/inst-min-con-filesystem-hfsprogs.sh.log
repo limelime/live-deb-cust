@@ -8,11 +8,11 @@ The following NEW packages will be installed:
 Need to get 157 kB of archives.
 After this operation, 403 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free bookworm/non-free amd64 hfsprogs amd64 540.1.linux3-5+b1 [157 kB]
-Fetched 157 kB in 0s (5,681 kB/s)
+Fetched 157 kB in 0s (13.7 MB/s)
 Selecting previously unselected package hfsprogs.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17941 files and directories currently installed.)
 Preparing to unpack .../hfsprogs_540.1.linux3-5+b1_amd64.deb ...
 Unpacking hfsprogs (540.1.linux3-5+b1) ...
 Setting up hfsprogs (540.1.linux3-5+b1) ...
 CLDS: * Install hfsprogs.
-CLDS: * Disk size = 1028552K. Space Used = 588K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1028668K. Space Used = 588K. Runtime = 00:00:00:01.

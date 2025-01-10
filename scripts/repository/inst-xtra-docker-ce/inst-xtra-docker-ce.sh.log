@@ -38,8 +38,8 @@ Hit:18 http://localhost/aptly-repo/master_virtualbox-contrib bookworm InRelease
 Get:19 https://packages.microsoft.com/repos/edge stable InRelease [3,590 B]
 Get:20 https://dl.google.com/linux/chrome/deb stable InRelease [1,825 B]
 Get:21 https://packages.microsoft.com/repos/edge stable/main amd64 Packages [14.2 kB]
-Get:22 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,227 B]
-Fetched 20.9 kB in 3s (7,957 B/s)
+Get:22 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,229 B]
+Fetched 20.9 kB in 3s (7,242 B/s)
 Reading package lists...
 W: http://localhost/aptly-repo/master_bookworm-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_aptly-main/dists/squeeze/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
@@ -88,7 +88,7 @@ Hit:19 http://localhost/aptly-repo/master_virtualbox-contrib bookworm InRelease
 Hit:20 https://packages.microsoft.com/repos/edge stable InRelease
 Hit:21 https://dl.google.com/linux/chrome/deb stable InRelease
 Get:22 https://download.docker.com/linux/debian bookworm/stable amd64 Packages [33.2 kB]
-Fetched 76.5 kB in 3s (30.2 kB/s)
+Fetched 76.5 kB in 3s (26.0 kB/s)
 Reading package lists...
 W: http://localhost/aptly-repo/master_bookworm-main/dists/bookworm/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 W: http://localhost/aptly-repo/master_aptly-main/dists/squeeze/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
@@ -133,7 +133,7 @@ Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libne
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 iptables amd64 1.8.9-2 [360 kB]
 Get:8 http://localhost/aptly-repo/master_docker-stable bookworm/stable amd64 docker-ce amd64 5:27.4.1-1~debian.12~bookworm [25.8 MB]
 Get:9 http://localhost/aptly-repo/master_docker-stable bookworm/stable amd64 docker-compose-plugin amd64 2.32.1-1~debian.12~bookworm [12.8 MB]
-Fetched 114 MB in 2s (73.2 MB/s)
+Fetched 114 MB in 1s (92.2 MB/s)
 Selecting previously unselected package containerd.io.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121070 files and directories currently installed.)
 Preparing to unpack .../0-containerd.io_1.7.24-1_amd64.deb ...
@@ -184,4 +184,4 @@ Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /
 Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install docker-ce: https://docs.docker.com/engine/install/debian
-CLDS: * Disk size = 8079912K. Space Used = 529840K. Runtime = 00:00:00:17.
+CLDS: * Disk size = 8080024K. Space Used = 529840K. Runtime = 00:00:00:17.

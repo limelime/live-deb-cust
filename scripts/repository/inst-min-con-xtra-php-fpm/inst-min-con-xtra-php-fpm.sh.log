@@ -115,4 +115,4 @@ invoke-rc.d: policy-rc.d denied execution of restart.
 CLDS: * Install php-fpm.
 CLDS: * Need for Drupal with nginx.
 CLDS: * Used to speed up the performance of a website. It is much faster than traditional CGI based methods and has the ability to handle tremendous loads simultaneously.
-CLDS: * Disk size = 4462432K. Space Used = 26644K. Runtime = 00:00:00:09.
+CLDS: * Disk size = 4462552K. Space Used = 26644K. Runtime = 00:00:00:10.
