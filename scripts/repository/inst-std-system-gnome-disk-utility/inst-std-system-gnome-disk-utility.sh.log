@@ -21,7 +21,7 @@ The following NEW packages will be installed:
   libblockdev2 libcanberra-gtk3-0 libcanberra0 libcrack2 libltdl7
   libparted-fs-resize0 libpwquality-common libpwquality1 libsecret-1-0
   libsecret-common libudisks2-0 sound-theme-freedesktop udisks2
-0 upgraded, 22 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 22 newly installed, 0 to remove and 15 not upgraded.
 Need to get 3,037 kB of archives.
 After this operation, 14.8 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gdisk amd64 1.0.9-2.1 [221 kB]
@@ -46,9 +46,9 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-common all 0.20.5-3 [28.5 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-1-0 amd64 0.20.5-3 [115 kB]
 Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-disk-utility amd64 43.0-1 [1,003 kB]
-Fetched 3,037 kB in 0s (45.3 MB/s)
+Fetched 3,037 kB in 0s (67.5 MB/s)
 Selecting previously unselected package gdisk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115238 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115257 files and directories currently installed.)
 Preparing to unpack .../00-gdisk_1.0.9-2.1_amd64.deb ...
 Unpacking gdisk (1.0.9-2.1) ...
 Selecting previously unselected package libblockdev-part-err2:amd64.
@@ -139,11 +139,11 @@ Running in chroot, ignoring request.
 Created symlink /etc/systemd/system/graphical.target.wants/udisks2.service → /lib/systemd/system/udisks2.service.
 Setting up gnome-disk-utility (43.0-1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
-Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u4) ...
+Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u5) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for dbus (1.14.10-1~deb12u1) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install Partition Manager: gnome-disk-utility.
 CLDS: * Run: gnome-disks.
 CLDS: * Insert gnome-disk-utility menu in Administration.
-CLDS: * Disk size = 6927956K. Space Used = 9788K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 6930144K. Space Used = 9792K. Runtime = 00:00:00:03.

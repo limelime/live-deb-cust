@@ -4,7 +4,7 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   libsixel1
-0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
 Inst libsixel1 (1.10.3-3 master_bookworm-main bookworm:bookworm [amd64])
 Conf libsixel1 (1.10.3-3 master_bookworm-main bookworm:bookworm [amd64])
 Reading package lists...
@@ -12,7 +12,7 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   libopencore-amrnb0 libopencore-amrwb0
-0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
 Inst libopencore-amrnb0 (0.1.6-1 master_bookworm-main bookworm:bookworm [amd64])
 Inst libopencore-amrwb0 (0.1.6-1 master_bookworm-main bookworm:bookworm [amd64])
 Conf libopencore-amrnb0 (0.1.6-1 master_bookworm-main bookworm:bookworm [amd64])
@@ -26,11 +26,11 @@ Suggested packages:
   lrzip
 The following NEW packages will be installed:
   libarchive13 liblept5 libtesseract5
-0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
-Inst libarchive13 (3.6.2-1+deb12u1 master_bookworm-main bookworm:bookworm [amd64])
+0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
+Inst libarchive13 (3.6.2-1+deb12u2 master_bookworm-main bookworm:bookworm [amd64])
 Inst liblept5 (1.82.0-3+b3 master_bookworm-main bookworm:bookworm [amd64])
 Inst libtesseract5 (5.3.0-2 master_bookworm-main bookworm:bookworm [amd64])
-Conf libarchive13 (3.6.2-1+deb12u1 master_bookworm-main bookworm:bookworm [amd64])
+Conf libarchive13 (3.6.2-1+deb12u2 master_bookworm-main bookworm:bookworm [amd64])
 Conf liblept5 (1.82.0-3+b3 master_bookworm-main bookworm:bookworm [amd64])
 Conf libtesseract5 (5.3.0-2 master_bookworm-main bookworm:bookworm [amd64])
 Reading package lists...
@@ -38,7 +38,7 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   libcjson1
-0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
 Inst libcjson1 (1.7.15-1+deb12u2 master_bookworm-main bookworm:bookworm [amd64])
 Conf libcjson1 (1.7.15-1+deb12u2 master_bookworm-main bookworm:bookworm [amd64])
 Reading package lists...
@@ -48,7 +48,7 @@ The following additional packages will be installed:
   libdjvulibre-text
 The following NEW packages will be installed:
   libdjvulibre-text libdjvulibre21 liblqr-1-0 libraqm0
-0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 4 newly installed, 0 to remove and 15 not upgraded.
 Inst libdjvulibre-text (3.5.28-2 master_bookworm-main bookworm:bookworm [all])
 Inst libdjvulibre21 (3.5.28-2+b1 master_bookworm-main bookworm:bookworm [amd64])
 Inst liblqr-1-0 (0.4.2-2.1 master_bookworm-main bookworm:bookworm [amd64])
@@ -59,4 +59,4 @@ Conf liblqr-1-0 (0.4.2-2.1 master_bookworm-main bookworm:bookworm [amd64])
 Conf libraqm0 (0.7.0-4.1 master_bookworm-main bookworm:bookworm [amd64])
 CLDS: * 2024-02-20: Bookworm: Dependent packages are still required.
 CLDS: * 2022-12-14: Bullseye: libdjvulibre21_3.5.28-2_amd64.deb  404  Not Found [IP: ::1 80].
-CLDS: * Disk size = 6625744K. Space Used = 8K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 6627688K. Space Used = 8K. Runtime = 00:00:00:02.

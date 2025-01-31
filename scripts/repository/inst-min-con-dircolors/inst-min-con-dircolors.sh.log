@@ -4,4 +4,4 @@ CLDS:>>>>>>>>> Running inst-min-con-dircolors.sh ...
 './cld/app/dircolors/dircolors-gnu-ls-colors.txt' -> '/usr/local/cld/app/dircolors/dircolors-gnu-ls-colors.txt'
 './cld/bashrc.d/bashrc-dircolors.sh' -> '/usr/local/cld/bashrc.d/bashrc-dircolors.sh'
 CLDS: * Set dircolors to use  to make ls more beautiful.
-CLDS: * Disk size = 1019456K. Space Used = 28K. Runtime = 00:00:00:00.
+CLDS: * Disk size = 1024432K. Space Used = 28K. Runtime = 00:00:00:01.

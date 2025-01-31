@@ -8,7 +8,7 @@ Suggested packages:
   pcscd wpagui libengine-pkcs11-openssl
 The following NEW packages will be installed:
   libnl-3-200 libnl-genl-3-200 libnl-route-3-200 libpcsclite1 wpasupplicant
-0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 5 newly installed, 0 to remove and 15 not upgraded.
 Need to get 1,738 kB of archives.
 After this operation, 4,946 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnl-3-200 amd64 3.7.0-0.2+b1 [63.1 kB]
@@ -16,9 +16,9 @@ Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnl
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnl-route-3-200 amd64 3.7.0-0.2+b1 [185 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpcsclite1 amd64 1.9.9-2 [49.7 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 wpasupplicant amd64 2:2.10-12+deb12u2 [1,419 kB]
-Fetched 1,738 kB in 0s (52.6 MB/s)
+Fetched 1,738 kB in 0s (81.6 MB/s)
 Selecting previously unselected package libnl-3-200:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21287 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21306 files and directories currently installed.)
 Preparing to unpack .../libnl-3-200_3.7.0-0.2+b1_amd64.deb ...
 Unpacking libnl-3-200:amd64 (3.7.0-0.2+b1) ...
 Selecting previously unselected package libnl-genl-3-200:amd64.
@@ -44,4 +44,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for dbus (1.14.10-1~deb12u1) ...
 CLDS: * Install wpasupplicant.
 CLDS: * Bullseye: 2023-01-06: Required. Otherwise, wifi will not work. nmcli will display wifi not available.
-CLDS: * Disk size = 1612592K. Space Used = 6752K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1617728K. Space Used = 6752K. Runtime = 00:00:00:01.

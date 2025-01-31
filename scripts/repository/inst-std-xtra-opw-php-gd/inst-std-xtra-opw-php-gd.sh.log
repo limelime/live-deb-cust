@@ -6,26 +6,26 @@ The following additional packages will be installed:
   php8.2-gd
 The following NEW packages will be installed:
   php-gd php8.2-gd
-0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
-Need to get 32.3 kB of archives.
+0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
+Need to get 32.5 kB of archives.
 After this operation, 150 kB of additional disk space will be used.
-Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-gd amd64 8.2.24-1~deb12u1 [28.7 kB]
+Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-gd amd64 8.2.26-1~deb12u1 [28.8 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php-gd all 2:8.2+93 [3,648 B]
-Fetched 32.3 kB in 0s (2,953 kB/s)
+Fetched 32.5 kB in 0s (2,836 kB/s)
 Selecting previously unselected package php8.2-gd.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120961 files and directories currently installed.)
-Preparing to unpack .../php8.2-gd_8.2.24-1~deb12u1_amd64.deb ...
-Unpacking php8.2-gd (8.2.24-1~deb12u1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 120980 files and directories currently installed.)
+Preparing to unpack .../php8.2-gd_8.2.26-1~deb12u1_amd64.deb ...
+Unpacking php8.2-gd (8.2.26-1~deb12u1) ...
 Selecting previously unselected package php-gd.
 Preparing to unpack .../php-gd_2%3a8.2+93_all.deb ...
 Unpacking php-gd (2:8.2+93) ...
-Setting up php8.2-gd (8.2.24-1~deb12u1) ...
+Setting up php8.2-gd (8.2.26-1~deb12u1) ...
 
 Creating config file /etc/php/8.2/mods-available/gd.ini with new version
 Setting up php-gd (2:8.2+93) ...
-Processing triggers for php8.2-fpm (8.2.24-1~deb12u1) ...
+Processing triggers for php8.2-fpm (8.2.26-1~deb12u1) ...
 Running in chroot, ignoring request.
 invoke-rc.d: policy-rc.d denied execution of restart.
-Processing triggers for php8.2-cli (8.2.24-1~deb12u1) ...
+Processing triggers for php8.2-cli (8.2.26-1~deb12u1) ...
 CLDS: * Install php-gd to run Drupal.
-CLDS: * Disk size = 7545292K. Space Used = 240K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 7547492K. Space Used = 236K. Runtime = 00:00:00:02.

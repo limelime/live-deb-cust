@@ -19,7 +19,7 @@ The following NEW packages will be installed:
   libcairo2 libdatrie1 libfribidi0 libgav1-1 libgd3 liblua5.4-0 libpango-1.0-0
   libpangocairo-1.0-0 libpangoft2-1.0-0 libpixman-1-0 librav1e0 libsvtav1enc1
   libthai-data libthai0 libxcb-render0 libxcb-shm0 libxpm4 libxrender1 libyuv0
-0 upgraded, 25 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 25 newly installed, 0 to remove and 15 not upgraded.
 Need to get 7,155 kB of archives.
 After this operation, 21.1 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 aglfn all 1.7+git20191031.4036a9c-2 [30.5 kB]
@@ -47,9 +47,9 @@ Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:23 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpangoft2-1.0-0 amd64 1.50.12+ds-1 [47.4 kB]
 Get:24 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpangocairo-1.0-0 amd64 1.50.12+ds-1 [34.2 kB]
 Get:25 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnuplot-nox amd64 5.4.4+dfsg1-2+b2 [848 kB]
-Fetched 7,155 kB in 0s (87.5 MB/s)
+Fetched 7,155 kB in 0s (84.4 MB/s)
 Selecting previously unselected package aglfn.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88308 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88327 files and directories currently installed.)
 Preparing to unpack .../00-aglfn_1.7+git20191031.4036a9c-2_all.deb ...
 Unpacking aglfn (1.7+git20191031.4036a9c-2) ...
 Selecting previously unselected package fontconfig.
@@ -153,4 +153,4 @@ Setting up gnuplot-nox (5.4.4+dfsg1-2+b2) ...
 update-alternatives: using /usr/bin/gnuplot-nox to provide /usr/bin/gnuplot (gnuplot) in auto mode
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install gnuplot-nox.
-CLDS: * Disk size = 4064020K. Space Used = 28396K. Runtime = 00:00:00:06.
+CLDS: * Disk size = 4069304K. Space Used = 28388K. Runtime = 00:00:00:06.

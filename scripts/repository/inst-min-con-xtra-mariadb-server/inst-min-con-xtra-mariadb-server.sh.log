@@ -23,7 +23,7 @@ The following NEW packages will be installed:
   libncurses6 libndctl6 libpmem1 libsigsegv2 liburing2 libwrap0 lsof
   mariadb-client mariadb-client-core mariadb-common mariadb-server
   mariadb-server-core mysql-common psmisc socat
-0 upgraded, 21 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 21 newly installed, 0 to remove and 15 not upgraded.
 Need to get 18.6 MB of archives.
 After this operation, 193 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsigsegv2 amd64 2.14-1 [37.2 kB]
@@ -48,14 +48,14 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libw
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 socat amd64 1.7.4.4-2 [375 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 mariadb-server amd64 1:10.11.6-0+deb12u1 [3,655 kB]
 Preconfiguring packages ...
-Fetched 18.6 MB in 0s (122 MB/s)
+Fetched 18.6 MB in 0s (107 MB/s)
 Selecting previously unselected package libsigsegv2:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88783 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88802 files and directories currently installed.)
 Preparing to unpack .../libsigsegv2_2.14-1_amd64.deb ...
 Unpacking libsigsegv2:amd64 (2.14-1) ...
 Setting up libsigsegv2:amd64 (2.14-1) ...
 Selecting previously unselected package gawk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88792 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88811 files and directories currently installed.)
 Preparing to unpack .../00-gawk_1%3a5.2.1-2_amd64.deb ...
 Unpacking gawk (1:5.2.1-2) ...
 Selecting previously unselected package mysql-common.
@@ -117,7 +117,7 @@ update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.c
 Setting up mariadb-common (1:10.11.6-0+deb12u1) ...
 update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
 Selecting previously unselected package mariadb-server.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89635 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89654 files and directories currently installed.)
 Preparing to unpack .../mariadb-server_1%3a10.11.6-0+deb12u1_amd64.deb ...
 invoke-rc.d: unknown initscript, /etc/init.d/mariadb not found.
 Running in chroot, ignoring request.
@@ -164,4 +164,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 './cld/doc/mysql-view-help.txt' -> '/usr/local/cld/doc/mysql-view-help.txt'
 CLDS: * Install mariadb-server.
 CLDS: * Set root password to [password].
-CLDS: * Disk size = 4391076K. Space Used = 321468K. Runtime = 00:00:00:08.
+CLDS: * Disk size = 4396356K. Space Used = 321464K. Runtime = 00:00:00:08.

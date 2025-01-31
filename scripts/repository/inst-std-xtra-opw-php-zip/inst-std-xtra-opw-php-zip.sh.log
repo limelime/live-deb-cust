@@ -6,33 +6,33 @@ The following additional packages will be installed:
   libzip4 php8.2-zip
 The following NEW packages will be installed:
   libzip4 php-zip php8.2-zip
-0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
 Need to get 85.3 kB of archives.
 After this operation, 283 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libzip4 amd64 1.7.3-1+b1 [55.5 kB]
-Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-zip amd64 8.2.24-1~deb12u1 [26.1 kB]
+Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-zip amd64 8.2.26-1~deb12u1 [26.1 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php-zip all 2:8.2+93 [3,656 B]
-Fetched 85.3 kB in 0s (7,071 kB/s)
+Fetched 85.3 kB in 0s (7,874 kB/s)
 Selecting previously unselected package libzip4:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121029 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121048 files and directories currently installed.)
 Preparing to unpack .../libzip4_1.7.3-1+b1_amd64.deb ...
 Unpacking libzip4:amd64 (1.7.3-1+b1) ...
 Selecting previously unselected package php8.2-zip.
-Preparing to unpack .../php8.2-zip_8.2.24-1~deb12u1_amd64.deb ...
-Unpacking php8.2-zip (8.2.24-1~deb12u1) ...
+Preparing to unpack .../php8.2-zip_8.2.26-1~deb12u1_amd64.deb ...
+Unpacking php8.2-zip (8.2.26-1~deb12u1) ...
 Selecting previously unselected package php-zip.
 Preparing to unpack .../php-zip_2%3a8.2+93_all.deb ...
 Unpacking php-zip (2:8.2+93) ...
 Setting up libzip4:amd64 (1.7.3-1+b1) ...
-Setting up php8.2-zip (8.2.24-1~deb12u1) ...
+Setting up php8.2-zip (8.2.26-1~deb12u1) ...
 
 Creating config file /etc/php/8.2/mods-available/zip.ini with new version
 Setting up php-zip (2:8.2+93) ...
-Processing triggers for php8.2-fpm (8.2.24-1~deb12u1) ...
+Processing triggers for php8.2-fpm (8.2.26-1~deb12u1) ...
 Running in chroot, ignoring request.
 invoke-rc.d: policy-rc.d denied execution of restart.
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
-Processing triggers for php8.2-cli (8.2.24-1~deb12u1) ...
+Processing triggers for php8.2-cli (8.2.26-1~deb12u1) ...
 CLDS: * Install php-zip.
 CLDS: * This is required by: PHPExcel.
-CLDS: * Disk size = 7549676K. Space Used = 436K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7551888K. Space Used = 436K. Runtime = 00:00:00:02.

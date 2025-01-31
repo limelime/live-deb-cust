@@ -12,7 +12,7 @@ Recommended packages:
 The following NEW packages will be installed:
   libasyncns0 libdecor-0-0 libflac12 libmp3lame0 libmpg123-0 libogg0 libopus0
   libpulse0 libsdl2-2.0-0 libsndfile1 libvorbis0a libvorbisenc2
-0 upgraded, 12 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 12 newly installed, 0 to remove and 15 not upgraded.
 Need to get 2,222 kB of archives.
 After this operation, 6,515 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libasyncns0 amd64 0.8-6+b3 [12.9 kB]
@@ -20,16 +20,16 @@ Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libde
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libogg0 amd64 1.3.5-3 [23.4 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libflac12 amd64 1.4.2+ds-2 [198 kB]
 Get:5 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 libmp3lame0 amd64 1:3.100-dmo2 [358 kB]
-Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libmpg123-0 amd64 1.31.2-1 [147 kB]
+Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libmpg123-0 amd64 1.31.2-1+deb12u1 [147 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libopus0 amd64 1.3.1-3 [195 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvorbis0a amd64 1.3.7-1 [93.0 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libvorbisenc2 amd64 1.3.7-1 [80.6 kB]
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsndfile1 amd64 1.2.0-1 [196 kB]
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpulse0 amd64 16.1+dfsg1-2+b1 [274 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsdl2-2.0-0 amd64 2.26.5+dfsg-1 [629 kB]
-Fetched 2,222 kB in 0s (72.6 MB/s)
+Fetched 2,222 kB in 0s (71.4 MB/s)
 Selecting previously unselected package libasyncns0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113237 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113256 files and directories currently installed.)
 Preparing to unpack .../00-libasyncns0_0.8-6+b3_amd64.deb ...
 Unpacking libasyncns0:amd64 (0.8-6+b3) ...
 Selecting previously unselected package libdecor-0-0:amd64.
@@ -45,8 +45,8 @@ Selecting previously unselected package libmp3lame0:amd64.
 Preparing to unpack .../04-libmp3lame0_1%3a3.100-dmo2_amd64.deb ...
 Unpacking libmp3lame0:amd64 (1:3.100-dmo2) ...
 Selecting previously unselected package libmpg123-0:amd64.
-Preparing to unpack .../05-libmpg123-0_1.31.2-1_amd64.deb ...
-Unpacking libmpg123-0:amd64 (1.31.2-1) ...
+Preparing to unpack .../05-libmpg123-0_1.31.2-1+deb12u1_amd64.deb ...
+Unpacking libmpg123-0:amd64 (1.31.2-1+deb12u1) ...
 Selecting previously unselected package libopus0:amd64.
 Preparing to unpack .../06-libopus0_1.3.1-3_amd64.deb ...
 Unpacking libopus0:amd64 (1.3.1-3) ...
@@ -65,7 +65,7 @@ Unpacking libpulse0:amd64 (16.1+dfsg1-2+b1) ...
 Selecting previously unselected package libsdl2-2.0-0:amd64.
 Preparing to unpack .../11-libsdl2-2.0-0_2.26.5+dfsg-1_amd64.deb ...
 Unpacking libsdl2-2.0-0:amd64 (2.26.5+dfsg-1) ...
-Setting up libmpg123-0:amd64 (1.31.2-1) ...
+Setting up libmpg123-0:amd64 (1.31.2-1+deb12u1) ...
 Setting up libogg0:amd64 (1.3.5-3) ...
 Setting up libflac12:amd64 (1.4.2+ds-2) ...
 Setting up libopus0:amd64 (1.3.1-3) ...
@@ -79,10 +79,10 @@ Setting up libpulse0:amd64 (16.1+dfsg1-2+b1) ...
 Setting up libsdl2-2.0-0:amd64 (2.26.5+dfsg-1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Selecting previously unselected package net.downloadhelper.coapp.
-(Reading database ... 113324 files and directories currently installed.)
+(Reading database ... 113343 files and directories currently installed.)
 Preparing to unpack net.downloadhelper.coapp-1.6.3-1_amd64.deb ...
 Unpacking net.downloadhelper.coapp (1.6.3) ...
 Setting up net.downloadhelper.coapp (1.6.3) ...
 CLDS: * Install downloadhelper Companion App to record JW Player live stream.
 CLDS: * Install Video DownloadHelper browser extension and record JW player stream.
-CLDS: * Disk size = 5637608K. Space Used = 97740K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 5643156K. Space Used = 97740K. Runtime = 00:00:00:04.

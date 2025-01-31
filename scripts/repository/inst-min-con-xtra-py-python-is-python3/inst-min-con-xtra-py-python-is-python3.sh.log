@@ -7,16 +7,16 @@ The following packages were automatically installed and are no longer required:
 Use 'apt autoremove' to remove them.
 The following NEW packages will be installed:
   python-is-python3
-0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
 Need to get 3,216 B of archives.
 After this operation, 16.4 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python-is-python3 all 3.11.2-1+deb12u1 [3,216 B]
-Fetched 3,216 B in 0s (186 kB/s)
+Fetched 3,216 B in 0s (249 kB/s)
 Selecting previously unselected package python-is-python3.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90883 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90902 files and directories currently installed.)
 Preparing to unpack .../python-is-python3_3.11.2-1+deb12u1_all.deb ...
 Unpacking python-is-python3 (3.11.2-1+deb12u1) ...
 Setting up python-is-python3 (3.11.2-1+deb12u1) ...
 CLDS: * Starting from Bullseye, this is required for old script which uses unversioned /usr/bin/python.
 CLDS: * Otherwise, old script(e.g. youtube-dl) will complain: /usr/bin/env: ‘python’: No such file or directory.
-CLDS: * Disk size = 4462760K. Space Used = 36K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 4468048K. Space Used = 36K. Runtime = 00:00:00:02.

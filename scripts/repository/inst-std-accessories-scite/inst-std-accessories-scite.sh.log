@@ -6,14 +6,14 @@ The following additional packages will be installed:
   liblua5.3-0
 The following NEW packages will be installed:
   liblua5.3-0 scite
-0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
 Need to get 2,496 kB of archives.
 After this operation, 9,839 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 liblua5.3-0 amd64 5.3.6-2 [123 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 scite amd64 5.3.3-1 [2,373 kB]
-Fetched 2,496 kB in 0s (78.4 MB/s)
+Fetched 2,496 kB in 0s (92.0 MB/s)
 Selecting previously unselected package liblua5.3-0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105706 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 105725 files and directories currently installed.)
 Preparing to unpack .../liblua5.3-0_5.3.6-2_amd64.deb ...
 Unpacking liblua5.3-0:amd64 (5.3.6-2) ...
 Selecting previously unselected package scite.
@@ -29,24 +29,24 @@ The following additional packages will be installed:
   gsettings-desktop-schemas
 The following NEW packages will be installed:
   at-spi2-core gsettings-desktop-schemas
-0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
-Need to get 703 kB of archives.
+0 upgraded, 2 newly installed, 0 to remove and 15 not upgraded.
+Need to get 704 kB of archives.
 After this operation, 5,449 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gsettings-desktop-schemas all 43.0-1 [643 kB]
-Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 at-spi2-core amd64 2.54.0-1~bpo12+1 [60.0 kB]
-Fetched 703 kB in 0s (20.5 MB/s)
+Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 at-spi2-core amd64 2.55.0.1-1~bpo12+1 [60.8 kB]
+Fetched 704 kB in 0s (20.5 MB/s)
 Selecting previously unselected package gsettings-desktop-schemas.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106397 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 106416 files and directories currently installed.)
 Preparing to unpack .../gsettings-desktop-schemas_43.0-1_all.deb ...
 Unpacking gsettings-desktop-schemas (43.0-1) ...
 Selecting previously unselected package at-spi2-core.
-Preparing to unpack .../at-spi2-core_2.54.0-1~bpo12+1_amd64.deb ...
-Unpacking at-spi2-core (2.54.0-1~bpo12+1) ...
+Preparing to unpack .../at-spi2-core_2.55.0.1-1~bpo12+1_amd64.deb ...
+Unpacking at-spi2-core (2.55.0.1-1~bpo12+1) ...
 Setting up gsettings-desktop-schemas (43.0-1) ...
-Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u4) ...
-Setting up at-spi2-core (2.54.0-1~bpo12+1) ...
+Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u5) ...
+Setting up at-spi2-core (2.55.0.1-1~bpo12+1) ...
 './cld/bin/scite-open.sh' -> '/usr/local/cld/bin/scite-open.sh'
 CLDS: * Install Text Editor: SciTE.
 CLDS: * Insert SciTE in Accessories menu.
 CLDS: * Install at-spi2-core to shut up Accessibility warning message.
-CLDS: * Disk size = 5137128K. Space Used = 14588K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 5142468K. Space Used = 14592K. Runtime = 00:00:00:03.
