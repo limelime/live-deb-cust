@@ -106,6 +106,15 @@
 # String expansion / single quote
     numb=456; echo "'${numb}'"
 
+# Random: https://tldp.org/LDP/abs/html/randomvar.html
+    $RANDOM: pseudorandom integer in the range 0 - 32767
+
+    # Random number range, e.g. between 10 to 20.
+    echo $(shuf -i 10-20 -n 1)
+
+    echo $(< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-12}) # l2-m7Vup3-VT
+    echo $(< /dev/urandom tr -dc A-Z-a-z-0-9 | head -c12)        # 2HOw1H9DIiSO
+
 # BASH TEMPLATE
     #!/bin/bash
     set -e

@@ -1,2 +1,5 @@
 # Remove the last line.
     head -n -1 foo.txt
+
+# Delete old files: Exclude last line(latest file) and then delete all.
+    \ls -1 listings.db_*.7z | sort | head -n -1 | xargs rm -f

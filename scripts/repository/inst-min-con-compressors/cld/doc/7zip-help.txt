@@ -1,2 +1,7 @@
+# Compress and create 30MB volume
 7z a -v30m test.zip director/
-7z x test.zip.001
+
+# Extract
+7z e -y test.zip.001
+
+

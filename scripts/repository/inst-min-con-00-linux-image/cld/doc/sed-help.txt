@@ -1,5 +1,11 @@
-# Use pipe(|) instead slash(/).
+# Custom delimiter / separator with custom character.
+    # Search pattern: Use your custom char right after s. e.g. Use pipe(|) instead slash(/).
+    echo -e 'AxBxC' | sed 's?x?y?g' # sed 's/x/y/g'
     sed 's|/home|/new|' input_file.txt
+    
+    # Deletion: You need to escape with backslash(\) first. e.g. \|
+    echo -e 'A/B\nC' | sed '\|/|d'
+    sed '\|/a/path/to/delete/|d'
 
 # Delete up to the first occurrence of (:).
     echo '123:aaaa:f35:bbbb' | sed 's/[^:]*://'

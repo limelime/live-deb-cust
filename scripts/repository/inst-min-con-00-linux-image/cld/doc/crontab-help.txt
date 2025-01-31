@@ -66,6 +66,7 @@
 # CRON Environment is the bare minimum environment supported by system. 
 #   Its not aware of additional environment settings which is made available to you via shell.
     59 23 * * * source $HOME/.profile; /root/myscript.sh
+    26 8 * * * /bin/bash -c "source $HOME/.profile; sleep $(shuf -i 1-37 -n 1)m; cd '/home/localadmin/cron'; ./job-main.sh"
 
 # % (percent sign) is reserved word in crontab, you need to escape it.
     $(date +'\%Y-\%m-\%d_\%0k.\%M.\%S').log
