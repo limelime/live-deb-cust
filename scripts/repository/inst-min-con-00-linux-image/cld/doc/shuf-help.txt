@@ -1,0 +1,2 @@
+# Control random. e.g. between 10 to 20.
+    echo $(shuf -i 10-20 -n 1)
