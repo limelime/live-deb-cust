@@ -3,7 +3,7 @@
   * Install Window Manager jwm: JWM v2.4.4 by Joe Wingbermuehle.
   * Set .
   * Change X window manager: update-alternatives --config x-window-manager
-  * Disk size = 4947024K. Space Used = 88980K. Runtime = 00:00:00:09.
+  * Disk size = 4947012K. Space Used = 88980K. Runtime = 00:00:00:16.
   * The following NEW packages will be installed:
   ```bash
 adwaita-icon-theme at-spi2-common dbus-user-session dconf-gsettings-backend dconf-service
