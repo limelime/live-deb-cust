@@ -1,3 +1,3 @@
 * >>>>>>>>> Running inst-zclean-04-chmod-script.sh ...
   * Make *.sh under /usr/local/cld/ executable.
-  * Disk size = 7545240K. Space Used = 12K. Runtime = 00:00:00:02.
+  * Disk size = 7612516K. Space Used = 8K. Runtime = 00:00:00:01.
