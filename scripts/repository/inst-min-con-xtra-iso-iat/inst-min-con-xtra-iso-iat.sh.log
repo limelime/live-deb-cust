@@ -11,11 +11,11 @@ The following NEW packages will be installed:
 Need to get 7,060 B of archives.
 After this operation, 29.7 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 iat amd64 0.1.3-7.1 [7,060 B]
-Fetched 7,060 B in 0s (636 kB/s)
+Fetched 7,060 B in 0s (634 kB/s)
 Selecting previously unselected package iat.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88764 files and directories currently installed.)
 Preparing to unpack .../iat_0.1.3-7.1_amd64.deb ...
 Unpacking iat (0.1.3-7.1) ...
 Setting up iat (0.1.3-7.1) ...
 CLDS: * Install iat to convert BIN, MDF, PDI, CDI, NRG, and B5I into ISO-9660.
-CLDS: * Disk size = 4073324K. Space Used = 60K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 4133492K. Space Used = 60K. Runtime = 00:00:00:01.

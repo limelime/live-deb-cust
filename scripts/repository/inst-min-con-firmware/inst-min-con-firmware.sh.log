@@ -14,7 +14,7 @@ The following NEW packages will be installed:
 Need to get 147 kB of archives.
 After this operation, 797 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 atmel-firmware all 1.3-7 [147 kB]
-Fetched 147 kB in 0s (14.2 MB/s)
+Fetched 147 kB in 0s (13.9 MB/s)
 Selecting previously unselected package atmel-firmware.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18231 files and directories currently installed.)
 Preparing to unpack .../atmel-firmware_1.3-7_all.deb ...
@@ -29,7 +29,7 @@ The following NEW packages will be installed:
 Need to get 185 kB of archives.
 After this operation, 353 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 bluez-firmware all 1.2-9 [185 kB]
-Fetched 185 kB in 0s (17.7 MB/s)
+Fetched 185 kB in 0s (17.4 MB/s)
 Selecting previously unselected package bluez-firmware.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18261 files and directories currently installed.)
 Preparing to unpack .../bluez-firmware_1.2-9_all.deb ...
@@ -44,7 +44,7 @@ The following NEW packages will be installed:
 Need to get 16.8 MB of archives.
 After this operation, 62.5 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-atheros all 20230210-5 [16.8 MB]
-Fetched 16.8 MB in 0s (101 MB/s)
+Fetched 16.8 MB in 0s (117 MB/s)
 Selecting previously unselected package firmware-atheros.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18277 files and directories currently installed.)
 Preparing to unpack .../firmware-atheros_20230210-5_all.deb ...
@@ -59,7 +59,7 @@ The following NEW packages will be installed:
 Need to get 133 kB of archives.
 After this operation, 481 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-bnx2 all 20230210-5 [133 kB]
-Fetched 133 kB in 0s (11.8 MB/s)
+Fetched 133 kB in 0s (13.0 MB/s)
 Selecting previously unselected package firmware-bnx2.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18524 files and directories currently installed.)
 Preparing to unpack .../firmware-bnx2_20230210-5_all.deb ...
@@ -78,7 +78,7 @@ The following NEW packages will be installed:
 Need to get 1,738 kB of archives.
 After this operation, 2,285 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-bnx2x all 20230210-5 [1,738 kB]
-Fetched 1,738 kB in 0s (41.8 MB/s)
+Fetched 1,738 kB in 0s (72.7 MB/s)
 Selecting previously unselected package firmware-bnx2x.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18536 files and directories currently installed.)
 Preparing to unpack .../firmware-bnx2x_20230210-5_all.deb ...
@@ -97,7 +97,7 @@ The following NEW packages will be installed:
 Need to get 5,356 kB of archives.
 After this operation, 18.5 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-brcm80211 all 20230210-5 [5,356 kB]
-Fetched 5,356 kB in 0s (117 MB/s)
+Fetched 5,356 kB in 0s (113 MB/s)
 Selecting previously unselected package firmware-brcm80211.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18552 files and directories currently installed.)
 Preparing to unpack .../firmware-brcm80211_20230210-5_all.deb ...
@@ -113,7 +113,7 @@ Need to get 280 kB of archives.
 After this operation, 1,450 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-ipw2x00 all 20230210-5 [280 kB]
 Preconfiguring packages ...
-Fetched 280 kB in 0s (24.6 MB/s)
+Fetched 280 kB in 0s (15.6 MB/s)
 Selecting previously unselected package firmware-ipw2x00.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18654 files and directories currently installed.)
 Preparing to unpack .../firmware-ipw2x00_20230210-5_all.deb ...
@@ -131,7 +131,7 @@ Need to get 138 kB of archives.
 After this operation, 1,089 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-ivtv all 20230210-5 [138 kB]
 Preconfiguring packages ...
-Fetched 138 kB in 0s (13.0 MB/s)
+Fetched 138 kB in 0s (0 B/s)
 Selecting previously unselected package firmware-ivtv.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18668 files and directories currently installed.)
 Preparing to unpack .../firmware-ivtv_20230210-5_all.deb ...
@@ -146,7 +146,7 @@ The following NEW packages will be installed:
 Need to get 9,336 kB of archives.
 After this operation, 84.3 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-iwlwifi all 20230210-5 [9,336 kB]
-Fetched 9,336 kB in 0s (104 MB/s)
+Fetched 9,336 kB in 0s (119 MB/s)
 Selecting previously unselected package firmware-iwlwifi.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18680 files and directories currently installed.)
 Preparing to unpack .../firmware-iwlwifi_20230210-5_all.deb ...
@@ -161,7 +161,7 @@ The following NEW packages will be installed:
 Need to get 31.2 MB of archives.
 After this operation, 39.0 MB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-libertas all 20230210-5 [31.2 MB]
-Fetched 31.2 MB in 0s (82.1 MB/s)
+Fetched 31.2 MB in 0s (92.8 MB/s)
 Selecting previously unselected package firmware-libertas.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18800 files and directories currently installed.)
 Preparing to unpack .../firmware-libertas_20230210-5_all.deb ...
@@ -184,7 +184,7 @@ Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 firmw
 Get:3 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-misc-nonfree all 20230210-5 [13.0 MB]
 Get:4 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-linux-nonfree all 20230210-5 [49.5 kB]
 Get:5 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-linux all 20230210-5 [49.7 kB]
-Fetched 25.0 MB in 0s (94.8 MB/s)
+Fetched 25.0 MB in 0s (99.7 MB/s)
 Selecting previously unselected package firmware-amd-graphics.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18869 files and directories currently installed.)
 Preparing to unpack .../firmware-amd-graphics_20230210-5_all.deb ...
@@ -237,7 +237,7 @@ The following NEW packages will be installed:
 Need to get 4,240 kB of archives.
 After this operation, 8,054 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-qlogic all 20230210-5 [4,240 kB]
-Fetched 4,240 kB in 0s (92.6 MB/s)
+Fetched 4,240 kB in 0s (107 MB/s)
 Selecting previously unselected package firmware-qlogic.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20507 files and directories currently installed.)
 Preparing to unpack .../firmware-qlogic_20230210-5_all.deb ...
@@ -256,7 +256,7 @@ The following NEW packages will be installed:
 Need to get 1,491 kB of archives.
 After this operation, 7,046 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-realtek all 20230210-5 [1,491 kB]
-Fetched 1,491 kB in 0s (72.3 MB/s)
+Fetched 1,491 kB in 0s (76.5 MB/s)
 Selecting previously unselected package firmware-realtek.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20534 files and directories currently installed.)
 Preparing to unpack .../firmware-realtek_20230210-5_all.deb ...
@@ -275,11 +275,11 @@ The following NEW packages will be installed:
 Need to get 12.6 kB of archives.
 After this operation, 61.4 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-non-free-firmware bookworm/non-free-firmware amd64 firmware-zd1211 all 1:1.5-10 [12.6 kB]
-Fetched 12.6 kB in 0s (0 B/s)
+Fetched 12.6 kB in 0s (1,149 kB/s)
 Selecting previously unselected package firmware-zd1211.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20656 files and directories currently installed.)
 Preparing to unpack .../firmware-zd1211_1%3a1.5-10_all.deb ...
 Unpacking firmware-zd1211 (1:1.5-10) ...
 Setting up firmware-zd1211 (1:1.5-10) ...
 CLDS: * Install firmwares.
-CLDS: * Disk size = 1567988K. Space Used = 463724K. Runtime = 00:00:01:58.
+CLDS: * Disk size = 1628168K. Space Used = 463724K. Runtime = 00:00:01:59.
