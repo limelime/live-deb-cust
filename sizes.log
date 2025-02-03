@@ -13413,3 +13413,72 @@
    6.7G	/media/sql/chroot
    6.7G	total
 
+/media/sql/cld_work_no_proxy_bookworm_K6.12.9+bpo-amd64_2025-01-31_14.14.25.iso
+   88K	./binary/isolinux
+   2.0G	./binary/live
+   2.0G	./binary
+   2.0G	total
+   27M	/media/sql/chroot/root
+   1019M	/media/sql/chroot/opt
+   181M	/media/sql/chroot/var
+   92K	/media/sql/chroot/run
+   4.0K	/media/sql/chroot/proc
+   5.4G	/media/sql/chroot/usr
+   4.0K	/media/sql/chroot/media
+   4.0K	/media/sql/chroot/tmp
+   86M	/media/sql/chroot/boot
+   4.0K	/media/sql/chroot/mnt
+   20K	/media/sql/chroot/home
+   8.0K	/media/sql/chroot/srv
+   12K	/media/sql/chroot/dev
+   4.0K	/media/sql/chroot/sys
+   5.9M	/media/sql/chroot/etc
+   6.7G	/media/sql/chroot
+   6.7G	total
+
+/media/sql/cld_work_no_proxy_bookworm_K6.12.9+bpo-amd64_2025-01-31_16.30.32.iso
+   88K	./binary/isolinux
+   2.0G	./binary/live
+   2.0G	./binary
+   2.0G	total
+   27M	/media/sql/chroot/root
+   1019M	/media/sql/chroot/opt
+   181M	/media/sql/chroot/var
+   92K	/media/sql/chroot/run
+   4.0K	/media/sql/chroot/proc
+   5.4G	/media/sql/chroot/usr
+   4.0K	/media/sql/chroot/media
+   4.0K	/media/sql/chroot/tmp
+   86M	/media/sql/chroot/boot
+   4.0K	/media/sql/chroot/mnt
+   20K	/media/sql/chroot/home
+   8.0K	/media/sql/chroot/srv
+   12K	/media/sql/chroot/dev
+   4.0K	/media/sql/chroot/sys
+   5.9M	/media/sql/chroot/etc
+   6.7G	/media/sql/chroot
+   6.7G	total
+
+/media/sql/cld_work_no_proxy_bookworm_K6.12.9+bpo-amd64_2025-02-03_09.05.26.iso
+   88K	./binary/isolinux
+   2.0G	./binary/live
+   2.0G	./binary
+   2.0G	total
+   27M	/media/sql/chroot/root
+   1019M	/media/sql/chroot/opt
+   181M	/media/sql/chroot/var
+   92K	/media/sql/chroot/run
+   4.0K	/media/sql/chroot/proc
+   5.4G	/media/sql/chroot/usr
+   4.0K	/media/sql/chroot/media
+   4.0K	/media/sql/chroot/tmp
+   86M	/media/sql/chroot/boot
+   4.0K	/media/sql/chroot/mnt
+   20K	/media/sql/chroot/home
+   8.0K	/media/sql/chroot/srv
+   12K	/media/sql/chroot/dev
+   4.0K	/media/sql/chroot/sys
+   5.9M	/media/sql/chroot/etc
+   6.7G	/media/sql/chroot
+   6.7G	total
+
