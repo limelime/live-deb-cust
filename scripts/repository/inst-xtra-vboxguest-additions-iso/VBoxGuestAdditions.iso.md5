@@ -1,10 +1,3 @@
-a605386e0c12e2f730f11320f095029c  VBoxGuestAdditions_6.1.22.iso
-18972c8ed19420e090d346d24787db13  VBoxGuestAdditions_6.1.32.iso
-<<<<<<< HEAD
-2ab3e2a7ff935310c6d0831e455b7267  VBoxGuestAdditions_7.0.4.iso
-=======
-bd45e674aae88d1fb1f955055c40f17f  VBoxGuestAdditions_6.1.38.iso
->>>>>>> branch 'bullseye' of https://github.com/xuanngo2001/cust-live-deb.git
 2ab3e2a7ff935310c6d0831e455b7267  VBoxGuestAdditions_7.0.4.iso
 beedd5530d469b38079e4fe066d1ef32  VBoxGuestAdditions_7.0.12.iso
 536e5176026317c9e3b364ecb558fd02  VBoxGuestAdditions_7.0.10.iso
@@ -12,3 +5,4 @@ beedd5530d469b38079e4fe066d1ef32  VBoxGuestAdditions_7.0.12.iso
 2ab3e2a7ff935310c6d0831e455b7267  VBoxGuestAdditions_7.0.4.iso
 3bcde80a7c6cf3050166c3ace2ef3423  VBoxGuestAdditions_7.1.0.iso
 1c1dfc3cab7c39f1ee27428392796e74  VBoxGuestAdditions_7.1.4.iso
+3a6b667ddace851977f012cfe0b1f6dd  VBoxGuestAdditions_7.1.6.iso
