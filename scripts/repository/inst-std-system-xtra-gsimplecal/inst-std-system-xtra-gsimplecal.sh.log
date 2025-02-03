@@ -24,4 +24,4 @@ CLDS: * Install gsimplecal.
 CLDS: * Insert gsimplecal in JWM system tray.
 CLDS: * Overwrite gtk calendar style: home/.config/gtk-3.0/gtk.css.
 CLDS: * Overwrite gsimplecal configuration: home/.config/gsimplecal/config.
-CLDS: * Disk size = 6931268K. Space Used = 152K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 6931256K. Space Used = 152K. Runtime = 00:00:00:02.

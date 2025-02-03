@@ -27,4 +27,4 @@ CLDS: * Set macchanger to change MAC address whenever network device is up or do
 CLDS: * To configure macchanger: dpkg-reconfigure macchanger.
 CLDS: * Check whether it is working: macchanger -s .
 CLDS: * systemctl status macchanger@.service
-CLDS: * Disk size = 4074892K. Space Used = 900K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 4074884K. Space Used = 900K. Runtime = 00:00:00:01.

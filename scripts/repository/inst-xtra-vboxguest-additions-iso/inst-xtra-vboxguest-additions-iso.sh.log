@@ -15,7 +15,7 @@ Get:1 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backpo
 Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-kbuild-6.12.9+bpo amd64 6.12.9-1~bpo12+1 [1,204 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-headers-6.12.9+bpo-amd64 amd64 6.12.9-1~bpo12+1 [1,504 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-headers-amd64 amd64 6.12.9-1~bpo12+1 [1,412 B]
-Fetched 13.5 MB in 0s (94.4 MB/s)
+Fetched 13.5 MB in 0s (79.4 MB/s)
 Download complete and in download only mode
 Reading package lists...
 Building dependency tree...
@@ -47,7 +47,7 @@ Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 g++-1
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 g++ amd64 4:12.2.0-3 [1,356 B]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 build-essential amd64 12.9 [7,704 B]
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 dkms all 3.0.10-8+deb12u1 [48.7 kB]
-Fetched 15.3 MB in 0s (134 MB/s)
+Fetched 15.3 MB in 0s (123 MB/s)
 Selecting previously unselected package lsb-release.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124378 files and directories currently installed.)
 Preparing to unpack .../0-lsb-release_12.0-1_all.deb ...
@@ -122,8 +122,6 @@ Verifying archive integrity...     0%    63%  100%   MD5 checksums
 Uncompressing VirtualBox 7.1.0 Guest Additions for Linux     0%    63%  100%  
 VirtualBox Guest Additions installer
 Running in chroot, ignoring command 'daemon-reload'
-depmod: ERROR: could not open directory /lib/modules/6.11.10+bpo-amd64: No such file or directory
-depmod: FATAL: could not search modules: No such file or directory
 VirtualBox Guest Additions: Starting.
 VirtualBox Guest Additions: Setting up modules
 VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel 
@@ -132,13 +130,20 @@ VirtualBox Guest Additions: To build modules for other installed kernels, run
 VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup <version>
 VirtualBox Guest Additions: or
 VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup all
-VirtualBox Guest Additions: Kernel headers not found for target kernel 
-6.11.10+bpo-amd64. Please install them and execute
-  /sbin/rcvboxadd setup
-modinfo: ERROR: Module vboxguest not found.
+VirtualBox Guest Additions: Building the modules for kernel 6.12.9+bpo-amd64.
+
+VirtualBox Guest Additions: Look at /var/log/vboxadd-setup.log to find out what 
+went wrong
+VirtualBox Guest Additions: Running kernel modules will not be replaced until 
+the system is restarted or 'rcvboxadd reload' triggered
+VirtualBox Guest Additions: reloading kernel modules and services
+VirtualBox Guest Additions: cannot reload kernel modules: one or more module(s) 
+is still in use
+VirtualBox Guest Additions: kernel modules and services were not reloaded
+The log file /var/log/vboxadd-setup.log may contain further information.
 CLDS: * WARNING: Use this script only if backport repository doesn't work.
 CLDS: * Install VirtualBox guest additions to Shared folder/clipboard, auto window scaling, etc.
 CLDS: * Assumed packages installed: bzip2 & Xserver installed.
 CLDS: * VirtualBox guest additions installed: ERROR: VirtualBox guest additions installation failed!.
-CLDS: * Delete VBoxGuestAdditions.iso[57460K]. Space used could be negative due to this deletion.
-CLDS: * Disk size = 8564348K. Space Used = 137200K. Runtime = 00:00:00:16.
+CLDS: * Delete VBoxGuestAdditions.iso[57456K]. Space used could be negative due to this deletion.
+CLDS: * Disk size = 8564332K. Space Used = 137216K. Runtime = 00:00:00:38.

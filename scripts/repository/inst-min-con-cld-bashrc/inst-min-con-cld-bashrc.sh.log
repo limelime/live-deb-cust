@@ -9,4 +9,4 @@ CLDS:>>>>>>>>> Running inst-min-con-cld-bashrc.sh ...
 './cld/bashrc.d/bashrc-cld.sh' -> '/usr/local/cld/bashrc.d/bashrc-cld.sh'
 './cld/systemd/runlevel/after-boot/bashrc.sh' -> '/usr/local/cld/systemd/runlevel/after-boot/bashrc.sh'
 CLDS: * Set common settings for ~/.bashrc.
-CLDS: * Disk size = 1010960K. Space Used = 40K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1010948K. Space Used = 40K. Runtime = 00:00:00:01.

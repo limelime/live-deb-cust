@@ -24,7 +24,7 @@ Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.
 Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-cli amd64 8.2.26-1~deb12u1 [1,737 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2-fpm amd64 8.2.26-1~deb12u1 [1,746 kB]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php-fpm all 2:8.2+93 [3,712 B]
-Fetched 4,706 kB in 0s (88.1 MB/s)
+Fetched 4,706 kB in 0s (93.1 MB/s)
 Selecting previously unselected package libsodium23:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90745 files and directories currently installed.)
 Preparing to unpack .../0-libsodium23_1.0.18-1_amd64.deb ...
@@ -115,4 +115,4 @@ invoke-rc.d: policy-rc.d denied execution of restart.
 CLDS: * Install php-fpm.
 CLDS: * Need for Drupal with nginx.
 CLDS: * Used to speed up the performance of a website. It is much faster than traditional CGI based methods and has the ability to handle tremendous loads simultaneously.
-CLDS: * Disk size = 4467832K. Space Used = 26648K. Runtime = 00:00:00:09.
+CLDS: * Disk size = 4467824K. Space Used = 26648K. Runtime = 00:00:00:10.

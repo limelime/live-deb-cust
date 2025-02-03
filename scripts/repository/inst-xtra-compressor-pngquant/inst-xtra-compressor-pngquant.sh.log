@@ -11,7 +11,7 @@ Need to get 53.8 kB of archives.
 After this operation, 146 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libimagequant0 amd64 2.17.0-1 [32.5 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pngquant amd64 2.17.0-1 [21.3 kB]
-Fetched 53.8 kB in 0s (4,038 kB/s)
+Fetched 53.8 kB in 0s (4,023 kB/s)
 Selecting previously unselected package libimagequant0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121075 files and directories currently installed.)
 Preparing to unpack .../libimagequant0_2.17.0-1_amd64.deb ...
@@ -23,4 +23,4 @@ Setting up libimagequant0:amd64 (2.17.0-1) ...
 Setting up pngquant (2.17.0-1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install pngquant.
-CLDS: * Disk size = 7552392K. Space Used = 256K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7552380K. Space Used = 256K. Runtime = 00:00:00:02.

@@ -21,4 +21,4 @@ Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /
 Running in chroot, ignoring request.
 invoke-rc.d: policy-rc.d denied execution of start.
 CLDS: * Install vsftpd to have a basic FTP server.
-CLDS: * Disk size = 4579860K. Space Used = 660K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 4579848K. Space Used = 660K. Runtime = 00:00:00:02.
