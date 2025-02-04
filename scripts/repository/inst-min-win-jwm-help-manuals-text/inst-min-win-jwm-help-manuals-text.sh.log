@@ -5,4 +5,4 @@ CLDS:>>>>>>>>> Running inst-min-win-jwm-help-manuals-text.sh ...
 './cld/doc/100-Developer-manual.md' -> '/usr/local/cld/doc/100-Developer-manual.md'
 './cld/doc/001-User-manual.md' -> '/usr/local/cld/doc/001-User-manual.md'
 CLDS: * Add user & developer manuals(text) in Help menu.
-CLDS: * Disk size = 5008840K. Space Used = 48K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 5008844K. Space Used = 48K. Runtime = 00:00:00:01.

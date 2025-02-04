@@ -36,4 +36,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install Image Viewer: gpicview.
 CLDS: * Insert gpicview in Accessories menu.
 CLDS: * Add alias viewpic='gpicview'.
-CLDS: * Disk size = 5186584K. Space Used = 10888K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 5186588K. Space Used = 10888K. Runtime = 00:00:00:02.

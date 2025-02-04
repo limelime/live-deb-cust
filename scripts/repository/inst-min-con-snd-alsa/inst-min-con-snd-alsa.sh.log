@@ -22,7 +22,7 @@ Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libgo
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfftw3-single3 amd64 3.3.10-1 [806 kB]
 Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsamplerate0 amd64 0.2.2-3 [952 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 alsa-utils amd64 1.2.8-1 [1,098 kB]
-Fetched 3,404 kB in 0s (90.6 MB/s)
+Fetched 3,404 kB in 0s (96.1 MB/s)
 Selecting previously unselected package libasound2-data.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22595 files and directories currently installed.)
 Preparing to unpack .../0-libasound2-data_1.2.8-1_all.deb ...
@@ -57,4 +57,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install ALSA sound.
 CLDS: * Test sound: aplay /usr/share/sounds/alsa/*.
 CLDS: * Add key bindings.
-CLDS: * Disk size = 1741520K. Space Used = 11748K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 1741528K. Space Used = 11748K. Runtime = 00:00:00:02.

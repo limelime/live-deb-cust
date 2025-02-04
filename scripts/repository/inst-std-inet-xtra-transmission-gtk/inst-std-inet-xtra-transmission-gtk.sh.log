@@ -24,7 +24,7 @@ Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libmi
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libnatpmp1 amd64 20150609-7.1+b2 [8,404 B]
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 transmission-common all 3.00-2.1+deb12u1 [227 kB]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 transmission-gtk amd64 3.00-2.1+deb12u1 [746 kB]
-Fetched 1,201 kB in 0s (54.9 MB/s)
+Fetched 1,201 kB in 0s (45.5 MB/s)
 Selecting previously unselected package libayatana-ido3-0.4-0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113703 files and directories currently installed.)
 Preparing to unpack .../0-libayatana-ido3-0.4-0_0.9.3-1_amd64.deb ...
@@ -69,4 +69,4 @@ Processing triggers for menu (2.1.49) ...
 /usr/bin/google-chrome
 CLDS: * Install transmission-gtk.
 CLDS: * Insert transmission-gtk in Internet menu.
-CLDS: * Disk size = 6687856K. Space Used = 4144K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 6687852K. Space Used = 4140K. Runtime = 00:00:00:02.

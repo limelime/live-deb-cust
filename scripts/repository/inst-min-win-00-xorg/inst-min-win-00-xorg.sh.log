@@ -66,7 +66,7 @@ Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xini
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-input-libinput amd64 1.2.1-1+b1 [64.6 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-input-all amd64 1:7.7+23 [38.7 kB]
 Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg amd64 1:7.7+23 [94.2 kB]
-Fetched 607 kB in 0s (28.4 MB/s)
+Fetched 607 kB in 0s (28.5 MB/s)
 Selecting previously unselected package libevdev2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 95105 files and directories currently installed.)
 Preparing to unpack .../00-libevdev2_1.13.0+dfsg-1_amd64.deb ...
@@ -126,4 +126,4 @@ CLDS: * Set keyboard to use US international.
 CLDS: * Install minimum Xorg X server.
 CLDS: * Install xinit so you can run startx.
 CLDS: * Add auto start window manager(i.e startx).
-CLDS: * Disk size = 4918208K. Space Used = 4684K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 4918216K. Space Used = 4684K. Runtime = 00:00:00:04.
