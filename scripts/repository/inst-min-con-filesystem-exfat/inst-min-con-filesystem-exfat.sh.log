@@ -35,4 +35,4 @@ update-initramfs: Generating /boot/initrd.img-6.12.9+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install exfat-fuse so that you can read and write SD cards and USB keys.
-CLDS: * Disk size = 1093236K. Space Used = 848K. Runtime = 00:00:01:45.
+CLDS: * Disk size = 1093236K. Space Used = 848K. Runtime = 00:00:00:18.

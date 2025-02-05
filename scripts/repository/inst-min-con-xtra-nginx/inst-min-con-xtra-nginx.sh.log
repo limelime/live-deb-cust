@@ -17,7 +17,7 @@ After this operation, 1,696 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 nginx-common all 1.22.1-9 [112 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 nginx amd64 1.22.1-9 [527 kB]
 Preconfiguring packages ...
-Fetched 640 kB in 0s (29.0 MB/s)
+Fetched 640 kB in 0s (35.5 MB/s)
 Selecting previously unselected package nginx-common.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89770 files and directories currently installed.)
 Preparing to unpack .../nginx-common_1.22.1-9_all.deb ...
@@ -32,4 +32,4 @@ Running in chroot, ignoring request.
 Not attempting to start NGINX, port 80 is already in use.
 './cld/doc/nginx-help.txt' -> '/usr/local/cld/doc/nginx-help.txt'
 CLDS: * Install nginx.
-CLDS: * Disk size = 4458996K. Space Used = 2472K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 4459000K. Space Used = 2472K. Runtime = 00:00:00:02.
