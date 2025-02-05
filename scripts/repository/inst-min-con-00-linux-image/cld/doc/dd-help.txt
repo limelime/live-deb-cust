@@ -1,2 +1,5 @@
 # Create bootable USB key from ISO
     dd bs=4M if=/input.iso of=/dev/sdX conv=fdatasync  status=progress
+
+# Create large file with /dev/zero  OR   /dev/random
+    dd if=/dev/zero of=500M_filename bs=500M count=1
