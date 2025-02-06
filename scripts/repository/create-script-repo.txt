@@ -1,1 +1,1 @@
-inst-min-con-xtra xclip
+inst-zclean-01-pip purge
