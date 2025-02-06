@@ -202,6 +202,8 @@ vsftpd
 xclip
 # ./inst-min-con-xtra-xsltproc/inst-min-con-xtra-xsltproc.sh
 xsltproc
+# ./inst-min-con-xtra-yt-dlp-curl-cffi/inst-min-con-xtra-yt-dlp-curl-cffi.sh
+
 # ./inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0/inst-min-win-00-xorg-0-drivers-fix-libegl-mesa0.sh
 libegl-mesa0
 libglx-mesa0
@@ -534,6 +536,8 @@ zfs-initramfs
 # ./inst-zclean-01-apt-get-00-clean-up/inst-zclean-01-apt-get-00-clean-up.sh
 
 # ./inst-zclean-01-apt-get-01-source-list/inst-zclean-01-apt-get-01-source-list.sh
+
+# ./inst-zclean-01-pip-purge/inst-zclean-01-pip-purge.sh
 
 # ./inst-zclean-02-remove-block-services/inst-zclean-02-remove-block-services.sh
 

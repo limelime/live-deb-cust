@@ -10,4 +10,4 @@ echo "${GV_LOG}>>>>>>>>> Running ${SCRIPT_NAME} ..."
     pip install "yt-dlp[default,curl-cffi]" --break-system-packages
 
 # Log
-	echo "${GV_LOG} * Install curl-cffi for yt-dlp to impersonate: yt-dlp --impersonate Chrome-124"
+    echo "${GV_LOG} * Install curl-cffi for yt-dlp to impersonate: yt-dlp --impersonate Chrome-124"

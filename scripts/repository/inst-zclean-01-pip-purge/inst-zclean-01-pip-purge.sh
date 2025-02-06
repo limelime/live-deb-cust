@@ -10,4 +10,4 @@ echo "${GV_LOG}>>>>>>>>> Running ${SCRIPT_NAME} ..."
     pip cache purge
 
 # Log
-	echo "${GV_LOG} * Delete python packages to reduce size: ~/.cache/pip"
+    echo "${GV_LOG} * Delete python packages to reduce size: ~/.cache/pip"
