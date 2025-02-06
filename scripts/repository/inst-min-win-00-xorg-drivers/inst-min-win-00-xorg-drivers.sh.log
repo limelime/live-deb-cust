@@ -88,7 +88,7 @@ Get:25 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xser
 Get:26 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-video-vmware amd64 1:13.3.0-3.1+b1 [114 kB]
 Get:27 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-video-all amd64 1:7.7+23 [38.7 kB]
 Preconfiguring packages ...
-Fetched 11.8 MB in 0s (62.1 MB/s)
+Fetched 11.8 MB in 0s (89.8 MB/s)
 Selecting previously unselected package xkb-data.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94404 files and directories currently installed.)
 Preparing to unpack .../00-xkb-data_2.35.1-1_all.deb ...
@@ -259,7 +259,7 @@ Get:4 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxi
 Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxss1 amd64 1:1.2.3-1 [17.8 kB]
 Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxvmc1 amd64 2:1.0.12-2 [25.6 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-video-intel amd64 2:2.99.917+git20210115-1 [1,642 kB]
-Fetched 1,783 kB in 0s (20.7 MB/s)
+Fetched 1,783 kB in 0s (71.0 MB/s)
 Selecting previously unselected package libxcb-util1:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 95026 files and directories currently installed.)
 Preparing to unpack .../0-libxcb-util1_0.4.0-1+b1_amd64.deb ...
@@ -299,7 +299,7 @@ The following NEW packages will be installed:
 Need to get 83.7 kB of archives.
 After this operation, 211 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xserver-xorg-video-qxl amd64 0.1.5+git20200331-3 [83.7 kB]
-Fetched 83.7 kB in 0s (0 B/s)
+Fetched 83.7 kB in 0s (7,998 kB/s)
 Selecting previously unselected package xserver-xorg-video-qxl.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 95088 files and directories currently installed.)
 Preparing to unpack .../xserver-xorg-video-qxl_0.1.5+git20200331-3_amd64.deb ...
@@ -324,4 +324,4 @@ CLDS: * Install common xorg drivers.
 CLDS: * Install xserver-xorg-video-intel to fix: cat /var/log/Xorg.0.log
 CLDS: * 		Failed to initialize glamor at ScreenInit() time.
 CLDS: * 		Boot from virtualbox is working fine but boot from HP, X server not loaded.
-CLDS: * Disk size = 4913544K. Space Used = 50172K. Runtime = 00:00:00:07.
+CLDS: * Disk size = 5001068K. Space Used = 50172K. Runtime = 00:00:00:06.

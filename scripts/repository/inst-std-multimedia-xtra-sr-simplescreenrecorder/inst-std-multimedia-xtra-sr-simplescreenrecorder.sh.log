@@ -28,7 +28,7 @@ Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libv
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libv4l-0 amd64 1.22.1-5+b2 [109 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 simplescreenrecorder-lib amd64 0.4.4-3 [31.2 kB]
 Get:13 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 simplescreenrecorder amd64 0.4.4-3 [1,358 kB]
-Fetched 12.2 MB in 0s (106 MB/s)
+Fetched 12.2 MB in 0s (88.9 MB/s)
 Selecting previously unselected package libmfx1:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115012 files and directories currently installed.)
 Preparing to unpack .../00-libmfx1_22.5.4-1_amd64.deb ...
@@ -86,4 +86,4 @@ Processing triggers for hicolor-icon-theme (0.17-2) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install simplescreenrecorder.
-CLDS: * Disk size = 6986088K. Space Used = 64972K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 7073616K. Space Used = 64972K. Runtime = 00:00:00:04.

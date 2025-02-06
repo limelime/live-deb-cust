@@ -17,4 +17,4 @@ Setting up rename (2.01-1) ...
 update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rename) in auto mode
 './cld/doc/rename-help.txt' -> '/usr/local/cld/doc/rename-help.txt'
 CLDS: * Install rename.
-CLDS: * Disk size = 1729780K. Space Used = 152K. Runtime = 00:00:00:00.
+CLDS: * Disk size = 1729792K. Space Used = 152K. Runtime = 00:00:00:01.

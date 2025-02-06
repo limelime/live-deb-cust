@@ -10,7 +10,7 @@ The following NEW packages will be installed:
 Need to get 25.1 kB of archives.
 After this operation, 79.9 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gsimplecal amd64 2.4.1-1 [25.1 kB]
-Fetched 25.1 kB in 0s (2,089 kB/s)
+Fetched 25.1 kB in 0s (1,968 kB/s)
 Selecting previously unselected package gsimplecal.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115886 files and directories currently installed.)
 Preparing to unpack .../gsimplecal_2.4.1-1_amd64.deb ...
@@ -24,4 +24,4 @@ CLDS: * Install gsimplecal.
 CLDS: * Insert gsimplecal in JWM system tray.
 CLDS: * Overwrite gtk calendar style: home/.config/gtk-3.0/gtk.css.
 CLDS: * Overwrite gsimplecal configuration: home/.config/gsimplecal/config.
-CLDS: * Disk size = 6999252K. Space Used = 152K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7086780K. Space Used = 152K. Runtime = 00:00:00:01.

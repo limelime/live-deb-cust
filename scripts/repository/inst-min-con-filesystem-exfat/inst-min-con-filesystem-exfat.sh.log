@@ -14,7 +14,7 @@ After this operation, 563 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libfuse2 amd64 2.9.9-6+b1 [119 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 fuse amd64 2.9.9-6+b1 [61.3 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 exfat-fuse amd64 1.3.0+git20220115-2 [30.9 kB]
-Fetched 211 kB in 0s (13.2 MB/s)
+Fetched 211 kB in 0s (16.5 MB/s)
 Selecting previously unselected package libfuse2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17926 files and directories currently installed.)
 Preparing to unpack .../libfuse2_2.9.9-6+b1_amd64.deb ...
@@ -35,4 +35,4 @@ update-initramfs: Generating /boot/initrd.img-6.12.9+bpo-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
 live-boot: core filesystems dm-verity devices utils udev blockdev dns.
 CLDS: * Install exfat-fuse so that you can read and write SD cards and USB keys.
-CLDS: * Disk size = 1093236K. Space Used = 848K. Runtime = 00:00:00:18.
+CLDS: * Disk size = 1093248K. Space Used = 848K. Runtime = 00:00:00:19.

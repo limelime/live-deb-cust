@@ -11,7 +11,7 @@ Need to get 369 kB of archives.
 After this operation, 682 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxslt1.1 amd64 1.1.35-1 [242 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xsltproc amd64 1.1.35-1 [126 kB]
-Fetched 369 kB in 0s (27.1 MB/s)
+Fetched 369 kB in 0s (28.4 MB/s)
 Selecting previously unselected package libxslt1.1:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94158 files and directories currently installed.)
 Preparing to unpack .../libxslt1.1_1.1.35-1_amd64.deb ...
@@ -23,4 +23,4 @@ Setting up libxslt1.1:amd64 (1.1.35-1) ...
 Setting up xsltproc (1.1.35-1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install xsltproc to process Docbook.
-CLDS: * Disk size = 4642496K. Space Used = 1080K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 4642480K. Space Used = 1080K. Runtime = 00:00:00:02.
