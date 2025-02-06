@@ -1,1 +1,1 @@
-inst-zclean-01-pip purge
+inst-min-con-xtra-yt-dlp curl-cffi
