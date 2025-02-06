@@ -73,9 +73,10 @@
 	total_args="$#"
 	last_arg="${!total_args}"
 	
-	$*	all positional parameters except $0
-	$@	all positional parameters except $0
-	$#	the number of arguments, not counting $0
+	$*      All arguments, except $0
+	$@      All arguments, except $0. Good for wrapper to pass all arguments.
+	$#      Total number of arguments, not counting $0
+    ${@:2}  Skip 1st argument and return remaining arguments.
 
 # Sourcing will not be available outside of (...).
 
