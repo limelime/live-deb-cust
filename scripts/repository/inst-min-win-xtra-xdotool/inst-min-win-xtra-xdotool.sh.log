@@ -11,7 +11,7 @@ Need to get 89.5 kB of archives.
 After this operation, 212 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libxdo3 amd64 1:3.20160805.1-5 [33.8 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xdotool amd64 1:3.20160805.1-5 [55.6 kB]
-Fetched 89.5 kB in 0s (7,858 kB/s)
+Fetched 89.5 kB in 0s (3,495 kB/s)
 Selecting previously unselected package libxdo3:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 103531 files and directories currently installed.)
 Preparing to unpack .../libxdo3_1%3a3.20160805.1-5_amd64.deb ...
@@ -23,4 +23,4 @@ Setting up libxdo3:amd64 (1:3.20160805.1-5) ...
 Setting up xdotool (1:3.20160805.1-5) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install xdotool to manipulate windows: move, resize, click, mouse.
-CLDS: * Disk size = 5173820K. Space Used = 340K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 5173860K. Space Used = 336K. Runtime = 00:00:00:04.

@@ -5,4 +5,4 @@ Reading state information...
 libtext-iconv-perl is already the newest version (1.7-8).
 0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
 CLDS: * Install libtext-iconv-perl so that you can use iconv to convert to other encoding.
-CLDS: * Disk size = 2639436K. Space Used = 4K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 2639464K. Space Used = 4K. Runtime = 00:00:00:01.

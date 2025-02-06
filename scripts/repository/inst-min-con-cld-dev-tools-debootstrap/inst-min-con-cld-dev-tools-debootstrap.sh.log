@@ -16,7 +16,7 @@ After this operation, 418 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 distro-info-data all 0.58+deb12u3 [6,272 B]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 distro-info amd64 1.5+deb12u1 [18.1 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 debootstrap all 1.0.140~bpo12+1 [50.2 kB]
-Fetched 74.6 kB in 0s (7,042 kB/s)
+Fetched 74.6 kB in 0s (3,039 kB/s)
 Selecting previously unselected package distro-info-data.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17497 files and directories currently installed.)
 Preparing to unpack .../distro-info-data_0.58+deb12u3_all.deb ...
@@ -31,4 +31,4 @@ Setting up distro-info-data (0.58+deb12u3) ...
 Setting up distro-info (1.5+deb12u1) ...
 Setting up debootstrap (1.0.140~bpo12+1) ...
 CLDS: * Install debootstrap allows the creation of a Debian base system in a directory.
-CLDS: * Disk size = 1071660K. Space Used = 516K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1071676K. Space Used = 516K. Runtime = 00:00:00:02.

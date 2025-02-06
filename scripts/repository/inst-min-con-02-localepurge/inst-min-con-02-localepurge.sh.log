@@ -38,7 +38,7 @@ Get:5 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 perl 
 Get:6 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ucf all 3.0043+nmu1+deb12u1 [55.3 kB]
 Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 localepurge all 0.7.3.10 [48.2 kB]
 Preconfiguring packages ...
-Fetched 7,495 kB in 0s (106 MB/s)
+Fetched 7,495 kB in 0s (39.8 MB/s)
 Selecting previously unselected package perl-modules-5.36.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 15042 files and directories currently installed.)
 Preparing to unpack .../0-perl-modules-5.36_5.36.0-7+deb12u1_all.deb ...
@@ -74,4 +74,4 @@ Creating config file /etc/locale.nopurge with new version
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install localepurge to purge documentation of all languages, except en, en_US, en_US.UTF-8.
 CLDS: * Reconfigure localepurge: dpkg-reconfigure localepurge
-CLDS: * Disk size = 1045484K. Space Used = 60108K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 1045500K. Space Used = 60108K. Runtime = 00:00:00:04.

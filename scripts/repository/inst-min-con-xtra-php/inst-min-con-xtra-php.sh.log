@@ -14,7 +14,7 @@ Need to get 49.2 kB of archives.
 After this operation, 91.1 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php8.2 all 8.2.26-1~deb12u1 [45.6 kB]
 Get:2 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 php all 2:8.2+93 [3,628 B]
-Fetched 49.2 kB in 0s (3,582 kB/s)
+Fetched 49.2 kB in 0s (4,549 kB/s)
 Selecting previously unselected package php8.2.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90893 files and directories currently installed.)
 Preparing to unpack .../php8.2_8.2.26-1~deb12u1_all.deb ...
@@ -25,4 +25,4 @@ Unpacking php (2:8.2+93) ...
 Setting up php8.2 (8.2.26-1~deb12u1) ...
 Setting up php (2:8.2+93) ...
 CLDS: * Install php.
-CLDS: * Disk size = 4528180K. Space Used = 180K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 4528216K. Space Used = 180K. Runtime = 00:00:00:02.
