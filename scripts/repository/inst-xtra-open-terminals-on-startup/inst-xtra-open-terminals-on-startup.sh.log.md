@@ -3,7 +3,7 @@
   * Install wmctrl.
   * Install x11-utils for xprop.
   * Make open-terminals.sh run when JWM start.
-  * Disk size = 8485272K. Space Used = 24K. Runtime = 00:00:00:01.
+  * Disk size = 8572824K. Space Used = 24K. Runtime = 00:00:00:02.
   * The following NEW packages will be installed:
   ```bash
 wmctrl* x11-utils* x11-xserver-utils*
