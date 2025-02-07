@@ -7,9 +7,6 @@
   <title>Developer manual</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -28,13 +25,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -58,6 +58,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -84,9 +88,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -151,8 +156,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -610,9 +618,6 @@
       }
 
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -1011,13 +1016,14 @@ icon in JWM menu</h2>
 /usr/local/cld/app/jwm/jwmrc/jwmrc-menus.xml</p></li>
 <li><p>Find JWM menu files: find ./scripts/repository/ -type f -name
 “jwmrc-*.xml” | sort</p></li>
-<li><p>Put all custom icons in:
-/usr/local/cld/app/jwm/jwmrc/icons/</p></li>
-<li><p>Size of icons should be 32x32.</p></li>
-<li><p>https://github.com/toss/tossface/releases/tag/v1.1</p></li>
-<li><p>https://openmoji.org/</p></li>
-<li><p>https://unicode.org/emoji/charts-13.1/full-emoji-list.html</p></li>
-<li><p>Icons repository: https://icons8.com/</p></li>
+<li><p>Put all custom icons in: /usr/local/cld/app/jwm/jwmrc/icons/</p>
+<ul>
+<li>Size of icons should be 32x32.</li>
+<li>https://github.com/toss/tossface/releases/tag/v1.1</li>
+<li>https://openmoji.org/</li>
+<li>https://unicode.org/emoji/charts-13.1/full-emoji-list.html</li>
+<li>Icons repository: https://icons8.com/</li>
+</ul></li>
 </ul>
 <p>Use <code>inst-std-accessories-scite</code> as reference.</p>
 <ol type="1">
