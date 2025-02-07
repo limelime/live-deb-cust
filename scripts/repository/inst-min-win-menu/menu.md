@@ -1,2 +1,0 @@
-# Genereate menu
-    update-menus
