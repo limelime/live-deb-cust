@@ -1,1 +1,1 @@
-      <Program label="Keyboard" confirm="false">x-terminal-emulator -T "Keyboard configuration" -e sh -c "dpkg-reconfigure keyboard-configuration"</Program> 
+      <Program label="⌨️ Keyboard" confirm="false">x-terminal-emulator -T "Keyboard configuration" -e sh -c "dpkg-reconfigure keyboard-configuration"</Program> 

@@ -1,2 +1,2 @@
-      <Program label="Sound - Alsamixer" confirm="false">x-terminal-emulator -T "Sound - Alsa mixer" -e sh -c "alsamixer"</Program> 
+      <Program label="🔈 Sound - Alsamixer" confirm="false">x-terminal-emulator -T "Sound - Alsa mixer" -e sh -c "alsamixer"</Program> 
       

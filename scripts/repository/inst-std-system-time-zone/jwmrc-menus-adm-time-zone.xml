@@ -1,1 +1,1 @@
-      <Program label="Time Zone" confirm="false">x-terminal-emulator -T "Time Zone configuration" -e sh -c "dpkg-reconfigure tzdata"</Program> 
+      <Program label="🕜 Time Zone" confirm="false">x-terminal-emulator -T "Time Zone configuration" -e sh -c "dpkg-reconfigure tzdata"</Program> 
