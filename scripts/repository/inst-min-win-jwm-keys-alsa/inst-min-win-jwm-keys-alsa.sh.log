@@ -2,4 +2,4 @@ CLDS:>>>>>>>>> Running inst-min-win-jwm-keys-alsa.sh ...
 './cld/systemd/runlevel/after-boot/jwmrc-startup-alsa.sh' -> '/usr/local/cld/systemd/runlevel/after-boot/jwmrc-startup-alsa.sh'
 CLDS: * Add ALSA key binding.
 CLDS: * Add script to auto-detect ALSA controller on JWM startup.
-CLDS: * Disk size = 5096464K. Space Used = 16K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 5096444K. Space Used = 16K. Runtime = 00:00:00:02.

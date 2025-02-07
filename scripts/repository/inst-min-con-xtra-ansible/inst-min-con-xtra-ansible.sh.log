@@ -50,7 +50,7 @@ Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ansi
 Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ansible all 7.7.0+dfsg-3+deb12u1 [16.9 MB]
 Get:23 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 sshpass amd64 1.09-1+b1 [13.0 kB]
 Preconfiguring packages ...
-Fetched 24.9 MB in 0s (75.8 MB/s)
+Fetched 24.9 MB in 0s (108 MB/s)
 Selecting previously unselected package openssl.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22821 files and directories currently installed.)
 Preparing to unpack .../00-openssl_3.0.15-1~deb12u1_amd64.deb ...
@@ -160,4 +160,4 @@ python3-cffi-backend set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
 CLDS: * Install ansible.
 CLDS: * sshpass: to allow passing username and password on the fly.
-CLDS: * Disk size = 2342808K. Space Used = 600884K. Runtime = 00:00:00:55.
+CLDS: * Disk size = 2342800K. Space Used = 600880K. Runtime = 00:00:00:36.

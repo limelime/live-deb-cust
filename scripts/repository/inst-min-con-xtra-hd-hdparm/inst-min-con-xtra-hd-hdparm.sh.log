@@ -13,11 +13,11 @@ The following NEW packages will be installed:
 Need to get 116 kB of archives.
 After this operation, 262 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 hdparm amd64 9.65+ds-1 [116 kB]
-Fetched 116 kB in 0s (8,956 kB/s)
+Fetched 116 kB in 0s (9,678 kB/s)
 Selecting previously unselected package hdparm.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88693 files and directories currently installed.)
 Preparing to unpack .../hdparm_9.65+ds-1_amd64.deb ...
 Unpacking hdparm (9.65+ds-1) ...
 Setting up hdparm (9.65+ds-1) ...
 CLDS: * Install hdparm.
-CLDS: * Disk size = 4129940K. Space Used = 436K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 4129936K. Space Used = 436K. Runtime = 00:00:00:02.

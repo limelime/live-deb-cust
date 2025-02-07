@@ -9,7 +9,7 @@ Need to get 25.7 kB of archives.
 After this operation, 97.3 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-contrib bookworm/contrib amd64 b43-fwcutter amd64 1:019-8 [25.7 kB]
 Preconfiguring packages ...
-Fetched 25.7 kB in 0s (2,542 kB/s)
+Fetched 25.7 kB in 0s (0 B/s)
 Selecting previously unselected package b43-fwcutter.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 18223 files and directories currently installed.)
 Preparing to unpack .../b43-fwcutter_1%3a019-8_amd64.deb ...
@@ -152,4 +152,4 @@ Extracting b43/lcn1bsinitvals26.fw
 Extracting b43/n0initvals22.fw
 Extracting b43/ht0bsinitvals29.fw
 CLDS: * Install b43 for Dell Wireless 1397 WLAN Mini-Card Driver.
-CLDS: * Disk size = 1164480K. Space Used = 37716K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 1164476K. Space Used = 37716K. Runtime = 00:00:00:02.

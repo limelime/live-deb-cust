@@ -22,4 +22,4 @@ CLDS: * Install x11-xserver-utils for xrandr.
 CLDS: * Install wmctrl.
 CLDS: * Install x11-utils for xprop.
 CLDS: * Make open-terminals.sh run when JWM start.
-CLDS: * Disk size = 8572868K. Space Used = 20K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 8572840K. Space Used = 20K. Runtime = 00:00:00:02.
