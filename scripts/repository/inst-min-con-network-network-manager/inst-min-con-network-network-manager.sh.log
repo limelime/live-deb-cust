@@ -45,7 +45,7 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libt
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 xml-core all 0.18+nmu1 [23.8 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 polkitd amd64 122-3 [112 kB]
 Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 network-manager amd64 1.42.4-1 [3,141 kB]
-Fetched 7,076 kB in 0s (110 MB/s)
+Fetched 7,076 kB in 0s (97.7 MB/s)
 Selecting previously unselected package sgml-base.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20868 files and directories currently installed.)
 Preparing to unpack .../00-sgml-base_1.31_all.deb ...
@@ -149,4 +149,4 @@ Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-w
 Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /lib/systemd/system/NetworkManager.service.
 './cld/doc/nmcli-help.txt' -> '/usr/local/cld/doc/nmcli-help.txt'
 CLDS: * Install network-manager: nmcli
-CLDS: * Disk size = 1671172K. Space Used = 26924K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 1671188K. Space Used = 26924K. Runtime = 00:00:00:04.

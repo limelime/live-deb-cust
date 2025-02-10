@@ -6,4 +6,4 @@ fonts-dejavu-core is already the newest version (2.37-6).
 fonts-dejavu-core set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 15 not upgraded.
 CLDS: * Install fonts-dejavu-core to fix characters overlap with xfce4-terminal(e.g. mkdir).
-CLDS: * Disk size = 5005780K. Space Used = 4K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 5005800K. Space Used = 4K. Runtime = 00:00:00:02.

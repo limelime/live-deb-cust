@@ -1,4 +1,4 @@
 CLDS:>>>>>>>>> Running inst-zclean-01-pip-purge.sh ...
 Files removed: 26
 CLDS: * Delete python packages to reduce size: ~/.cache/pip
-CLDS: * Disk size = 7689936K. Space Used = -16524K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 7689948K. Space Used = -16520K. Runtime = 00:00:00:02.

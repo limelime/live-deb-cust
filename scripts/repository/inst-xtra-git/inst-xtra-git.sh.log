@@ -8,4 +8,4 @@ git set to manually installed.
 './cld/doc/git-help.txt' -> '/usr/local/cld/doc/git-help.txt'
 './cld/doc/gitignore-help.txt' -> '/usr/local/cld/doc/gitignore-help.txt'
 CLDS: * Install git.
-CLDS: * Disk size = 8561712K. Space Used = 12K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 8561732K. Space Used = 12K. Runtime = 00:00:00:02.

@@ -142,7 +142,7 @@ Get:83 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:84 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libpugixml1v5 amd64 1.13-0.2 [84.7 kB]
 Get:85 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libspnav0 amd64 1.0-1 [14.1 kB]
 Get:86 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 blender amd64 3.4.1+dfsg-2+b1 [22.6 MB]
-Fetched 128 MB in 1s (98.9 MB/s)
+Fetched 128 MB in 2s (85.2 MB/s)
 Selecting previously unselected package blender-data.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 116329 files and directories currently installed.)
 Preparing to unpack .../00-blender-data_3.4.1+dfsg-2_all.deb ...
@@ -501,4 +501,4 @@ CLDS: * Install required packages for blender.
 CLDS: * Install blender3d.
 CLDS: * Insert Blender 3D menu in Graphics.
 CLDS: * http://download.blender.org/release/
-CLDS: * Disk size = 7702532K. Space Used = 602780K. Runtime = 00:00:00:20.
+CLDS: * Disk size = 7702552K. Space Used = 602780K. Runtime = 00:00:00:23.

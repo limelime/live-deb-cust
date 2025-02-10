@@ -30,7 +30,7 @@ Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 pytho
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 python3-ntp amd64 1.2.2+dfsg1-1+deb12u1 [88.9 kB]
 Get:11 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntpsec amd64 1.2.2+dfsg1-1+deb12u1 [340 kB]
 Get:12 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 ntp all 1:4.2.8p15+dfsg-2~1.2.2+dfsg1-1+deb12u1 [22.0 kB]
-Fetched 5,832 kB in 0s (99.0 MB/s)
+Fetched 5,832 kB in 0s (105 MB/s)
 Selecting previously unselected package libpython3.11-minimal:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21392 files and directories currently installed.)
 Preparing to unpack .../libpython3.11-minimal_3.11.2-6+deb12u5_amd64.deb ...
@@ -94,4 +94,4 @@ Setting up ntp (1:4.2.8p15+dfsg-2~1.2.2+dfsg1-1+deb12u1) ...
 Processing triggers for systemd (252.33-1~deb12u1) ...
 Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install Network Time Protocol: ntp.
-CLDS: * Disk size = 1720952K. Space Used = 43028K. Runtime = 00:00:00:04.
+CLDS: * Disk size = 1720968K. Space Used = 43028K. Runtime = 00:00:00:05.

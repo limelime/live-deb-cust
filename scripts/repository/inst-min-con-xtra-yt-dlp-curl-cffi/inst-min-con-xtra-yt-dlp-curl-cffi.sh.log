@@ -1,45 +1,45 @@
 CLDS:>>>>>>>>> Running inst-min-con-xtra-yt-dlp-curl-cffi.sh ...
 Collecting yt-dlp[curl-cffi,default]
   Downloading yt_dlp-2025.1.26-py3-none-any.whl (3.2 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 23.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 26.1 MB/s eta 0:00:00
 Collecting curl-cffi!=0.6.*,<0.7.2,>=0.5.10
   Downloading curl_cffi-0.7.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 7.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 41.0 MB/s eta 0:00:00
 Collecting brotli
   Downloading Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 8.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 39.5 MB/s eta 0:00:00
 Collecting certifi
   Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 8.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 24.1 MB/s eta 0:00:00
 Collecting mutagen
   Downloading mutagen-1.47.0-py3-none-any.whl (194 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.4/194.4 kB 7.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.4/194.4 kB 23.2 MB/s eta 0:00:00
 Collecting pycryptodomex
   Downloading pycryptodomex-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 47.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 52.3 MB/s eta 0:00:00
 Collecting requests<3,>=2.32.2
   Downloading requests-2.32.3-py3-none-any.whl (64 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 21.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 18.6 MB/s eta 0:00:00
 Collecting urllib3<3,>=1.26.17
   Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 kB 35.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 kB 15.4 MB/s eta 0:00:00
 Collecting websockets>=13.0
   Downloading websockets-14.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (169 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.9/169.9 kB 1.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.9/169.9 kB 43.3 MB/s eta 0:00:00
 Collecting cffi>=1.12.0
   Downloading cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (467 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 467.2/467.2 kB 11.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 467.2/467.2 kB 46.1 MB/s eta 0:00:00
 Collecting charset-normalizer<4,>=2
   Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.9/143.9 kB 28.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.9/143.9 kB 33.1 MB/s eta 0:00:00
 Collecting idna<4,>=2.5
   Downloading idna-3.10-py3-none-any.whl (70 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 23.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 14.2 MB/s eta 0:00:00
 Collecting pycparser
   Downloading pycparser-2.22-py3-none-any.whl (117 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 29.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 27.3 MB/s eta 0:00:00
 Installing collected packages: brotli, yt-dlp, websockets, urllib3, pycryptodomex, pycparser, mutagen, idna, charset-normalizer, certifi, requests, cffi, curl-cffi
 Successfully installed brotli-1.1.0 certifi-2025.1.31 cffi-1.17.1 charset-normalizer-3.4.1 curl-cffi-0.7.1 idna-3.10 mutagen-1.47.0 pycparser-2.22 pycryptodomex-3.21.0 requests-2.32.3 urllib3-2.3.0 websockets-14.2 yt-dlp-2025.1.26
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 CLDS: * Install curl-cffi for yt-dlp to impersonate: yt-dlp --impersonate Chrome-124
-CLDS: * Disk size = 4730044K. Space Used = 87540K. Runtime = 00:00:00:10.
+CLDS: * Disk size = 4730064K. Space Used = 87540K. Runtime = 00:00:00:11.
