@@ -12,11 +12,11 @@ The following NEW packages will be installed:
 Need to get 108 kB of archives.
 After this operation, 212 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 isolinux all 3:6.04~git20190206.bf6db5b4+dfsg1-3 [108 kB]
-Fetched 108 kB in 0s (9,738 kB/s)
+Fetched 108 kB in 0s (0 B/s)
 Selecting previously unselected package isolinux.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20671 files and directories currently installed.)
 Preparing to unpack .../isolinux_3%3a6.04~git20190206.bf6db5b4+dfsg1-3_all.deb ...
 Unpacking isolinux (3:6.04~git20190206.bf6db5b4+dfsg1-3) ...
 Setting up isolinux (3:6.04~git20190206.bf6db5b4+dfsg1-3) ...
 CLDS: * Install isolinux to get isohdpfx.bin and isolinux.bin in order to create isohybrid.
-CLDS: * Disk size = 1628584K. Space Used = 368K. Runtime = 00:00:00:01.
+CLDS: * Disk size = 1628572K. Space Used = 368K. Runtime = 00:00:00:00.

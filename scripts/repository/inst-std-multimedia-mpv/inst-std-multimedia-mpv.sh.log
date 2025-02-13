@@ -151,7 +151,7 @@ Get:98 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libx
 Get:99 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 vapoursynth-ffms2 amd64 1:2.40+20211209.git90975ec-dmo4 [13.7 kB]
 Get:100 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 vapoursynth amd64 62-dmo1 [867 kB]
 Get:101 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 mpv amd64 1:0.35.1-dmo5 [1,212 kB]
-Fetched 58.1 MB in 1s (82.2 MB/s)
+Fetched 58.1 MB in 1s (74.3 MB/s)
 Selecting previously unselected package libarchive13:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113951 files and directories currently installed.)
 Preparing to unpack .../000-libarchive13_3.6.2-1+deb12u2_amd64.deb ...
@@ -568,4 +568,4 @@ Processing triggers for libc-bin (2.36-9+deb12u9) ...
 CLDS: * Install Media Player: mpv 0.35.1 Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects.
 CLDS: * Add multiple aliases for MPV.
 CLDS: * Add useful mpv keybindings settings.
-CLDS: * Disk size = 7002320K. Space Used = 219084K. Runtime = 00:00:00:16.
+CLDS: * Disk size = 7002312K. Space Used = 219080K. Runtime = 00:00:00:14.
