@@ -224,6 +224,8 @@ xinit
 xserver-xorg
 # ./inst-min-win-01-basic-font/inst-min-win-01-basic-font.sh
 fonts-dejavu-core
+# ./inst-min-win-01-wm-jwm-debian-menu/inst-min-win-01-wm-jwm-debian-menu.sh
+menu
 # ./inst-min-win-01-wm-jwm/inst-min-win-01-wm-jwm.sh
 jwm
 # ./inst-min-win-01-wm-terminal-xfce/inst-min-win-01-wm-terminal-xfce.sh
@@ -239,8 +241,6 @@ x11-utils
 
 # ./inst-min-win-jwm-keys-alsa/inst-min-win-jwm-keys-alsa.sh
 
-# ./inst-min-win-menu/inst-min-win-menu.sh
-menu
 # ./inst-min-win-systray-volumeicon-alsa/inst-min-win-systray-volumeicon-alsa.sh
 volumeicon-alsa
 # ./inst-min-win-xtra-default-jdk/inst-min-win-xtra-default-jdk.sh
