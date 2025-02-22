@@ -1,1 +1,1 @@
-inst-min-con-xtra-yt-dlp curl-cffi
+inst-min-con-xtra sudo
