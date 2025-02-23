@@ -126,8 +126,8 @@
     # Error handling.
         cmd_eg=$(
             printf "%s\n%s\n%s\n" \
-                "  e.g. ./${this_script} <name>" \
-                "  e.g. ./${this_script} cld-help.sh" \
+                "  e.g. ${this_script} <name>" \
+                "  e.g. ${this_script} cld-help.sh" \
         )
         if [ "$#" -ne 1 ]; then
             echo "Error: Incomplete argument. Aborted!"

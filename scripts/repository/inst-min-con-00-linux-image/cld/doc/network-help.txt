@@ -7,3 +7,9 @@
 
 # List processes using port 80
     netstat -pna | grep 80
+
+# What ports are in used.
+    netstat -tulpn | grep LISTEN
+    ss -tulpn | grep LISTEN
+    lsof -i -P -n | grep LISTEN
+    lsof -i:22 ## see a specific port such as 22 ##
