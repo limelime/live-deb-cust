@@ -15,7 +15,7 @@ Get:1 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backpo
 Get:2 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-kbuild-6.12.9+bpo amd64 6.12.9-1~bpo12+1 [1,204 kB]
 Get:3 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-headers-6.12.9+bpo-amd64 amd64 6.12.9-1~bpo12+1 [1,504 kB]
 Get:4 http://localhost/aptly-repo/master_bookworm-backports-main bookworm-backports/main amd64 linux-headers-amd64 amd64 6.12.9-1~bpo12+1 [1,412 B]
-Fetched 13.5 MB in 0s (70.9 MB/s)
+Fetched 13.5 MB in 0s (105 MB/s)
 Download complete and in download only mode
 Reading package lists...
 Building dependency tree...
@@ -28,9 +28,8 @@ Suggested packages:
   debian-keyring g++-multilib g++-12-multilib gcc-12-doc bzr libstdc++-12-doc
   make-doc ed diffutils-doc
 Recommended packages:
-  fakeroot sudo linux-headers-generic | linux-headers-686-pae
-  | linux-headers-amd64 | linux-headers libalgorithm-merge-perl
-  libfile-fcntllock-perl
+  fakeroot linux-headers-generic | linux-headers-686-pae | linux-headers-amd64
+  | linux-headers libalgorithm-merge-perl libfile-fcntllock-perl
 The following NEW packages will be installed:
   build-essential dkms dpkg-dev g++ g++-12 libdpkg-perl libstdc++-12-dev
   lsb-release make patch
@@ -47,9 +46,9 @@ Get:7 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 g++-1
 Get:8 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 g++ amd64 4:12.2.0-3 [1,356 B]
 Get:9 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 build-essential amd64 12.9 [7,704 B]
 Get:10 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 dkms all 3.0.10-8+deb12u1 [48.7 kB]
-Fetched 15.3 MB in 0s (85.3 MB/s)
+Fetched 15.3 MB in 0s (126 MB/s)
 Selecting previously unselected package lsb-release.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124382 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124523 files and directories currently installed.)
 Preparing to unpack .../0-lsb-release_12.0-1_all.deb ...
 Unpacking lsb-release (12.0-1) ...
 Selecting previously unselected package libdpkg-perl.
@@ -78,7 +77,7 @@ Preparing to unpack .../8-build-essential_12.9_amd64.deb ...
 Unpacking build-essential (12.9) ...
 Setting up lsb-release (12.0-1) ...
 Selecting previously unselected package dkms.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125800 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125941 files and directories currently installed.)
 Preparing to unpack .../dkms_3.0.10-8+deb12u1_all.deb ...
 Unpacking dkms (3.0.10-8+deb12u1) ...
 Setting up libstdc++-12-dev:amd64 (12.2.0-14) ...
@@ -103,7 +102,7 @@ The following NEW packages will be installed:
 Need to get 0 B/13.5 MB of archives.
 After this operation, 68.6 MB of additional disk space will be used.
 Selecting previously unselected package linux-headers-6.12.9+bpo-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125824 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125965 files and directories currently installed.)
 Preparing to unpack .../linux-headers-6.12.9+bpo-common_6.12.9-1~bpo12+1_all.deb ...
 Unpacking linux-headers-6.12.9+bpo-common (6.12.9-1~bpo12+1) ...
 Selecting previously unselected package linux-kbuild-6.12.9+bpo.
@@ -137,4 +136,4 @@ CLDS: * Install VirtualBox guest additions to Shared folder/clipboard, auto wind
 CLDS: * Assumed packages installed: bzip2 & Xserver installed.
 CLDS: * VirtualBox guest additions installed: version: 7.1.6 r167084.
 CLDS: * Delete VBoxGuestAdditions.iso[58816K]. Space used could be negative due to this deletion.
-CLDS: * Disk size = 8727056K. Space Used = 144320K. Runtime = 00:00:01:01.
+CLDS: * Disk size = 8717912K. Space Used = 144320K. Runtime = 00:00:00:57.

@@ -10,9 +10,9 @@ The following NEW packages will be installed:
 Need to get 1,871 kB of archives.
 After this operation, 2,483 kB of additional disk space will be used.
 Get:1 http://localhost/aptly-repo/master_deb-multimedia-main bookworm/main amd64 ffmpeg amd64 10:6.0.1-dmo0+deb12u1 [1,871 kB]
-Fetched 1,871 kB in 0s (68.7 MB/s)
+Fetched 1,871 kB in 0s (81.9 MB/s)
 Selecting previously unselected package ffmpeg.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114947 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115088 files and directories currently installed.)
 Preparing to unpack .../ffmpeg_10%3a6.0.1-dmo0+deb12u1_amd64.deb ...
 Unpacking ffmpeg (10:6.0.1-dmo0+deb12u1) ...
 Setting up ffmpeg (10:6.0.1-dmo0+deb12u1) ...
@@ -32,4 +32,4 @@ Setting up ffmpeg (10:6.0.1-dmo0+deb12u1) ...
 './cld/doc/ffplay-help.txt' -> '/usr/local/cld/doc/ffplay-help.txt'
 './cld/doc/ffprobe-help.txt' -> '/usr/local/cld/doc/ffprobe-help.txt'
 CLDS: * Install ffmpeg.
-CLDS: * Disk size = 7006704K. Space Used = 4392K. Runtime = 00:00:00:02.
+CLDS: * Disk size = 7013648K. Space Used = 4384K. Runtime = 00:00:00:02.

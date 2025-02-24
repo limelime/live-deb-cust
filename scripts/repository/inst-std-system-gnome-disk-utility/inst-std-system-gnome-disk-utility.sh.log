@@ -46,9 +46,9 @@ Get:19 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libp
 Get:20 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-common all 0.20.5-3 [28.5 kB]
 Get:21 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 libsecret-1-0 amd64 0.20.5-3 [115 kB]
 Get:22 http://localhost/aptly-repo/master_bookworm-main bookworm/main amd64 gnome-disk-utility amd64 43.0-1 [1,003 kB]
-Fetched 3,037 kB in 0s (63.3 MB/s)
+Fetched 3,037 kB in 0s (66.9 MB/s)
 Selecting previously unselected package gdisk.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115257 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 115398 files and directories currently installed.)
 Preparing to unpack .../00-gdisk_1.0.9-2.1_amd64.deb ...
 Unpacking gdisk (1.0.9-2.1) ...
 Selecting previously unselected package libblockdev-part-err2:amd64.
@@ -146,4 +146,4 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 CLDS: * Install Partition Manager: gnome-disk-utility.
 CLDS: * Run: gnome-disks.
 CLDS: * Insert gnome-disk-utility menu in Administration.
-CLDS: * Disk size = 7085688K. Space Used = 9792K. Runtime = 00:00:00:03.
+CLDS: * Disk size = 7092628K. Space Used = 9792K. Runtime = 00:00:00:03.
