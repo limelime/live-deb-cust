@@ -7,7 +7,7 @@
   * Assumed packages installed: bzip2 & Xserver installed.
   * VirtualBox guest additions installed: version: 7.1.6 r167084.
   * Delete VBoxGuestAdditions.iso[58816K]. Space used could be negative due to this deletion.
-  * Disk size = 8727056K. Space Used = 144320K. Runtime = 00:00:01:01.
+  * Disk size = 8717912K. Space Used = 144320K. Runtime = 00:00:00:57.
   * The following NEW packages will be installed:
   ```bash
 build-essential dkms dpkg-dev g++ g++-12

@@ -4,7 +4,7 @@
   * Add conky config file: .
   * Set conky to run on JWM startup.
   * Add on the fly settings to Conky.
-  * Disk size = 7075896K. Space Used = 2148K. Runtime = 00:00:00:02.
+  * Disk size = 7082836K. Space Used = 2140K. Runtime = 00:00:00:02.
   * The following NEW packages will be installed:
   ```bash
 conky conky-std libiw30
