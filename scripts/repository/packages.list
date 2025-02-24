@@ -194,6 +194,8 @@ samba
 smbclient
 # ./inst-min-con-xtra-sqlite3/inst-min-con-xtra-sqlite3.sh
 sqlite3
+# ./inst-min-con-xtra-sudo/inst-min-con-xtra-sudo.sh
+sudo
 # ./inst-min-con-xtra-tmux/inst-min-con-xtra-tmux.sh
 tmux
 # ./inst-min-con-xtra-vsftpd/inst-min-con-xtra-vsftpd.sh
