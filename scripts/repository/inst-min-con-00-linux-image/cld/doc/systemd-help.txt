@@ -17,7 +17,7 @@
     service mysql start
     
 # List all services enabled.
-    systemctl list-unit-files --no-pager | grep enabled
+    systemctl list-unit-files | grep enabled
     systemctl list-unit-files --state=running
     
 # List failed services

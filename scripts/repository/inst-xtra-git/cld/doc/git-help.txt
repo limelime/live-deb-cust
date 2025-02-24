@@ -104,4 +104,6 @@
 
 # Show all refs.
     git show-ref
-    
+
+# Pull all projects
+    \ls -d -1 */ | xargs -n1 bash -c 'cd "$0"; git pull; cd ..'

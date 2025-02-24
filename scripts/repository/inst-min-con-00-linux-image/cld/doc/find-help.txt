@@ -20,7 +20,10 @@
 
 # Find multiple filename patterns.
     find . -type f -iname '*.asf' -o -iname '*.avi'
- 
+
+# Find files under certain directory name. e.g. Make *.sh under ./run/ directories executable.
+    find . -type f -path '*/run/*' -name "*.sh" -exec echo "chmod +x {}" \; -exec chmod +x {} \;
+
 # Find files with size 0, greater than 1MB, greater than 500K, less than 1M.
     find . -type f -size 0
     find . -type f -size +1M
